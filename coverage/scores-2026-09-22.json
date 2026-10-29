@@ -1,0 +1,391 @@
+{
+  "scored_at": "2026-09-22",
+  "rules_version": "RULES.md v1",
+  "method": "MANUAL-WEB: Yahoo Finance rate-limited todo el dia. Fundamentals de research web (ver ANALYSIS-2026-09-22.md fuentes). D/E y 5y-avg-yield estimados.",
+  "scores": {
+    "O": {
+      "fundamentals": {
+        "payout_ratio": 0.74,
+        "trailing_pe": 14.1,
+        "debt_to_equity": 0.68,
+        "dividend_rate": 3.25,
+        "dividend_yield": 0.052,
+        "five_year_avg_yield": 0.053,
+        "beta": 0,
+        "current_price": 62.5,
+        "dividend_years": 31,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.74,
+        "payout_score": 71.2,
+        "trailing_pe": 14.1,
+        "pe_score": 100,
+        "debt_to_equity": 0.68,
+        "de_score": 100,
+        "dividend_years": 31,
+        "history_score": 100,
+        "safety_total": 91.4,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 5.2,
+        "five_year_avg_yield_pct": 5.3,
+        "kelley_wright_signal": "FAIR",
+        "ddm_fair_value": 67.6,
+        "ddm_current_price": 62.5,
+        "ddm_signal": "UNDERVALUED",
+        "graham_pe_check": "PASS",
+        "growth_assumption": 0.04
+      },
+      "note": "PE = P/AFFO (REIT)"
+    },
+    "JNJ": {
+      "fundamentals": {
+        "payout_ratio": 0.55,
+        "trailing_pe": 25.0,
+        "debt_to_equity": 0.55,
+        "dividend_rate": 5.36,
+        "dividend_yield": 0.019705882352941177,
+        "five_year_avg_yield": 0.029,
+        "beta": 0,
+        "current_price": 272.0,
+        "dividend_years": 64,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.55,
+        "payout_score": 94.0,
+        "trailing_pe": 25.0,
+        "pe_score": 70,
+        "debt_to_equity": 0.55,
+        "de_score": 100,
+        "dividend_years": 64,
+        "history_score": 100,
+        "safety_total": 92.2,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 1.97,
+        "five_year_avg_yield_pct": 2.9,
+        "kelley_wright_signal": "EXPENSIVE",
+        "ddm_fair_value": 111.49,
+        "ddm_current_price": 272.0,
+        "ddm_signal": "OVERVALUED",
+        "graham_pe_check": "OK_KEEP",
+        "growth_assumption": 0.04
+      },
+      "note": ""
+    },
+    "VZ": {
+      "fundamentals": {
+        "payout_ratio": 0.56,
+        "trailing_pe": 9.2,
+        "debt_to_equity": 2.2,
+        "dividend_rate": 2.83,
+        "dividend_yield": 0.059081419624217126,
+        "five_year_avg_yield": 0.063,
+        "beta": 0,
+        "current_price": 47.9,
+        "dividend_years": 42,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.56,
+        "payout_score": 92.8,
+        "trailing_pe": 9.2,
+        "pe_score": 100,
+        "debt_to_equity": 2.2,
+        "de_score": 44.0,
+        "dividend_years": 42,
+        "history_score": 100,
+        "safety_total": 83.8,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 5.91,
+        "five_year_avg_yield_pct": 6.3,
+        "kelley_wright_signal": "FAIR",
+        "ddm_fair_value": 58.86,
+        "ddm_current_price": 47.9,
+        "ddm_signal": "UNDERVALUED",
+        "graham_pe_check": "PASS",
+        "growth_assumption": 0.04
+      },
+      "note": ""
+    },
+    "MO": {
+      "fundamentals": {
+        "payout_ratio": 0.78,
+        "trailing_pe": 12.2,
+        "debt_to_equity": 6.5,
+        "dividend_rate": 4.44,
+        "dividend_yield": 0.06397694524495677,
+        "five_year_avg_yield": 0.08,
+        "beta": 0,
+        "current_price": 69.4,
+        "dividend_years": 57,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.78,
+        "payout_score": 60.0,
+        "trailing_pe": 12.2,
+        "pe_score": 100,
+        "debt_to_equity": 6.5,
+        "de_score": 0,
+        "dividend_years": 57,
+        "history_score": 100,
+        "safety_total": 63.0,
+        "safety_grade": "B"
+      },
+      "valuation": {
+        "current_yield_pct": 6.4,
+        "five_year_avg_yield_pct": 8.0,
+        "kelley_wright_signal": "EXPENSIVE",
+        "ddm_fair_value": 92.35,
+        "ddm_current_price": 69.4,
+        "ddm_signal": "UNDERVALUED",
+        "graham_pe_check": "PASS",
+        "growth_assumption": 0.04
+      },
+      "note": "payout sobre EPS guiado"
+    },
+    "XOM": {
+      "fundamentals": {
+        "payout_ratio": 0.52,
+        "trailing_pe": 12.7,
+        "debt_to_equity": 0.25,
+        "dividend_rate": 4.12,
+        "dividend_yield": 0.02496969696969697,
+        "five_year_avg_yield": 0.038,
+        "beta": 0,
+        "current_price": 165.0,
+        "dividend_years": 43,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.52,
+        "payout_score": 97.6,
+        "trailing_pe": 12.7,
+        "pe_score": 100,
+        "debt_to_equity": 0.25,
+        "de_score": 100,
+        "dividend_years": 43,
+        "history_score": 100,
+        "safety_total": 99.3,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 2.5,
+        "five_year_avg_yield_pct": 3.8,
+        "kelley_wright_signal": "EXPENSIVE",
+        "ddm_fair_value": 85.7,
+        "ddm_current_price": 165.0,
+        "ddm_signal": "OVERVALUED",
+        "graham_pe_check": "PASS",
+        "growth_assumption": 0.04
+      },
+      "note": ""
+    },
+    "KO": {
+      "fundamentals": {
+        "payout_ratio": 0.63,
+        "trailing_pe": 27.0,
+        "debt_to_equity": 1.65,
+        "dividend_rate": 2.12,
+        "dividend_yield": 0.024090909090909093,
+        "five_year_avg_yield": 0.029,
+        "beta": 0,
+        "current_price": 88.0,
+        "dividend_years": 64,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.63,
+        "payout_score": 84.4,
+        "trailing_pe": 27.0,
+        "pe_score": 30,
+        "debt_to_equity": 1.65,
+        "de_score": 60.5,
+        "dividend_years": 64,
+        "history_score": 100,
+        "safety_total": 71.4,
+        "safety_grade": "B"
+      },
+      "valuation": {
+        "current_yield_pct": 2.41,
+        "five_year_avg_yield_pct": 2.9,
+        "kelley_wright_signal": "FAIR",
+        "ddm_fair_value": 44.1,
+        "ddm_current_price": 88.0,
+        "ddm_signal": "OVERVALUED",
+        "graham_pe_check": "FAIL",
+        "growth_assumption": 0.04
+      },
+      "note": ""
+    },
+    "T": {
+      "fundamentals": {
+        "payout_ratio": 0.48,
+        "trailing_pe": 10.4,
+        "debt_to_equity": 1.15,
+        "dividend_rate": 1.11,
+        "dividend_yield": 0.04605809128630706,
+        "five_year_avg_yield": 0.06,
+        "beta": 0,
+        "current_price": 24.1,
+        "dividend_years": 42,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.48,
+        "payout_score": 100,
+        "trailing_pe": 10.4,
+        "pe_score": 100,
+        "debt_to_equity": 1.15,
+        "de_score": 75.5,
+        "dividend_years": 42,
+        "history_score": 100,
+        "safety_total": 93.9,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 4.61,
+        "five_year_avg_yield_pct": 6.0,
+        "kelley_wright_signal": "EXPENSIVE",
+        "ddm_fair_value": 23.09,
+        "ddm_current_price": 24.1,
+        "ddm_signal": "FAIR",
+        "graham_pe_check": "PASS",
+        "growth_assumption": 0.04
+      },
+      "note": "dividendo congelado desde 2022"
+    },
+    "AVGO": {
+      "fundamentals": {
+        "payout_ratio": 0.35,
+        "trailing_pe": 30.0,
+        "debt_to_equity": 1.05,
+        "dividend_rate": 2.6,
+        "dividend_yield": 0.0071823204419889505,
+        "five_year_avg_yield": 0.011,
+        "beta": 0,
+        "current_price": 362.0,
+        "dividend_years": 15,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.35,
+        "payout_score": 100,
+        "trailing_pe": 30.0,
+        "pe_score": 30,
+        "debt_to_equity": 1.05,
+        "de_score": 78.5,
+        "dividend_years": 15,
+        "history_score": 100,
+        "safety_total": 80.6,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 0.72,
+        "five_year_avg_yield_pct": 1.1,
+        "kelley_wright_signal": "FAIR",
+        "ddm_fair_value": 91.87,
+        "ddm_current_price": 362.0,
+        "ddm_signal": "OVERVALUED",
+        "graham_pe_check": "FAIL",
+        "growth_assumption": 0.06
+      },
+      "note": "PE forward"
+    },
+    "GOOG": {
+      "fundamentals": {
+        "payout_ratio": 0.07,
+        "trailing_pe": 26.0,
+        "debt_to_equity": 0.1,
+        "dividend_rate": 0.88,
+        "dividend_yield": 0.002521489971346705,
+        "five_year_avg_yield": 0.002,
+        "beta": 0,
+        "current_price": 349.0,
+        "dividend_years": 3,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.07,
+        "payout_score": 100,
+        "trailing_pe": 26.0,
+        "pe_score": 30,
+        "debt_to_equity": 0.1,
+        "de_score": 100,
+        "dividend_years": 3,
+        "history_score": 30,
+        "safety_total": 68.5,
+        "safety_grade": "B"
+      },
+      "valuation": {
+        "current_yield_pct": 0.25,
+        "five_year_avg_yield_pct": 0.2,
+        "kelley_wright_signal": "FAIR",
+        "ddm_fair_value": 18.3,
+        "ddm_current_price": 349.0,
+        "ddm_signal": "OVERVALUED",
+        "graham_pe_check": "FAIL",
+        "growth_assumption": 0.04
+      },
+      "note": ""
+    },
+    "ENG": {
+      "fundamentals": {
+        "payout_ratio": 0.57,
+        "trailing_pe": 9.6,
+        "debt_to_equity": 1.1,
+        "dividend_rate": 1.0,
+        "dividend_yield": 0.05934718100890207,
+        "five_year_avg_yield": 0.075,
+        "beta": 0,
+        "current_price": 16.85,
+        "dividend_years": 30,
+        "dividend_growth_5y": null
+      },
+      "safety": {
+        "payout_ratio": 0.57,
+        "payout_score": 91.6,
+        "trailing_pe": 9.6,
+        "pe_score": 100,
+        "debt_to_equity": 1.1,
+        "de_score": 77.0,
+        "dividend_years": 30,
+        "history_score": 100,
+        "safety_total": 91.7,
+        "safety_grade": "A"
+      },
+      "valuation": {
+        "current_yield_pct": 5.93,
+        "five_year_avg_yield_pct": 7.5,
+        "kelley_wright_signal": "EXPENSIVE",
+        "ddm_fair_value": 20.8,
+        "ddm_current_price": 16.85,
+        "ddm_signal": "UNDERVALUED",
+        "graham_pe_check": "PASS",
+        "growth_assumption": 0.04
+      },
+      "note": "EPS recurrente 2026 ~1.76"
+    },
+    "VHYL": {
+      "valuation": {
+        "current_yield_pct": 2.43,
+        "kelley_wright_signal": "NO_DATA",
+        "v3_macro_signal": "CARO (yield 2,43% < 3,5%) — desacelerar compras (moot: dinero nuevo ya no va a ETFs)",
+        "note": "Distribution yield oficial Vanguard 31-ago-2026"
+      }
+    },
+    "VWCE": {
+      "note": "Acumulativo, sin dividendo. Precio ~167-169 EUR (sep-2026). Sin señal V3."
+    },
+    "IBTS": {
+      "note": "ETF bonos soberanos 0-1y. Fuera de scoring de dividendos."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "t0": "2026-09-30",
+ "fixed_with_data_of": "2026-09-28",
+ "block_values_eur_t0": {
+  "VHYL": 39686.25,
+  "VZ": 4591.23,
+  "O": 6776.87,
+  "JNJ": 4960.27,
+  "XOM": 3277.86,
+  "MO": 2852.71
+ },
+ "block_total_eur_t0": 62145.19,
+ "vwce_price_eur_t0": 169.12,
+ "mirror_shares": 367.4621,
+ "criterion": "31-dic-2028: XIRR bloque < XIRR espejo -> DISOLVER; >= -> CONTINUA",
+ "fx_note": "dividendos USD convertidos a 0.879 constante"
+}

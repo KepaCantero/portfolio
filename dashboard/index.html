@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JARVIS — Kepa Command Center</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#060a14;--panel:#0a1020;--border:#12203a;--cyan:#00d4ff;--green:#00ff88;--amber:#ffb347;--red:#ff4757;--text:#c8d6e5;--dim:#5a6f8a;--mono:'SF Mono',Menlo,monospace}
+body{background:var(--bg);color:var(--text);font-family:var(--mono);font-size:13px;padding:20px;overflow-x:hidden}
+h1{font-size:22px;color:var(--cyan);letter-spacing:3px;text-transform:uppercase;text-shadow:0 0 20px rgba(0,212,255,.3)}
+h1 span{color:var(--dim);font-size:13px;letter-spacing:1px;display:block;margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:16px}
+.panel{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:16px;position:relative;overflow:hidden}
+.panel::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);opacity:.5}
+.panel h2{font-size:11px;color:var(--cyan);letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.panel h2 .dot{width:6px;height:6px;border-radius:50%;background:var(--cyan);box-shadow:0 0 6px var(--cyan);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.col3{grid-column:span 3}.col4{grid-column:span 4}.col6{grid-column:span 6}.col8{grid-column:span 8}.col12{grid-column:span 12}
+.big{font-size:28px;font-weight:700;color:var(--cyan);text-shadow:0 0 10px rgba(0,212,255,.2)}
+.big.green{color:var(--green)}.big.red{color:var(--red)}.big.amber{color:var(--amber)}
+.label{color:var(--dim);font-size:10px;text-transform:uppercase;letter-spacing:1px;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th{color:var(--dim);text-align:left;padding:4px 6px;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase}
+td{padding:5px 6px;border-bottom:1px solid rgba(18,32,58,.4)}
+tr:hover{background:rgba(0,212,255,.05)}
+.pos{color:var(--green)}.neg{color:var(--red)}.neu{color:var(--dim)}
+.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:9px;margin:2px}
+.tag.ok{background:rgba(0,255,136,.15);color:var(--green)}
+.tag.warn{background:rgba(255,179,71,.15);color:var(--amber)}
+.tag.err{background:rgba(255,71,87,.15);color:var(--red)}
+.tag.info{background:rgba(0,212,255,.15);color:var(--cyan)}
+.bar{height:4px;border-radius:2px;background:var(--border);margin-top:2px;overflow:hidden}
+.bar>div{height:100%;border-radius:2px;transition:width .5s}
+.thread-item{padding:6px 0;border-bottom:1px solid rgba(18,32,58,.3);font-size:11px}
+.thread-item:last-child{border:none}
+.event-date{color:var(--cyan);font-weight:600;font-size:10px}
+.contra{background:rgba(255,179,71,.08);border-left:2px solid var(--amber);padding:6px 10px;margin:4px 0;border-radius:0 4px 4px 0;font-size:11px}
+.footer{margin-top:16px;text-align:center;color:var(--dim);font-size:10px}
+.loading{display:flex;align-items:center;justify-content:center;height:100vh;color:var(--cyan);font-size:16px;letter-spacing:2px}
+.loading span{animation:pulse 1.5s infinite}
+#clock{color:var(--dim);font-size:12px;position:absolute;top:20px;right:20px;text-align:right}
+.quick{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+.qbtn{background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.3);border-radius:6px;padding:10px;cursor:pointer;text-align:center;font-size:10px;color:var(--cyan);transition:all .2s}
+.qbtn:hover{background:rgba(0,212,255,.2);box-shadow:0 0 12px rgba(0,212,255,.2)}
+.qbtn .icon{font-size:20px;margin-bottom:4px}
+.qbtn .desc{color:var(--dim);font-size:9px;margin-top:2px}
+</style>
+</head>
+<body>
+<div class="loading"><span>INITIALIZING JARVIS...</span></div>
+<div id="clock"></div>
+
+<div id="app" style="display:none">
+<h1>JARVIS<span>Investment · Housing · Business · Trading Command Center</span></h1>
+
+<div class="grid">
+
+<!-- ═══ PORTFOLIO SUMMARY ═══ -->
+<div class="panel col4">
+<h2><span class="dot"></span>Portfolio — Overview</h2>
+<div id="pf-nlv" class="big">—</div>
+<div class="label">Net Liquidation Value</div>
+<div style="display:flex;gap:16px;margin-top:12px">
+<div><div id="pf-pnl" class="big green" style="font-size:18px">—</div><div class="label">P&L Unrealized</div></div>
+<div><div id="pf-cash" style="font-size:18px;color:var(--text)">—</div><div class="label">Cash</div></div>
+<div><div id="pf-date" style="font-size:18px;color:var(--dim)">—</div><div class="label">Snapshot</div></div>
+</div>
+<div style="margin-top:12px" id="pf-sleeves"></div>
+</div>
+
+<!-- ═══ POSITIONS ═══ -->
+<div class="panel col8">
+<h2><span class="dot"></span>Positions</h2>
+<div style="max-height:280px;overflow-y:auto">
+<table id="pf-table"><thead><tr><th>Ticker</th><th>Value</th><th>Weight</th><th>Target</th><th>P&L</th><th>%</th><th>Status</th></tr></thead><tbody></tbody></table>
+</div>
+</div>
+
+<!-- ═══ OPEN THREADS ═══ -->
+<div class="panel col4">
+<h2><span class="dot" style="background:var(--amber);box-shadow:0 0 6px var(--amber)"></span>Open Threads</h2>
+<div id="threads" style="max-height:200px;overflow-y:auto"></div>
+</div>
+
+<!-- ═══ CALENDAR ═══ -->
+<div class="panel col4">
+<h2><span class="dot"></span>Upcoming Events</h2>
+<div id="events" style="max-height:200px;overflow-y:auto"></div>
+</div>
+
+<!-- ═══ CONTRADICTIONS ═══ -->
+<div class="panel col4">
+<h2><span class="dot" style="background:var(--red);box-shadow:0 0 6px var(--red)"></span>Contradictions</h2>
+<div id="contras" style="max-height:200px;overflow-y:auto"></div>
+</div>
+
+<!-- ═══ KNOWLEDGE GRAPH ═══ -->
+<div class="panel col6">
+<h2><span class="dot"></span>Knowledge Graph</h2>
+<div style="display:flex;gap:20px;align-items:center">
+<div style="text-align:center"><div id="kg-ent" class="big" style="font-size:32px">—</div><div class="label">Entities</div></div>
+<div style="text-align:center"><div id="kg-rel" class="big" style="font-size:32px;color:var(--green)">—</div><div class="label">Relations</div></div>
+<div style="flex:1">
+<div class="label">TEST-2028 Arbitrer</div>
+<div id="kg-test" style="font-size:12px;margin-top:4px;line-height:1.6">—</div>
+</div>
+</div>
+<div id="kg-candidates" style="margin-top:12px;display:flex;flex-wrap:wrap;gap:4px"></div>
+</div>
+
+<!-- ═══ CASA ═══ -->
+<div class="panel col6">
+<h2><span class="dot" style="background:var(--green);box-shadow:0 0 6px var(--green)"></span>Housing — Casa</h2>
+<div style="display:flex;gap:20px;margin-bottom:10px">
+<div><div style="font-size:16px;color:var(--green)">4.200 €/mes</div><div class="label">Income</div></div>
+<div><div style="font-size:16px;color:var(--cyan)">~70 k€</div><div class="label">External Savings</div></div>
+<div><div style="font-size:16px;color:var(--amber)">≤210 k€</div><div class="label">Budget (Bizkaia)</div></div>
+</div>
+<div id="casa-top" style="max-height:160px;overflow-y:auto">
+<table><thead><tr><th>Ref</th><th>Zone</th><th>Price</th></tr></thead><tbody></tbody></table>
+</div>
+</div>
+
+<!-- ═══ ALGOTRADING ═══ -->
+<div class="panel col6">
+<h2><span class="dot" style="background:var(--amber);box-shadow:0 0 6px var(--amber)"></span>AlgoTrading</h2>
+<div style="display:flex;gap:20px;margin-bottom:10px">
+<div><div id="algo-strat" class="big" style="font-size:24px">—</div><div class="label">Strategies</div></div>
+<div><div id="algo-bt" class="big" style="font-size:24px;color:var(--green)">—</div><div class="label">Backtests</div></div>
+<div><div id="algo-regime" style="font-size:18px;color:var(--amber)">—</div><div class="label">Market Regime</div></div>
+</div>
+<div id="algo-detail" style="font-size:11px;line-height:1.6;color:var(--dim)">—</div>
+</div>
+
+<!-- ═══ MONEY ═══ -->
+<div class="panel col6">
+<h2><span class="dot" style="background:var(--green);box-shadow:0 0 6px var(--green)"></span>Side Business</h2>
+<div id="money-tracks"></div>
+</div>
+
+<!-- ═══ QUICK ACTIONS ═══ -->
+<div class="panel col12">
+<h2><span class="dot"></span>Quick Actions — Ask JARVIS</h2>
+<div class="quick">
+<div class="qbtn" onclick="hint('estado')"><div class="icon">📊</div>Portfolio State<div class="desc">Bootstrap: grafo + hilos + calendario</div></div>
+<div class="qbtn" onclick="hint('actualiza')"><div class="icon">📈</div>Monthly Session<div class="desc">Parse snapshot → orden cascada A8</div></div>
+<div class="qbtn" onclick="hint('verifica')"><div class="icon">🔍</div>Quarterly Check<div class="desc">Research earnings → barra mantenimiento</div></div>
+<div class="qbtn" onclick="hint('extrae')"><div class="icon">🏠</div>Casa Extract<div class="desc">Abre tabs → extraigo catálogo</div></div>
+<div class="qbtn" onclick="hint('ficha [ref]')"><div class="icon">📋</div>Casa DD<div class="desc">Due diligence de un piso</div></div>
+<div class="qbtn" onclick="hint('investiga [ticker]')"><div class="icon">⚛️</div>Research<div class="desc">Verificación puntual por ticker</div></div>
+<div class="qbtn" onclick="hint('test')"><div class="icon">⚖️</div>Árbitro 2028<div class="desc">sleeve_test.py → bloque vs VWCE</div></div>
+<div class="qbtn" onclick="hint('sincroniza el grafo')"><div class="icon">🕸️</div>Graph Sync<div class="desc">Actualizar knowledge graph</div></div>
+</div>
+</div>
+
+</div>
+
+<div class="footer">
+JARVIS v1.0 — <span id="gen-time"></span> — Portfolio · Casa · Money · AlgoTrading<br>
+Data: dashboard/data.json · Graph: graph/graph.json · <span id="graph-count"></span>
+</div>
+</div>
+
+<script>
+const fmt = n => n!=null ? n.toLocaleString('es-ES',{maximumFractionDigits:0}) : '—';
+const fmt2 = n => n!=null ? n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2}) : '—';
+const sign = n => n>=0 ? 'pos':'neg';
+
+// Clock
+setInterval(()=>{
+  const d=new Date();
+  document.getElementById('clock').innerHTML=d.toLocaleDateString('es-ES',{weekday:'short',day:'numeric',month:'short'})+'<br>'+d.toLocaleTimeString('es-ES');
+},1000);
+
+function hint(msg){alert('Ve a ZCode y escribe: "'+msg+'" — la skill nativa correspondiente se disparará automáticamente.')}
+
+fetch('data.json').then(r=>r.json()).then(D=>{
+  document.querySelector('.loading').style.display='none';
+  document.getElementById('app').style.display='block';
+  document.getElementById('gen-time').textContent=D.generated;
+
+  // ── PORTFOLIO ──
+  const P=D.portfolio;
+  document.getElementById('pf-nlv').textContent=fmt(P.nlv)+' €';
+  document.getElementById('pf-pnl').textContent=(P.pnl>=0?'+':'')+fmt(P.pnl)+' €';
+  document.getElementById('pf-pnl').className='big '+sign(P.pnl)+'';
+  document.getElementById('pf-cash').textContent=fmt(P.cash)+' €';
+  document.getElementById('pf-date').textContent=P.date;
+
+  // sleeves
+  let sleeveHtml='';
+  const colors={ETF:'#00d4ff',Stock:'#00ff88',Bond:'#ffb347',Other:'#5a6f8a'};
+  for(const[k,v]of Object.entries(P.sleeves||{})){
+    const pct=(v.current_weight*100).toFixed(1);
+    const tgt=(v.target_weight*100).toFixed(1);
+    sleeveHtml+=`<div style="margin-bottom:6px"><div style="display:flex;justify-content:space-between"><span style="color:${colors[k]||'#fff'}">${k}</span><span>${pct}% <span class="neu">/ ${tgt}%</span></span></div><div class="bar"><div style="width:${pct}%;background:${colors[k]||'#fff'}"></div></div></div>`;
+  }
+  document.getElementById('pf-sleeves').innerHTML=sleeveHtml;
+
+  // positions
+  const tb=document.querySelector('#pf-table tbody');
+  tb.innerHTML=(P.positions||[]).map(p=>{
+    const st=P.candidates[p.t]?.st||p.s;
+    const tag=st==='activo'?'ok':st?.startsWith('cuarentena')?'warn':st==='congelado'?'info':st==='ok'?'ok':st==='mantener'?'info':'';
+    return `<tr><td style="color:var(--cyan);font-weight:600">${p.t}</td><td>${fmt(p.v)} €</td><td>${(p.w*100).toFixed(1)}%</td><td class="neu">${(p.t*100).toFixed(1)}%</td><td class="${sign(p.p)}">${p.p>=0?'+':''}${fmt(p.p)} €</td><td class="${sign(p.p)}">${p.pp>=0?'+':''}${p.pp.toFixed(1)}%</td><td><span class="tag ${tag}">${st||''}</span></td></tr>`;
+  }).join('');
+
+  // threads
+  document.getElementById('threads').innerHTML=(P.threads||[]).map(t=>
+    `<div class="thread-item"><span style="color:var(--amber)">⏳</span> <strong>${t.n.replace('TH-','')}</strong><br><span class="neu">${t.d}</span></div>`
+  ).join('')||'<div class="neu">Sin hilos abiertos</div>';
+
+  // events
+  document.getElementById('events').innerHTML=(P.events||[]).map(e=>{
+    const dateMatch=e.d?.match(/\d{1,2}-\w+-?\d{0,4}/);
+    return `<div class="thread-item"><span class="event-date">${dateMatch?dateMatch[0]:'📅'}</span> <strong>${e.n.replace('EV-','')}</strong><br><span class="neu">${(e.d||'').substring(0,80)}</span></div>`;
+  }).join('')||'<div class="neu">Sin eventos</div>';
+
+  // contradictions
+  document.getElementById('contras').innerHTML=(P.contradictions||[]).map(c=>{
+    const resolved=c.o?.some(o=>o.includes('RESUELTA')||o.includes('Ganador'));
+    return `<div class="contra"><strong>${c.n.replace('CON-','')}</strong><br><span class="${resolved?'neu':''}" style="font-size:10px">${(c.o||[]).join(' · ').substring(0,100)}</span>${resolved?' <span class="tag ok">resolved</span>':' <span class="tag warn">open</span>'}</div>`;
+  }).join('')||'<div class="neu">Sin contradicciones</div>';
+
+  // knowledge graph
+  document.getElementById('kg-ent').textContent=P.graph?.e||0;
+  document.getElementById('kg-rel').textContent=P.graph?.r||0;
+  document.getElementById('graph-count').textContent=`${P.graph?.e} entities · ${P.graph?.r} relations`;
+  const t=P.test2028;
+  document.getElementById('kg-test').innerHTML=`<span style="color:var(--cyan)">Bloque:</span> ${fmt(t.block)} € vs <span style="color:var(--green)">Espejo:</span> ${t.sh} VWCE @ ${t.px} €<br><span class="neu">Veredicto vinculante: 31-dic-2028</span>`;
+
+  // candidates
+  const candDiv=document.getElementById('kg-candidates');
+  candDiv.innerHTML=Object.entries(P.candidates||{}).map(([k,v])=>{
+    const cls=v.st==='activo'?'ok':v.st?.startsWith('cuarentena')?'warn':v.st==='congelado'?'info':'';
+    return `<span class="tag ${cls}">${k}: ${v.st}</span>`;
+  }).join('');
+
+  // ── CASA ──
+  const C=D.casa;
+  const casaTb=document.querySelector('#casa-top tbody');
+  if(casaTb && C.top){
+    casaTb.innerHTML=C.top.slice(0,8).map(t=>
+      `<tr><td>${t.c}</td><td class="neu">${t.p>=1000?'k€':'€'}</td><td style="color:var(--green)">${t.p} k€</td></tr>`
+    ).join('')||'<tr><td colspan="3" class="neu">Actualizar registro casa</td></tr>';
+  }
+
+  // ── ALGOTRADING ──
+  const A=D.algo;
+  document.getElementById('algo-strat').textContent=A.strategies;
+  document.getElementById('algo-bt').textContent=A.backtests;
+  document.getElementById('algo-regime').textContent=A.market_regime||'—';
+  const sig=A.signals||{};
+  document.getElementById('algo-detail').innerHTML=
+    `Last backtest: <span style="color:var(--cyan)">${A.last_backtest||'—'}</span> · Signals: <span class="pos">${sig.buy||0}▲</span> <span class="neg">${sig.sell||0}▼</span> <span class="neu">${sig.hold||0}▬</span><br>` +
+    `Risk: <span style="color:var(--red)">${A.risk||'—'}</span> · NiceGUI: ${A.presentation_files||0} files · Git: ${A.last_commit}<br>` +
+    `Positions: ${(A.positions||[]).join(', ')}<br>Status: <span class="tag warn">${A.status}</span>`;
+
+  // ── MONEY ──
+  document.getElementById('money-tracks').innerHTML=(D.money?.tracks||[]).map(t=>
+    `<div class="thread-item"><span style="color:var(--green)">💡</span> <strong>${t.n}</strong> <span class="tag info">${t.st}</span> <span class="neu">(${t.files} docs)</span></div>`
+  ).join('')||'<div class="neu">Sin tracks activos</div>';
+
+}).catch(e=>{
+  document.querySelector('.loading').innerHTML='<span style="color:var(--red)">ERROR: '+e.message+'</span><br><span class="neu" style="font-size:11px">Run: python3 dashboard/build_data.py</span>';
+});
+</script>
+</body>
+</html>

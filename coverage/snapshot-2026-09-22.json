@@ -1,0 +1,43 @@
+{
+  "snapshot_date": "2026-09-22",
+  "source": "IBKR Client Portal — paste del usuario (Account Overview + Holdings)",
+  "account": "U19253676",
+  "base_currency": "EUR",
+  "fx": {
+    "usd_to_eur": 0.89117,
+    "eur_usd": 1.1221,
+    "note": "FX implícito derivado del propio snapshot: cuadra Σ(MV nativo × fx) + cash = NLV con diff 0,00 €. Validado contra precios web 21-sep (AVGO, GOOG, VZ)."
+  },
+  "summary_eur": {
+    "net_liquidation_value": 106788.91,
+    "daily_pnl": 163.40,
+    "settled_cash": 660.80,
+    "unrealized_pnl_header": 12457.48,
+    "realized_pnl_today": 0.0,
+    "maintenance_margin": 0.0,
+    "excess_liquidity": 660.80,
+    "buying_power": 660.80,
+    "dividends_display": 350.83,
+    "dividends_display_note": "Campo 'Dividends' del Account Overview — periodo no especificado en el paste. No usar como cifra fiscal. Confirmar con Activity Statement Q3."
+  },
+  "cash_breakdown": {"eur": 84.12, "usd": 660.82, "total_eur": 660.80},
+  "holdings_native_and_eur": [
+    {"ticker": "VHYL", "quantity": 494.0402, "ccy": "EUR", "last": 80.98, "cost_basis": 34135.00, "market_value": 40007.38, "avg_price": 69.09, "daily_pnl": 19.80, "unrealized": 5870.00},
+    {"ticker": "VWCE", "quantity": 224.882, "ccy": "EUR", "last": 170.0, "cost_basis": 33441.00, "market_value": 38229.94, "avg_price": 148.71, "daily_pnl": 117.00, "unrealized": 4790.00},
+    {"ticker": "O", "quantity": 100.7344, "ccy": "USD", "last": 56.89, "cost_basis": 5973.78, "market_value": 5730.78, "avg_price": 59.30, "daily_pnl": 24.20, "unrealized": -243.00, "mv_eur": 5107.52},
+    {"ticker": "JNJ", "quantity": 20.7198, "ccy": "USD", "last": 268.22, "cost_basis": 3857.45, "market_value": 5557.46, "avg_price": 186.17, "daily_pnl": -25.90, "unrealized": 1700.00, "mv_eur": 4952.34},
+    {"ticker": "IBTS", "quantity": 36.4759, "ccy": "EUR", "last": 109.135, "cost_basis": 4436.92, "market_value": 3980.80, "avg_price": 121.64, "daily_pnl": 1.28, "unrealized": -456.00},
+    {"ticker": "MO", "quantity": 46.8771, "ccy": "USD", "last": 68.79, "cost_basis": 2694.57, "market_value": 3224.68, "avg_price": 57.48, "daily_pnl": 12.20, "unrealized": 530.00, "mv_eur": 2873.50},
+    {"ticker": "ENG", "quantity": 156.2297, "ccy": "EUR", "last": 16.797, "cost_basis": 2705.55, "market_value": 2624.66, "avg_price": 17.32, "daily_pnl": -7.81, "unrealized": -80.90},
+    {"ticker": "XOM", "quantity": 14.8889, "ccy": "USD", "last": 159.19, "cost_basis": 2302.98, "market_value": 2370.16, "avg_price": 154.68, "daily_pnl": 13.30, "unrealized": 67.20, "mv_eur": 2112.67},
+    {"ticker": "KO", "quantity": 22.4312, "ccy": "USD", "last": 87.59, "cost_basis": 1605.98, "market_value": 1964.75, "avg_price": 71.60, "daily_pnl": 10.50, "unrealized": 359.00, "mv_eur": 1750.69},
+    {"ticker": "VZ", "quantity": 36.7295, "ccy": "USD", "last": 47.61, "cost_basis": 1648.74, "market_value": 1751.26, "avg_price": 44.89, "daily_pnl": 0.00, "unrealized": 103.00, "mv_eur": 1560.30},
+    {"ticker": "AVGO", "quantity": 4.1055, "ccy": "USD", "last": 361.84, "cost_basis": 1602.78, "market_value": 1485.53, "avg_price": 390.40, "daily_pnl": -3.37, "unrealized": -117.00, "mv_eur": 1323.91},
+    {"ticker": "GOOG", "quantity": 3.3082, "ccy": "USD", "last": 353.01, "cost_basis": 844.12, "market_value": 1167.89, "avg_price": 255.16, "daily_pnl": 7.15, "unrealized": 324.00, "mv_eur": 1040.71},
+    {"ticker": "T", "quantity": 24.8438, "ccy": "USD", "last": 25.45, "cost_basis": 699.53, "market_value": 632.27, "avg_price": 28.16, "daily_pnl": 0.00, "unrealized": -67.30, "mv_eur": 563.45}
+  ],
+  "no_trades_since": "2026-06-26",
+  "no_trades_evidence": "Cantidades y avg prices idénticos a holdings.csv del 26-jun. Realized P&L hoy 0.00. Sin depósitos desde jun (cash 16,47 → 660,80 solo por dividendos).",
+  "nlv_reconciliation_note": "RESUELTO (misma tarde del 22-sep): el gap −2.599 € del primer parseo era un error de interpretación — las columnas de posiciones USA están en USD nativo. Con fx implícito 0,89117: Σ(MV EUR) + cash = 106.788,91 € = NLV exacto. El header 'Unrealized 12.457,48' sí difiere de la suma por líneas en nativo (12.779 USD-mixto) por mezcla de divisas y marcaje — verificar con Activity Statement Q3. El gap −2.499 € del 26-jun tiene la misma causa probable.",
+  "cost_basis_note": "avg_cost_eur de los 9 tickers USD re-expresado a EUR con fx del día 0,89117 (O 59,30→52,84, JNJ 186,17→165,95, MO 57,48→51,22, XOM 154,68→137,85, KO 71,60→63,81, VZ 44,89→39,99, AVGO 390,40→347,83, GOOG 255,16→227,38, T 28,16→25,10). Con esto pnl_pct reproduce exactamente el display IBKR. PENDIENTE: cost basis EUR real por lote desde data/trades.csv (los lotes se compraron con fx 0,875-0,89) para fiscalidad precisa."
+}

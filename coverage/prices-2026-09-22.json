@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-22",
+  "source": "IBKR Client Portal paste (usuario). CORREGIDO misma tarde: las columnas Last/Market Value de posiciones USA están en USD NATIVO (no EUR). price_eur = nativo × fx 0,89117.",
+  "fx": {
+    "usd_to_eur": 0.89117,
+    "eur_usd": 1.1221,
+    "derivation": "fx implícito que cuadra Σ(MV nativo convertido) + cash = NLV 106.788,91 (diff 0,00). Validación cruzada: nativos coinciden con precios web del 21-sep (AVGO $361,84 ≈ $362; GOOG $353,01 ≈ $349-353; VZ $47,61 con yield 5,9%). El gap −2.599 € del análisis previo era este error de conversión; el −2.499 € de junio tiene la misma firma."
+  },
+  "prices": {
+    "VHYL": {"native": 80.98, "currency": "EUR", "price_eur": 80.98},
+    "VWCE": {"native": 170.0, "currency": "EUR", "price_eur": 170.0},
+    "O": {"native": 56.89, "currency": "USD", "price_eur": 50.699},
+    "JNJ": {"native": 268.22, "currency": "USD", "price_eur": 238.944},
+    "IBTS": {"native": 109.135, "currency": "EUR", "price_eur": 109.135},
+    "MO": {"native": 68.79, "currency": "USD", "price_eur": 61.303},
+    "ENG": {"native": 16.797, "currency": "EUR", "price_eur": 16.797},
+    "XOM": {"native": 159.19, "currency": "USD", "price_eur": 141.872},
+    "KO": {"native": 87.59, "currency": "USD", "price_eur": 78.062},
+    "VZ": {"native": 47.61, "currency": "USD", "price_eur": 42.431},
+    "AVGO": {"native": 361.84, "currency": "USD", "price_eur": 322.247},
+    "GOOG": {"native": 353.01, "currency": "USD", "price_eur": 314.572},
+    "T": {"native": 25.45, "currency": "USD", "price_eur": 22.677},
+    "CASH": {"price_eur": 1.0}
+  }
+}

@@ -1,0 +1,79 @@
+{
+ "generated_at": "2026-09-28 post-fills (cierre)",
+ "source": "IBKR paste tras ejecucion tanda 1+1b. fx = fills reales IDEALPRO 1.13596/1.13606 -> 0.8803.",
+ "fx": {
+  "usd_to_eur": 0.8803,
+  "eur_usd": 1.136,
+  "note": "Conversions reales: 5.523,75 EUR vendidos -> 6.275,20 USD; comisiones 3 USD. USD cash 660,82 agotado."
+ },
+ "prices": {
+  "VHYL": {
+   "native": 80.33,
+   "currency": "EUR",
+   "price_eur": 80.33
+  },
+  "VWCE": {
+   "native": 169.12,
+   "currency": "EUR",
+   "price_eur": 169.12
+  },
+  "O": {
+   "native": 55.49,
+   "currency": "USD",
+   "price_eur": 48.8478
+  },
+  "JNJ": {
+   "native": 271.95,
+   "currency": "USD",
+   "price_eur": 239.3976
+  },
+  "IBTS": {
+   "native": 109.79,
+   "currency": "EUR",
+   "price_eur": 109.79
+  },
+  "MO": {
+   "native": 69.13,
+   "currency": "USD",
+   "price_eur": 60.8551
+  },
+  "ENG": {
+   "native": 16.69,
+   "currency": "EUR",
+   "price_eur": 16.69
+  },
+  "XOM": {
+   "native": 162.68,
+   "currency": "USD",
+   "price_eur": 143.2072
+  },
+  "KO": {
+   "native": 87.32,
+   "currency": "USD",
+   "price_eur": 76.8678
+  },
+  "VZ": {
+   "native": 46.68,
+   "currency": "USD",
+   "price_eur": 41.0924
+  },
+  "AVGO": {
+   "native": 348.39,
+   "currency": "USD",
+   "price_eur": 306.6877
+  },
+  "GOOG": {
+   "native": 338.22,
+   "currency": "USD",
+   "price_eur": 297.7351
+  },
+  "T": {
+   "native": 24.9,
+   "currency": "USD",
+   "price_eur": 21.9195
+  },
+  "CASH": {
+   "price_eur": 1.0
+  }
+ }
+}

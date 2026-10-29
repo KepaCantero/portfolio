@@ -1,0 +1,15 @@
+ticker,quantity,avg_cost_eur,account,notes
+VHYL,494.0402,69.09,IBKR,ETF flujo trimestral - vacaciones
+VWCE,224.882,148.71,IBKR,ETF base intocable - acumulacion
+O,138.7344,51.33,IBKR,REIT mensual - pilar flujo (38 sh @ 55.70 USD 28-sep)
+JNJ,20.7198,163.90,IBKR,Salud defensiva
+IBTS,36.4759,121.64,IBKR,Bonos soberanos corto plazo
+MO,46.8771,50.60,IBKR,Tabaco - peso controlado
+ENG,156.2297,17.28,IBKR,Energia Spain
+XOM,22.8889,138.68,IBKR,Energia integrada (8 sh @ 162.74 USD 28-sep)
+KO,22.4312,63.03,IBKR,Consumo defensivo - mantener
+VZ,111.7295,40.69,IBKR,Teleco USA (75 sh @ 46.86 USD 28-sep)
+AVGO,4.1055,343.67,IBKR,Tech - crecimiento dividendo
+GOOG,3.3082,224.62,IBKR,Tech - sin dividendo significativo
+T,24.8438,24.79,IBKR,Teleco USA - complemento VZ
+CASH,560.36,1.00,IBKR,EUR 560.36 + USD 0.00 @ 2026-09-28 post-fills (avg_cost de USD re-expresado a fx 0.8803)

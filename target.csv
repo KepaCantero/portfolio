@@ -1,0 +1,18 @@
+ticker,name,yahoo_symbol,currency,target_weight,sleeve,status
+VWCE,iShares Core MSCI World UCITS ETF Acc,VWCE.DE,EUR,1.000,ETF,activo
+VHYL,Vanguard FTSE All-World High Dividend Yield,VHYL.AS,EUR,0.000,ETF,congelado
+O,Realty Income,O,USD,0.000,Stock,congelado
+VZ,Verizon,VZ,USD,0.000,Stock,congelado
+JNJ,Johnson & Johnson,JNJ,USD,0.000,Stock,congelado
+XOM,Exxon Mobil,XOM,USD,0.000,Stock,congelado
+MO,Altria,MO,USD,0.000,Stock,congelado
+IBTS,iShares USD Treasury Bond 1-3yr UCITS ETF (USD nativo, sin cubrir - CORREGIDO 30-sep),IBTS.AS,EUR,0.040,Bond,ok
+# --- ESTRUCTURA C POR DILUCION (elegida 30-sep: "mejorar lo que tengo, no empezar de cero") ---
+# VWCE = unico destino de TODO dinero nuevo (Deka dic + aportaciones). target_weight VWCE = "todo lo que resulte".
+# congelado = ni compras ni ventas JAMAS: VHYL + las 5 empresas se diluyen con el flujo nuevo.
+#   Friccion asumida ~500 EUR/ano sobre ~64k congelados = prima por no decidir hoy (ver decisions.md 30-sep).
+# Polvo fuera en ene-2027: AVGO, GOOG, T, KO, ENG (~45 EUR IRPF neto; minusvalias de T/ENG/AVGO compensan 2026).
+# TEST 31-dic-2028 (sustituye al A9 de nombres sueltos): bloque congelado (VHYL+5) vs VWCE desde 30-sep-2026.
+#   Va por debajo -> vender con datos. Va igual/mejor -> se queda. Barra de mantenimiento mientras tanto:
+#   corte de dividendo o payout fwd >90% sostenido -> venta puntual de ese nombre (Vias de salida).
+# IBTS (USD unhedged): decision USD vs deuda-euro, en el glidepath ~2032.

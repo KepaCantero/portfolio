@@ -1,0 +1,14 @@
+ticker,name,status,unlock_condition,last_verified,notes
+VHYL,Vanguard FTSE All-World High Dividend,congelado-test,n/a,2026-09-29,Yield 2.43% (senal V3 zona cara). Parte del bloque testeado vs VWCE hasta 31-dic-2028.
+O,Realty Income,congelado,n/a,2026-09-29,ELEGIBLE post-2028: payout ~73% AFFO - P/AFFO 12.4x - yield 5.88% - 136 subidas mensuales. Dividendo 15 de cada mes.
+VZ,Verizon,congelado,esclarecer congelacion dividendo (Q3 26-oct),2026-09-29,Research 29-sep: habria congelado el 9-sep ($0.7075 sin subida - rompe 19 anos). Contradice pasada del 22-sep. Payout fwd ~56%. WATCH.
+JNJ,Johnson & Johnson,cuarentena,P/E <=15 (V4),2026-09-29,P/E fwd 24.2x - payout fwd ~49% - Q3 13-oct. Talco $5.5B (jul) asumible.
+XOM,Exxon Mobil,activo,n/a,2026-09-29,ELEGIBLE post-2028: payout fwd ~33% - P/E fwd 12.8x - declaracion anual ~fines oct (subida esperable).
+MO,Altria,cuarentena,payout <=75% sostenido (Q3 29-oct),2026-09-29,Payout fwd 78-80% - GAAP trail ~93.5% (CERCA DEL TRIGGER venta) - equity negativa. La mas vigilada.
+T,AT&T,cuarentena,reanudar subidas dividendo,2026-09-29,Congelado desde 2022. Sale del portfolio en ene-2027 (polvo).
+KO,Coca-Cola,mantener,n/a,2026-09-29,P/E ~26-27x. Sale en ene-2027 (polvo).
+GOOG,Alphabet,mantener,n/a,2026-09-29,Growth puro (A5). Sale en ene-2027 (polvo).
+AVGO,Broadcom,activo-post-2028,P/E <30 (ahora 28.9x fwd),2026-09-29,Dividendo +10%. Sale en ene-2027 (polvo) - re-admisible si se reactiva nivel 7.
+ENG,Enagas,cuarentena,CNMC 2027+ y dividendo post-2026,2026-09-29,Suelo 1 EUR/acc solo hasta dic-2026. Sale en ene-2027 (polvo).
+VWCE,iShares Core MSCI World,activo,n/a,2026-09-30,Unico destino de dinero nuevo (A8). Nucleo.
+IBTS,iShares USD Treasury 1-3y,ok,n/a,2026-09-30,USD unhedged. Decision EUR vs USD en glidepath ~2032.

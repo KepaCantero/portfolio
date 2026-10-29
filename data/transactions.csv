@@ -1,0 +1,429 @@
+Statement,Header,Field Name,Field Value
+Statement,Data,Title,Transaction History
+Statement,Data,Period,"March 27, 2025 - June 12, 2026"
+Statement,Data,WhenGenerated,"2026-06-24, 11:30:14 EDT"
+Summary,Header,Field Name,Field Value
+Summary,Data,Base Currency,EUR
+Summary,Data,Starting Cash,2403.836981901
+Summary,Data,Change,-2264.032230059
+Summary,Data,Ending Cash,139.804751842
+Transaction History,Header,Date,Account,Description,Transaction Type,Symbol,Quantity,Price,Price Currency,Gross Amount ,Commission,Net Amount
+Transaction History,Data,2026-06-12,U***53676,FX Translations P&L,Adjustment,-,-,-,-,-34.82695573537279,-,-34.82695573537279
+Transaction History,Data,2026-06-11,U***53676,RTX(US75513E1010) Cash Dividend USD 0.73 per Share (Ordinary Dividend),Dividend,RTX,-,-,-,0.6218208,-,0.6218208
+Transaction History,Data,2026-06-11,U***53676,RTX(US75513E1010) Cash Dividend USD 0.73 per Share - US Tax,Foreign Tax Withholding,RTX,-,-,-,-0.0950004,-,-0.0950004
+Transaction History,Data,2026-06-10,U***53676,XOM(US30231G1022) Cash Dividend USD 1.03 per Share (Ordinary Dividend),Dividend,XOM,-,-,-,0.8061891000000001,-,0.8061891000000001
+Transaction History,Data,2026-06-10,U***53676,XOM(US30231G1022) Cash Dividend USD 1.03 per Share - US Tax,Foreign Tax Withholding,XOM,-,-,-,-0.12136180000000002,-,-0.12136180000000002
+Transaction History,Data,2026-06-09,U***53676,JNJ(US4781601046) Cash Dividend USD 1.34 per Share (Ordinary Dividend),Dividend,JNJ,-,-,-,24.0476552,-,24.0476552
+Transaction History,Data,2026-06-09,U***53676,JNJ(US4781601046) Cash Dividend USD 1.34 per Share - US Tax,Foreign Tax Withholding,JNJ,-,-,-,-3.6036832,-,-3.6036832
+Transaction History,Data,2026-06-05,U***53676,AMGN(US0311621009) Cash Dividend USD 2.52 per Share (Ordinary Dividend),Dividend,AMGN,-,-,-,0.702999,-,0.702999
+Transaction History,Data,2026-06-05,U***53676,AMGN(US0311621009) Cash Dividend USD 2.52 per Share - US Tax,Foreign Tax Withholding,AMGN,-,-,-,-0.10414799999999999,-,-0.10414799999999999
+Transaction History,Data,2026-06-05,U***53676,Net Amount in Base from Forex Trade: 0.59878308 EUR.USD,Forex Trade Component,EUR.USD,0.59878308,1.15233716,USD,-6.791999999988807E-5,-,-6.791999999988807E-5
+Transaction History,Data,2026-06-03,U***53676,EUR Credit Interest for May-2026,Credit Interest,-,-,-,-,2.19,-,2.19
+Transaction History,Data,2026-06-03,U***53676,Withholding @ 20% on Credit Interest for May-2026,Foreign Tax Withholding,-,-,-,-,-0.44,-,-0.44
+Transaction History,Data,2026-05-29,U***53676,Net Amount in Base from Forex Trade: 2.24655352 EUR.USD,Forex Trade Component,EUR.USD,2.24655352,1.16623084,USD,-2.536800000001449E-4,-,-2.536800000001449E-4
+Transaction History,Data,2026-05-28,U***53676,FGQI(IE00BYXVGZ48) Cash Dividend USD 0.079257 per Share (Mixed Income),Dividend,FGQI,-,-,-,2.2468072,-,2.2468072
+Transaction History,Data,2026-05-19,U***53676,TXN(US8825081040) Cash Dividend USD 1.42 per Share (Ordinary Dividend),Dividend,TXN,-,-,-,0.60312,-,0.60312
+Transaction History,Data,2026-05-19,U***53676,TXN(US8825081040) Cash Dividend USD 1.42 per Share - US Tax,Foreign Tax Withholding,TXN,-,-,-,-0.094776,-,-0.094776
+Transaction History,Data,2026-05-19,U***53676,Net Amount in Base from Forex Trade: 0.50892008 EUR.USD,Forex Trade Component,EUR.USD,0.50892008,1.16083259,USD,-8.82265239999791E-5,-,-8.82265239999791E-5
+Transaction History,Data,2026-05-18,U***53676,Electronic Fund Transfer,Deposit,-,-,-,-,7000.0,-,7000.0
+Transaction History,Data,2026-05-18,U***53676,JOHNSON & JOHNSON,Buy,JNJ,6.0,226.71,USD,-1167.0214644,-0.8579554429200001,-1167.87941984292
+Transaction History,Data,2026-05-18,U***53676,BROADCOM INC,Buy,AVGO,2.0,421.06,USD,-722.4884328,-0.85794514764,-723.34637794764
+Transaction History,Data,2026-05-18,U***53676,VERIZON COMMUNICATIONS INC,Buy,VZ,21.0,46.6,USD,-839.580084,-0.85799405022,-840.43807805022
+Transaction History,Data,2026-05-18,U***53676,ALTRIA GROUP INC,Buy,MO,6.0,73.24,USD,-377.0131536,-0.8579554429200001,-377.87110904292
+Transaction History,Data,2026-05-18,U***53676,JOHNSON & JOHNSON,Buy,JNJ,0.6134,227.7,USD,-119.8294921692,-1.5786096000000001E-6,-119.82949374780961
+Transaction History,Data,2026-05-18,U***53676,BROADCOM INC,Buy,AVGO,0.3745,420.69,USD,-135.1670785857,-9.6432456E-7,-135.16707955002457
+Transaction History,Data,2026-05-18,U***53676,JOHNSON & JOHNSON,Buy,JNJ,3.0E-4,227.7,USD,-0.0586058814,-8.5794E-10,-0.05860588225794
+Transaction History,Data,2026-05-18,U***53676,VERIZON COMMUNICATIONS INC,Buy,VZ,0.4585,46.5297,USD,-18.303178240053,-1.1796675E-6,-18.3031794197205
+Transaction History,Data,2026-05-18,U***53676,REALTY INCOME CORP,Buy,O,0.5454,61.59,USD,-28.819222116840002,-0.28819362475824,-29.107415741598246
+Transaction History,Data,2026-05-18,U***53676,BROADCOM INC,Buy,AVGO,7.0E-4,420.72,USD,-0.25266676176,-1.71588E-9,-0.25266676347588
+Transaction History,Data,2026-05-18,U***53676,REALTY INCOME CORP,Buy,O,32.0,61.45,USD,-1687.0532160000002,-0.5698301410716,-1687.6230461410719
+Transaction History,Data,2026-05-18,U***53676,VERIZON COMMUNICATIONS INC,Buy,VZ,0.0014,46.47,USD,-0.05581586052,-3.43176E-9,-0.055815863951760004
+Transaction History,Data,2026-05-18,U***53676,ALTRIA GROUP INC,Buy,MO,0.8255,73.23,USD,-51.8636440881,-2.12511738E-6,-51.863646213217386
+Transaction History,Data,2026-05-18,U***53676,EXXON MOBIL CORP,Buy,XOM,6.0,157.48,USD,-810.6503472,-0.8579554429200001,-811.50830264292
+Transaction History,Data,2026-05-18,U***53676,EXXON MOBIL CORP,Buy,XOM,0.351,156.9633,USD,-47.267447854302,-9.0341082E-7,-47.26744875771282
+Transaction History,Data,2026-05-18,U***53676,EXXON MOBIL CORP,Buy,XOM,1.0E-4,157.01,USD,-0.01347051594,-,-0.01347051594
+Transaction History,Data,2026-05-18,U***53676,REALTY INCOME CORP,Buy,O,1.0E-4,61.6,USD,-0.0052849104,-,-0.0052849104
+Transaction History,Data,2026-05-18,U***53676,ALTRIA GROUP INC,Buy,MO,0.0014,73.19,USD,-0.08790968004000001,-3.43176E-9,-0.08790968347176001
+Transaction History,Data,2026-05-18,U***53676,"Net Amount in Base from Forex Trade: -1,998.11 EUR.USD",Forex Trade Component,EUR.USD,-1998.11,1.16442,USD,-1.9931251151720062,-,-1.9931251151720062
+Transaction History,Data,2026-05-18,U***53676,"Net Amount in Base from Forex Trade: -3,047.22 EUR.USD",Forex Trade Component,EUR.USD,-3047.22,1.1644,USD,-3.0919044340794244,-,-3.0919044340794244
+Transaction History,Data,2026-05-18,U***53676,Net Amount in Base from Forex Trade: -81.55 EUR.USD,Forex Trade Component,EUR.USD,-81.55,1.16349,USD,-0.1464140055699943,-,-0.1464140055699943
+Transaction History,Data,2026-05-18,U***53676,Net Amount in Base from Forex Trade: -18.37 EUR.USD,Forex Trade Component,EUR.USD,-18.37,1.16349,USD,-0.03298130327799953,-,-0.03298130327799953
+Transaction History,Data,2026-05-18,U***53676,Net Amount in Base from Forex Trade: -0.08 EUR.USD,Forex Trade Component,EUR.USD,-0.08,1.16434,USD,-8.529123200000377E-5,-,-8.529123200000377E-5
+Transaction History,Data,2026-05-18,U***53676,Net Amount in Base from Forex Trade: -0.91 EUR.USD,Forex Trade Component,EUR.USD,-0.91,1.16339,USD,-0.0017118768939999862,-,-0.0017118768939999862
+Transaction History,Data,2026-05-18,U***53676,Net Amount in Base from Forex Trade: -859.49 EUR.USD,Forex Trade Component,EUR.USD,-859.49,1.16339,USD,-1.6168583204658944,-,-1.6168583204658944
+Transaction History,Data,2026-05-18,U***53676,EXXON MOBIL CORP,Buy,XOM,0.6396,157.13,USD,-86.22326856312,-0.8579416463868601,-87.08121020950686
+Transaction History,Data,2026-05-18,U***53676,EXXON MOBIL CORP,Buy,XOM,7.0,157.07,USD,-943.2964506000001,-1.801674E-5,-943.2964686167401
+Transaction History,Data,2026-05-18,U***53676,"Net Amount in Base from Forex Trade: -1,031.58 EUR.USD",Forex Trade Component,EUR.USD,-1031.58,1.16409,USD,-1.3210675501320566,-,-1.3210675501320566
+Transaction History,Data,2026-05-18,U***53676,Net Amount in Base from Forex Trade: -0.12 EUR.USD,Forex Trade Component,EUR.USD,-0.12,1.16409,USD,-1.5367504799998488E-4,-,-1.5367504799998488E-4
+Transaction History,Data,2026-05-15,U***53676,O(US7561091049) Cash Dividend USD 0.2705 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.4857161,-,10.4857161
+Transaction History,Data,2026-05-15,U***53676,O(US7561091049) Cash Dividend USD 0.2705 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5741477000000001,-,-1.5741477000000001
+Transaction History,Data,2026-05-15,U***53676,PG(US7427181091) Cash Dividend USD 1.0885 per Share (Ordinary Dividend),Dividend,PG,-,-,-,3.4665657000000003,-,3.4665657000000003
+Transaction History,Data,2026-05-15,U***53676,PG(US7427181091) Cash Dividend USD 1.0885 per Share - US Tax,Foreign Tax Withholding,PG,-,-,-,-0.516114,-,-0.516114
+Transaction History,Data,2026-05-07,U***53676,INVESCO NASDAQ-100 DIST,Sell,EQQQ,-0.939,597.05,EUR,560.62995,-1.25,559.37995
+Transaction History,Data,2026-05-07,U***53676,INVESCO NASDAQ-100 DIST,Sell,EQQQ,-3.0,597.05,EUR,1791.15,-1.75,1789.4
+Transaction History,Data,2026-05-07,U***53676,ISHARES CORE S&P 500,Sell,CSPX,-0.8405,792.17,USD,567.9168761496001,-1.450032,566.4668441496
+Transaction History,Data,2026-05-07,U***53676,ISHARES CORE S&P 500,Sell,CSPX,-5.0,792.17,USD,3378.446616,-1.961808,3376.484808
+Transaction History,Data,2026-05-07,U***53676,VANG FTSE AW USDA,Buy,VWCE,41.0,158.04,EUR,-6479.64,-3.23982,-6482.87982
+Transaction History,Data,2026-05-07,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.1288,158.04,EUR,-20.355552,-0.010177776,-20.365729776
+Transaction History,Data,2026-05-07,U***53676,VANG FTSE HDY USDD,Buy,VHYL,66.0,75.73,EUR,-4998.18,-3.0,-5001.18
+Transaction History,Data,2026-05-07,U***53676,VANG FTSE HDY USDD,Buy,VHYL,6.0,75.7,EUR,-454.2,-0.75,-454.95
+Transaction History,Data,2026-05-07,U***53676,VANG FTSE HDY USDD,Buy,VHYL,0.6288,75.73,EUR,-47.619024,-,-47.619024
+Transaction History,Data,2026-05-07,U***53676,"Net Amount in Base from Forex Trade: 5,569.71 EUR.USD",Forex Trade Component,EUR.USD,5569.71,1.17751,USD,-24.3336708824163,-,-24.3336708824163
+Transaction History,Data,2026-05-07,U***53676,Net Amount in Base from Forex Trade: 0.03801125 EUR.USD,Forex Trade Component,EUR.USD,0.03801125,1.17275172,USD,-1.1799581440000151E-5,-,-1.1799581440000151E-5
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.8833,156.82,EUR,-138.519106,-1.25,-139.769106
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE AW USDA,Buy,VWCE,31.0,156.82,EUR,-4861.42,-1.75,-4863.17
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE AW USDA,Buy,VWCE,3.0E-4,156.82,EUR,-0.047046,-,-0.047046
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE HDY USDD,Buy,VHYL,0.7407,76.056,EUR,-56.3346792,-1.25,-57.5846792
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE HDY USDD,Buy,VHYL,10.0,76.056,EUR,-760.56,-2.5,-763.06
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE HDY USDD,Buy,VHYL,55.0,76.056,EUR,-4183.08,-0.75,-4183.83
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE HDY USDD,Buy,VHYL,3.0E-4,76.056,EUR,-0.0228168,-,-0.0228168
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE AW USDA,Buy,VWCE,22.0,156.86,EUR,-3450.92,-3.0,-3453.92
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.3128,156.86,EUR,-49.065808,-,-49.065808
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE HDY USDD,Buy,VHYL,19.0,76.09,EUR,-1445.71,-3.0,-1448.71
+Transaction History,Data,2026-05-06,U***53676,VANG FTSE HDY USDD,Buy,VHYL,0.7134,76.09,EUR,-54.282606,-,-54.282606
+Transaction History,Data,2026-05-06,U***53676,Net Amount in Base from Forex Trade: 508.6 EUR.USD,Forex Trade Component,EUR.USD,508.6,1.17331,USD,0.6562267954600429,-,0.6562267954600429
+Transaction History,Data,2026-05-06,U***53676,"Net Amount in Base from Forex Trade: 4,240.7 EUR.USD",Forex Trade Component,EUR.USD,4240.7,1.17905,USD,-16.958171578650017,-1.71044,-16.958171578650017
+Transaction History,Data,2026-05-06,U***53676,ALTRIA GROUP INC,Sell,MO,-5.0,72.02,USD,306.51351900000003,-0.8583468565914001,305.6551721434086
+Transaction History,Data,2026-05-06,U***53676,AT&T INC,Sell,T,-24.0,25.89,USD,528.8954184,-0.86613010049904,528.029288299501
+Transaction History,Data,2026-05-06,U***53676,ALTRIA GROUP INC,Sell,MO,-0.56,72.2,USD,34.41531408,-8.0333524701E-4,34.41451074475299
+Transaction History,Data,2026-05-05,U***53676,VANG FTSE HDY USDD,Buy,VHYL,66.0,75.228,EUR,-4965.048,-3.75,-4968.798
+Transaction History,Data,2026-05-05,U***53676,VANG FTSE HDY USDD,Buy,VHYL,0.4646,75.22,EUR,-34.947212,-,-34.947212
+Transaction History,Data,2026-05-05,U***53676,VANG FTSE AW USDA,Buy,VWCE,64.0,155.94,EUR,-9980.16,-4.99008,-9985.15008
+Transaction History,Data,2026-05-05,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.1272,155.94,EUR,-19.835568,-0.009917784,-19.845485783999997
+Transaction History,Data,2026-05-05,U***53676,PFIZER INC,Sell,PFE,-0.5422,26.17,USD,12.13503643228,-0.12169215898233998,12.01334427329766
+Transaction History,Data,2026-05-05,U***53676,PFIZER INC,Sell,PFE,-56.0,26.1707,USD,1253.3755390239999,-0.7691718515516,1252.6063671724482
+Transaction History,Data,2026-05-05,U***53676,ALTRIA GROUP INC,Sell,MO,-33.0,73.38,USD,2070.9494388,-0.9034695659192798,2070.045969234081
+Transaction History,Data,2026-05-05,U***53676,VERIZON COMMUNICATIONS INC,Sell,VZ,-16.0,47.565,USD,650.8566288,-0.8713369835132799,649.9852918164867
+Transaction History,Data,2026-05-05,U***53676,JOHNSON & JOHNSON,Buy,JNJ,0.2126,225.98,USD,-41.08763207656,-0.41087686639596,-41.49850894295596
+Transaction History,Data,2026-05-05,U***53676,JOHNSON & JOHNSON,Buy,JNJ,2.0,225.973,USD,-386.51325812,-0.44434881055439995,-386.9576069305544
+Transaction History,Data,2026-05-05,U***53676,COCA-COLA CO/THE,Buy,KO,1.0,78.428,USD,-67.07319416,-0.67073450726,-67.74392866726
+Transaction History,Data,2026-05-05,U***53676,COCA-COLA CO/THE,Buy,KO,5.0,78.4293,USD,-335.37152973,-0.1845008867,-335.5560306167
+Transaction History,Data,2026-05-05,U***53676,COCA-COLA CO/THE,Buy,KO,0.3751,78.4262,USD,-25.158577701976398,-9.621225E-7,-25.1585786640989
+Transaction History,Data,2026-05-05,U***53676,BROADCOM INC,Buy,AVGO,1.0,430.15,USD,-367.87288299999994,-0.85522256566,-368.72810556566
+Transaction History,Data,2026-05-05,U***53676,REALTY INCOME CORP,Buy,O,7.0,63.665,USD,-381.13306909999994,-0.85523795962,-381.98830705961996
+Transaction History,Data,2026-05-05,U***53676,REALTY INCOME CORP,Buy,O,0.8535,63.67,USD,-46.4746602909,-2.19021842E-6,-46.47466248111842
+Transaction History,Data,2026-05-05,U***53676,BROADCOM INC,Buy,AVGO,0.1623,430.18,USD,-59.709932977079994,-4.1649213999999997E-7,-59.70993339357213
+Transaction History,Data,2026-05-05,U***53676,ALPHABET INC-CL C,Buy,GOOG,1.0E-4,382.22,USD,-0.03268821884,-0.0085522,-0.04124041884
+Transaction History,Data,2026-05-05,U***53676,ALPHABET INC-CL C,Buy,GOOG,1.0,382.2,USD,-326.86508399999997,-0.84667036566,-327.71175436566
+Transaction History,Data,2026-05-05,U***53676,ALPHABET INC-CL C,Buy,GOOG,0.3081,382.21,USD,-100.70976731322,-7.902232799999999E-7,-100.70976810344328
+Transaction History,Data,2026-05-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share (Ordinary Dividend),Dividend,PNC,-,-,-,0.8894288,-,0.8894288
+Transaction History,Data,2026-05-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share - US Tax,Foreign Tax Withholding,PNC,-,-,-,-0.1368352,-,-0.1368352
+Transaction History,Data,2026-05-04,U***53676,ISHARES USD TRSRY 1-3Y USD D,Sell,IBTS,-22.0,108.46,EUR,2386.12,-3.75,2382.37
+Transaction History,Data,2026-05-04,U***53676,ISHARES USD TRSRY 1-3Y USD D,Sell,IBTS,-9.0,108.46,EUR,976.14,-0.75,975.39
+Transaction History,Data,2026-05-04,U***53676,ISHARES USD TRSRY 1-3Y USD D,Sell,IBTS,-9.0,108.46,EUR,976.14,-0.75,975.39
+Transaction History,Data,2026-05-04,U***53676,Electronic Fund Transfer,Deposit,-,-,-,-,10000.0,-,10000.0
+Transaction History,Data,2026-05-04,U***53676,Electronic Fund Transfer,Deposit,-,-,-,-,15000.0,-,15000.0
+Transaction History,Data,2026-05-04,U***53676,PEPSICO INC,Sell,PEP,-0.6161,155.9,USD,82.1563589465,-0.8233603530713001,81.3329985934287
+Transaction History,Data,2026-05-04,U***53676,COMCAST CORP-CLASS A,Sell,CMCSA,-0.7162,27.01,USD,16.5463711067,-0.16592586180410002,16.380445244895903
+Transaction History,Data,2026-05-04,U***53676,COMCAST CORP-CLASS A,Sell,CMCSA,-19.0,27.0,USD,438.79455,-0.702143283363,438.092406716637
+Transaction History,Data,2026-05-04,U***53676,HOME DEPOT INC,Sell,HD,-0.2949,320.82,USD,80.92450782630002,-0.8109620667962001,80.11354575950381
+Transaction History,Data,2026-05-04,U***53676,PROCTER & GAMBLE CO/THE,Sell,PG,-0.7018,145.25,USD,87.1913425075,-0.8572649977814502,86.33407750971855
+Transaction History,Data,2026-05-04,U***53676,PROCTER & GAMBLE CO/THE,Sell,PG,-3.0,145.47,USD,373.28329350000007,-0.008197713746100002,373.275095786254
+Transaction History,Data,2026-05-04,U***53676,STELLANTIS NV,Sell,STLA,-10.0,7.24,USD,61.92734000000001,-0.6307961962040001,61.29654380379601
+Transaction History,Data,2026-05-04,U***53676,STELLANTIS NV,Sell,STLA,-50.0,7.24,USD,309.6367,-0.24236958102,309.39433041898
+Transaction History,Data,2026-05-04,U***53676,STELLANTIS NV,Sell,STLA,-34.0,7.24,USD,210.55295600000002,-0.0100956070936,210.54286039290642
+Transaction History,Data,2026-05-04,U***53676,MICROSOFT CORP,Sell,MSFT,-1.0,411.44,USD,351.925204,-0.8627690185024001,351.06243498149763
+Transaction History,Data,2026-05-04,U***53676,MICROSOFT CORP,Sell,MSFT,-0.1437,412.2,USD,50.665066299,-0.00106803705425,50.66399826194576
+Transaction History,Data,2026-05-01,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share (Ordinary Dividend),Dividend,T,-,-,-,11.560589000000002,-,11.560589000000002
+Transaction History,Data,2026-05-01,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share - US Tax,Foreign Tax Withholding,T,-,-,-,-1.7319554,-,-1.7319554
+Transaction History,Data,2026-05-01,U***53676,VZ(US92343V1044) Cash Dividend USD 0.7075 per Share (Ordinary Dividend),Dividend,VZ,-,-,-,18.872341600000002,-,18.872341600000002
+Transaction History,Data,2026-05-01,U***53676,VZ(US92343V1044) Cash Dividend USD 0.7075 per Share - US Tax,Foreign Tax Withholding,VZ,-,-,-,-2.8325576,-,-2.8325576
+Transaction History,Data,2026-04-30,U***53676,MO(US02209S1033) Cash Dividend USD 1.06 per Share (Ordinary Dividend),Dividend,MO,-,-,-,71.03049200000001,-,71.03049200000001
+Transaction History,Data,2026-04-30,U***53676,MO(US02209S1033) Cash Dividend USD 1.06 per Share - US Tax,Foreign Tax Withholding,MO,-,-,-,-10.655000000000001,-,-10.655000000000001
+Transaction History,Data,2026-04-22,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share (Ordinary Dividend),Dividend,CMCSA,-,-,-,5.5612977,-,5.5612977
+Transaction History,Data,2026-04-22,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share - US Tax,Foreign Tax Withholding,CMCSA,-,-,-,-0.8371846,-,-0.8371846
+Transaction History,Data,2026-04-15,U***53676,O(US7561091049) Cash Dividend USD 0.2705 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.331025,-,10.331025
+Transaction History,Data,2026-04-15,U***53676,O(US7561091049) Cash Dividend USD 0.2705 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.550925,-,-1.550925
+Transaction History,Data,2026-04-01,U***53676,KO(US1912161007) Cash Dividend USD 0.53 per Share (Ordinary Dividend),Dividend,KO,-,-,-,7.342428,-,7.342428
+Transaction History,Data,2026-04-01,U***53676,KO(US1912161007) Cash Dividend USD 0.53 per Share - US Tax,Foreign Tax Withholding,KO,-,-,-,-1.104384,-,-1.104384
+Transaction History,Data,2026-04-01,U***53676,VHYL(IE00B8GKDB10) Cash Dividend USD 0.428952 per Share (Mixed Income),Dividend,VHYL,-,-,-,100.182428,-,100.182428
+Transaction History,Data,2026-03-31,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share (Ordinary Dividend),Dividend,PEP,-,-,-,0.7617104,-,0.7617104
+Transaction History,Data,2026-03-31,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share - US Tax,Foreign Tax Withholding,PEP,-,-,-,-0.11252540000000001,-,-0.11252540000000001
+Transaction History,Data,2026-03-31,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.65 per Share (Ordinary Dividend),Dividend,AVGO,-,-,-,0.3202646,-,0.3202646
+Transaction History,Data,2026-03-31,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.65 per Share - US Tax,Foreign Tax Withholding,AVGO,-,-,-,-0.051934799999999996,-,-0.051934799999999996
+Transaction History,Data,2026-03-31,U***53676,IBTS(IE00B14X4S71) Cash Dividend USD 2.4799 per Share (Mixed Income),Dividend,IBTS,-,-,-,163.63002,-,163.63002
+Transaction History,Data,2026-03-31,U***53676,IHYG(IE00B66F4759) Cash Dividend EUR 2.3303 per Share (Mixed Income),Dividend,IHYG,-,-,-,16.35,-,16.35
+Transaction History,Data,2026-03-27,U***53676,LMT(US5398301094) Cash Dividend USD 3.45 per Share (Ordinary Dividend),Dividend,LMT,-,-,-,0.6428972,-,0.6428972
+Transaction History,Data,2026-03-27,U***53676,LMT(US5398301094) Cash Dividend USD 3.45 per Share - US Tax,Foreign Tax Withholding,LMT,-,-,-,-0.0955658,-,-0.0955658
+Transaction History,Data,2026-03-26,U***53676,HD(US4370761029) Cash Dividend USD 2.33 per Share (Ordinary Dividend),Dividend,HD,-,-,-,0.5985336,-,0.5985336
+Transaction History,Data,2026-03-26,U***53676,HD(US4370761029) Cash Dividend USD 2.33 per Share - US Tax,Foreign Tax Withholding,HD,-,-,-,-0.086744,-,-0.086744
+Transaction History,Data,2026-03-19,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share (Ordinary Dividend),Dividend,RTX,-,-,-,0.5781363,-,0.5781363
+Transaction History,Data,2026-03-19,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share - US Tax,Foreign Tax Withholding,RTX,-,-,-,-0.086289,-,-0.086289
+Transaction History,Data,2026-03-19,U***53676,EQQQ(IE0032077012) Cash Dividend USD 0.3709 per Share (Mixed Income),Dividend,EQQQ,-,-,-,1.2618196,-,1.2618196
+Transaction History,Data,2026-03-16,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share (Ordinary Dividend),Dividend,GOOG,-,-,-,0.3650472,-,0.3650472
+Transaction History,Data,2026-03-16,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share - US Tax,Foreign Tax Withholding,GOOG,-,-,-,-0.0521496,-,-0.0521496
+Transaction History,Data,2026-03-13,U***53676,O(US7561091049) Cash Dividend USD 0.27 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.6598247,-,10.6598247
+Transaction History,Data,2026-03-13,U***53676,O(US7561091049) Cash Dividend USD 0.27 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.6029153,-,-1.6029153
+Transaction History,Data,2026-03-12,U***53676,MSFT(US5949181045) Cash Dividend USD 0.91 per Share (Ordinary Dividend),Dividend,MSFT,-,-,-,0.9034688000000001,-,0.9034688000000001
+Transaction History,Data,2026-03-12,U***53676,MSFT(US5949181045) Cash Dividend USD 0.91 per Share - US Tax,Foreign Tax Withholding,MSFT,-,-,-,-0.1389952,-,-0.1389952
+Transaction History,Data,2026-03-11,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share (Ordinary Dividend),Dividend,NOC,-,-,-,0.4582062,-,0.4582062
+Transaction History,Data,2026-03-11,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share - US Tax,Foreign Tax Withholding,NOC,-,-,-,-0.0691632,-,-0.0691632
+Transaction History,Data,2026-03-10,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share (Ordinary Dividend),Dividend,JNJ,-,-,-,13.315852600000001,-,13.315852600000001
+Transaction History,Data,2026-03-10,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share - US Tax,Foreign Tax Withholding,JNJ,-,-,-,-1.9982392,-,-1.9982392
+Transaction History,Data,2026-03-10,U***53676,XOM(US30231G1022) Cash Dividend USD 1.03 per Share (Ordinary Dividend),Dividend,XOM,-,-,-,0.8010183000000001,-,0.8010183000000001
+Transaction History,Data,2026-03-10,U***53676,XOM(US30231G1022) Cash Dividend USD 1.03 per Share - US Tax,Foreign Tax Withholding,XOM,-,-,-,-0.12058340000000002,-,-0.12058340000000002
+Transaction History,Data,2026-03-06,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share (Ordinary Dividend),Dividend,PFE,-,-,-,20.9258049,-,20.9258049
+Transaction History,Data,2026-03-06,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share - US Tax,Foreign Tax Withholding,PFE,-,-,-,-3.1418835,-,-3.1418835
+Transaction History,Data,2026-03-06,U***53676,AMGN(US0311621009) Cash Dividend USD 2.52 per Share (Ordinary Dividend),Dividend,AMGN,-,-,-,0.6972399000000001,-,0.6972399000000001
+Transaction History,Data,2026-03-06,U***53676,AMGN(US0311621009) Cash Dividend USD 2.52 per Share - US Tax,Foreign Tax Withholding,AMGN,-,-,-,-0.1032948,-,-0.1032948
+Transaction History,Data,2026-02-27,U***53676,FGQI(IE00BYXVGZ48) Cash Dividend USD 0.036013 per Share (Mixed Income),Dividend,FGQI,-,-,-,1.0247804,-,1.0247804
+Transaction History,Data,2026-02-17,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share (Ordinary Dividend),Dividend,PG,-,-,-,3.2983196,-,3.2983196
+Transaction History,Data,2026-02-17,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share - US Tax,Foreign Tax Withholding,PG,-,-,-,-0.4977004,-,-0.4977004
+Transaction History,Data,2026-02-13,U***53676,O(US7561091049) Cash Dividend USD 0.27 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.2541986,-,10.2541986
+Transaction History,Data,2026-02-13,U***53676,O(US7561091049) Cash Dividend USD 0.27 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5419214,-,-1.5419214
+Transaction History,Data,2026-02-10,U***53676,TXN(US8825081040) Cash Dividend USD 1.42 per Share (Ordinary Dividend),Dividend,TXN,-,-,-,0.588483,-,0.588483
+Transaction History,Data,2026-02-10,U***53676,TXN(US8825081040) Cash Dividend USD 1.42 per Share - US Tax,Foreign Tax Withholding,TXN,-,-,-,-0.0924759,-,-0.0924759
+Transaction History,Data,2026-02-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share (Ordinary Dividend),Dividend,PNC,-,-,-,0.8829704,-,0.8829704
+Transaction History,Data,2026-02-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share - US Tax,Foreign Tax Withholding,PNC,-,-,-,-0.1358416,-,-0.1358416
+Transaction History,Data,2026-02-04,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share (Ordinary Dividend),Dividend,CMCSA,-,-,-,5.5142304,-,5.5142304
+Transaction History,Data,2026-02-04,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share - US Tax,Foreign Tax Withholding,CMCSA,-,-,-,-0.8300992,-,-0.8300992
+Transaction History,Data,2026-02-02,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share (Ordinary Dividend),Dividend,T,-,-,-,11.4924325,-,11.4924325
+Transaction History,Data,2026-02-02,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share - US Tax,Foreign Tax Withholding,T,-,-,-,-1.7217444999999998,-,-1.7217444999999998
+Transaction History,Data,2026-02-02,U***53676,VZ(US92343V1044) Cash Dividend USD 0.69 per Share (Ordinary Dividend),Dividend,VZ,-,-,-,18.303077,-,18.303077
+Transaction History,Data,2026-02-02,U***53676,VZ(US92343V1044) Cash Dividend USD 0.69 per Share - US Tax,Foreign Tax Withholding,VZ,-,-,-,-2.748006,-,-2.748006
+Transaction History,Data,2026-01-30,U***53676,O(US7561091049) Cash Dividend USD 0.264 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,0.337548,-,0.337548
+Transaction History,Data,2026-01-30,U***53676,O(US7561091049) Cash Dividend USD 0.264 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-0.22784490000000002,-,-0.22784490000000002
+Transaction History,Data,2026-01-15,U***53676,O(US7561091049) Cash Dividend USD 0.27 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.4833597,-,10.4833597
+Transaction History,Data,2026-01-15,U***53676,O(US7561091049) Cash Dividend USD 0.27 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5763803,-,-1.5763803
+Transaction History,Data,2026-01-09,U***53676,MO(US02209S1033) Cash Dividend USD 1.06 per Share (Ordinary Dividend),Dividend,MO,-,-,-,71.6254682,-,71.6254682
+Transaction History,Data,2026-01-09,U***53676,MO(US02209S1033) Cash Dividend USD 1.06 per Share - US Tax,Foreign Tax Withholding,MO,-,-,-,-10.74425,-,-10.74425
+Transaction History,Data,2026-01-06,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share (Ordinary Dividend),Dividend,PEP,-,-,-,0.752884,-,0.752884
+Transaction History,Data,2026-01-06,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share - US Tax,Foreign Tax Withholding,PEP,-,-,-,-0.11122150000000001,-,-0.11122150000000001
+Transaction History,Data,2026-01-05,U***53676,VERSANT MEDIA GROUP INC-WI,Sell,VSNT,-0.7886,41.72,USD,28.067982423039997,-0.28081101446464,27.787171408575357
+Transaction History,Data,2025-12-31,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.65 per Share (Ordinary Dividend),Dividend,AVGO,-,-,-,0.3149995,-,0.3149995
+Transaction History,Data,2025-12-31,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.65 per Share - US Tax,Foreign Tax Withholding,AVGO,-,-,-,-0.051081,-,-0.051081
+Transaction History,Data,2025-12-31,U***53676,VHYL(IE00B8GKDB10) Cash Dividend USD 0.459981 per Share (Mixed Income),Dividend,VHYL,-,-,-,105.7701096,-,105.7701096
+Transaction History,Data,2025-12-30,U***53676,LMT(US5398301094) Cash Dividend USD 3.45 per Share (Ordinary Dividend),Dividend,LMT,-,-,-,0.6299028,-,0.6299028
+Transaction History,Data,2025-12-30,U***53676,LMT(US5398301094) Cash Dividend USD 3.45 per Share - US Tax,Foreign Tax Withholding,LMT,-,-,-,-0.0936342,-,-0.0936342
+Transaction History,Data,2025-12-23,U***53676,ENG(ES0130960018) Cash Dividend EUR 0.40 per Share (Ordinary Dividend),Dividend,ENG,-,-,-,6.09,-,6.09
+Transaction History,Data,2025-12-23,U***53676,ENG(ES0130960018) Cash Dividend EUR 0.40 per Share - ES Tax,Foreign Tax Withholding,ENG,-,-,-,-1.14,-,-1.14
+Transaction History,Data,2025-12-18,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share (Ordinary Dividend),Dividend,HD,-,-,-,0.5799924,-,0.5799924
+Transaction History,Data,2025-12-18,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share - US Tax,Foreign Tax Withholding,HD,-,-,-,-0.08529300000000001,-,-0.08529300000000001
+Transaction History,Data,2025-12-18,U***53676,EQQQ(IE0032077012) Cash Dividend USD 0.415 per Share (Mixed Income),Dividend,EQQQ,-,-,-,1.3921178,-,1.3921178
+Transaction History,Data,2025-12-17,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share (Ordinary Dividend),Dividend,NOC,-,-,-,0.4514328,-,0.4514328
+Transaction History,Data,2025-12-17,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share - US Tax,Foreign Tax Withholding,NOC,-,-,-,-0.0681408,-,-0.0681408
+Transaction History,Data,2025-12-15,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share (Ordinary Dividend),Dividend,KO,-,-,-,6.968051999999999,-,6.968051999999999
+Transaction History,Data,2025-12-15,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share - US Tax,Foreign Tax Withholding,KO,-,-,-,-1.046484,-,-1.046484
+Transaction History,Data,2025-12-15,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share (Ordinary Dividend),Dividend,GOOG,-,-,-,0.357336,-,0.357336
+Transaction History,Data,2025-12-15,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share - US Tax,Foreign Tax Withholding,GOOG,-,-,-,-0.051047999999999996,-,-0.051047999999999996
+Transaction History,Data,2025-12-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.328712000000001,-,10.328712000000001
+Transaction History,Data,2025-12-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.548456,-,-1.548456
+Transaction History,Data,2025-12-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-12-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0210827,-,-1.0210827
+Transaction History,Data,2025-12-12,U***53676,AMGN(US0311621009) Cash Dividend USD 2.38 per Share - US Tax,Foreign Tax Withholding,AMGN,-,-,-,-0.0936958,-,-0.0936958
+Transaction History,Data,2025-12-12,U***53676,AMGN(US0311621009) Cash Dividend USD 2.38 per Share (Ordinary Dividend),Dividend,AMGN,-,-,-,0.6473528,-,0.6473528
+Transaction History,Data,2025-12-11,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share (Ordinary Dividend),Dividend,RTX,-,-,-,0.5707998000000001,-,0.5707998000000001
+Transaction History,Data,2025-12-11,U***53676,MSFT(US5949181045) Cash Dividend USD 0.91 per Share (Ordinary Dividend),Dividend,MSFT,-,-,-,0.8860176000000001,-,0.8860176000000001
+Transaction History,Data,2025-12-11,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share - US Tax,Foreign Tax Withholding,RTX,-,-,-,-0.085194,-,-0.085194
+Transaction History,Data,2025-12-11,U***53676,MSFT(US5949181045) Cash Dividend USD 0.91 per Share - US Tax,Foreign Tax Withholding,MSFT,-,-,-,-0.1363104,-,-0.1363104
+Transaction History,Data,2025-12-10,U***53676,XOM(US30231G1022) Cash Dividend USD 1.03 per Share - US Tax,Foreign Tax Withholding,XOM,-,-,-,-0.11970280000000001,-,-0.11970280000000001
+Transaction History,Data,2025-12-10,U***53676,XOM(US30231G1022) Cash Dividend USD 1.03 per Share (Ordinary Dividend),Dividend,XOM,-,-,-,0.7951686,-,0.7951686
+Transaction History,Data,2025-12-09,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share (Ordinary Dividend),Dividend,JNJ,-,-,-,13.2974552,-,13.2974552
+Transaction History,Data,2025-12-09,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share - US Tax,Foreign Tax Withholding,JNJ,-,-,-,-1.9954783999999999,-,-1.9954783999999999
+Transaction History,Data,2025-12-01,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share (Ordinary Dividend),Dividend,PFE,-,-,-,20.9399047,-,20.9399047
+Transaction History,Data,2025-12-01,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share - US Tax,Foreign Tax Withholding,PFE,-,-,-,-3.1440004999999998,-,-3.1440004999999998
+Transaction History,Data,2025-11-28,U***53676,FGQI(IE00BYXVGZ48) Cash Dividend USD 0.043701 per Share (Mixed Income),Dividend,FGQI,-,-,-,1.2403727999999998,-,1.2403727999999998
+Transaction History,Data,2025-11-17,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share (Ordinary Dividend),Dividend,PG,-,-,-,3.3730006,-,3.3730006
+Transaction History,Data,2025-11-17,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share - US Tax,Foreign Tax Withholding,PG,-,-,-,-0.5089694,-,-0.5089694
+Transaction History,Data,2025-11-14,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.4463486,-,10.4463486
+Transaction History,Data,2025-11-14,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5660918,-,-1.5660918
+Transaction History,Data,2025-11-14,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-11-14,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0210827,-,-1.0210827
+Transaction History,Data,2025-11-12,U***53676,TXN(US8825081040) Cash Dividend USD 1.42 per Share - US Tax,Foreign Tax Withholding,TXN,-,-,-,-0.0948838,-,-0.0948838
+Transaction History,Data,2025-11-12,U***53676,TXN(US8825081040) Cash Dividend USD 1.42 per Share (Ordinary Dividend),Dividend,TXN,-,-,-,0.603806,-,0.603806
+Transaction History,Data,2025-11-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share - US Tax,Foreign Tax Withholding,PNC,-,-,-,-0.1392208,-,-0.1392208
+Transaction History,Data,2025-11-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share (Ordinary Dividend),Dividend,PNC,-,-,-,0.9049351999999999,-,0.9049351999999999
+Transaction History,Data,2025-11-03,U***53676,VZ(US92343V1044) Cash Dividend USD 0.69 per Share (Ordinary Dividend),Dividend,VZ,-,-,-,18.733382199999998,-,18.733382199999998
+Transaction History,Data,2025-11-03,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share - US Tax,Foreign Tax Withholding,T,-,-,-,-1.7622227,-,-1.7622227
+Transaction History,Data,2025-11-03,U***53676,VZ(US92343V1044) Cash Dividend USD 0.69 per Share - US Tax,Foreign Tax Withholding,VZ,-,-,-,-2.8126116000000003,-,-2.8126116000000003
+Transaction History,Data,2025-11-03,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share (Ordinary Dividend),Dividend,T,-,-,-,11.762619500000001,-,11.762619500000001
+Transaction History,Data,2025-10-22,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share (Ordinary Dividend),Dividend,CMCSA,-,-,-,5.607062999999999,-,5.607062999999999
+Transaction History,Data,2025-10-22,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share - US Tax,Foreign Tax Withholding,CMCSA,-,-,-,-0.844074,-,-0.844074
+Transaction History,Data,2025-10-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0210827,-,-1.0210827
+Transaction History,Data,2025-10-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5625974000000002,-,-1.5625974000000002
+Transaction History,Data,2025-10-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-10-15,U***53676,O(US7561091049) Cash Dividend USD 0.2695 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.423039800000002,-,10.423039800000002
+Transaction History,Data,2025-10-10,U***53676,MO(US02209S1033) Cash Dividend USD 1.06 per Share - US Tax,Foreign Tax Withholding,MO,-,-,-,-10.756625,-,-10.756625
+Transaction History,Data,2025-10-10,U***53676,MO(US02209S1033) Cash Dividend USD 1.06 per Share (Ordinary Dividend),Dividend,MO,-,-,-,71.7079649,-,71.7079649
+Transaction History,Data,2025-10-01,U***53676,VHYL(IE00B8GKDB10) Cash Dividend USD 0.479961 per Share (Mixed Income),Dividend,VHYL,-,-,-,110.40281199999998,-,110.40281199999998
+Transaction History,Data,2025-10-01,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share (Ordinary Dividend),Dividend,KO,-,-,-,6.9814836,-,6.9814836
+Transaction History,Data,2025-10-01,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share - US Tax,Foreign Tax Withholding,KO,-,-,-,-1.0485012,-,-1.0485012
+Transaction History,Data,2025-09-30,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.59 per Share (Ordinary Dividend),Dividend,AVGO,-,-,-,0.289765,-,0.289765
+Transaction History,Data,2025-09-30,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.59 per Share - US Tax,Foreign Tax Withholding,AVGO,-,-,-,-0.0426125,-,-0.0426125
+Transaction History,Data,2025-09-30,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share (Ordinary Dividend),Dividend,PEP,-,-,-,0.74998,-,0.74998
+Transaction History,Data,2025-09-30,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share - US Tax,Foreign Tax Withholding,PEP,-,-,-,-0.1107925,-,-0.1107925
+Transaction History,Data,2025-09-26,U***53676,LMT(US5398301094) Cash Dividend USD 3.30 per Share - US Tax,Foreign Tax Withholding,LMT,-,-,-,-0.0940049,-,-0.0940049
+Transaction History,Data,2025-09-26,U***53676,LMT(US5398301094) Cash Dividend USD 3.30 per Share (Ordinary Dividend),Dividend,LMT,-,-,-,0.6067589,-,0.6067589
+Transaction History,Data,2025-09-24,U***53676,IBTS(IE00B14X4S71) Cash Dividend USD 2.6216 per Share (Mixed Income),Dividend,IBTS,-,-,-,171.8660427,-,171.8660427
+Transaction History,Data,2025-09-24,U***53676,IHYG(IE00B66F4759) Cash Dividend EUR 2.4173 per Share (Mixed Income),Dividend,IHYG,-,-,-,16.96,-,16.96
+Transaction History,Data,2025-09-18,U***53676,EQQQ(IE0032077012) Cash Dividend USD 0.4214 per Share (Mixed Income),Dividend,EQQQ,-,-,-,1.4132576,-,1.4132576
+Transaction History,Data,2025-09-18,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share (Ordinary Dividend),Dividend,HD,-,-,-,0.5769392,-,0.5769392
+Transaction History,Data,2025-09-18,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share - US Tax,Foreign Tax Withholding,HD,-,-,-,-0.084844,-,-0.084844
+Transaction History,Data,2025-09-17,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share (Ordinary Dividend),Dividend,NOC,-,-,-,0.4486662,-,0.4486662
+Transaction History,Data,2025-09-17,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share - US Tax,Foreign Tax Withholding,NOC,-,-,-,-0.0677232,-,-0.0677232
+Transaction History,Data,2025-09-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0210827,-,-1.0210827
+Transaction History,Data,2025-09-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-09-15,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share (Ordinary Dividend),Dividend,GOOG,-,-,-,0.3571092,-,0.3571092
+Transaction History,Data,2025-09-15,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share - US Tax,Foreign Tax Withholding,GOOG,-,-,-,-0.0510156,-,-0.0510156
+Transaction History,Data,2025-09-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.3051512,-,10.3051512
+Transaction History,Data,2025-09-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5474732,-,-1.5474732
+Transaction History,Data,2025-09-12,U***53676,AMGN(US0311621009) Cash Dividend USD 2.38 per Share (Ordinary Dividend),Dividend,AMGN,-,-,-,0.6476188,-,0.6476188
+Transaction History,Data,2025-09-12,U***53676,AMGN(US0311621009) Cash Dividend USD 2.38 per Share - US Tax,Foreign Tax Withholding,AMGN,-,-,-,-0.0937343,-,-0.0937343
+Transaction History,Data,2025-09-11,U***53676,MSFT(US5949181045) Cash Dividend USD 0.83 per Share (Ordinary Dividend),Dividend,MSFT,-,-,-,0.8095804999999999,-,0.8095804999999999
+Transaction History,Data,2025-09-11,U***53676,MSFT(US5949181045) Cash Dividend USD 0.83 per Share - US Tax,Foreign Tax Withholding,MSFT,-,-,-,-0.11930660000000001,-,-0.11930660000000001
+Transaction History,Data,2025-09-10,U***53676,XOM(US30231G1022) Cash Dividend USD 0.99 per Share (Ordinary Dividend),Dividend,XOM,-,-,-,0.7610746,-,0.7610746
+Transaction History,Data,2025-09-10,U***53676,XOM(US30231G1022) Cash Dividend USD 0.99 per Share - US Tax,Foreign Tax Withholding,XOM,-,-,-,-0.11116820000000001,-,-0.11116820000000001
+Transaction History,Data,2025-09-09,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share - US Tax,Foreign Tax Withholding,JNJ,-,-,-,-1.98128,-,-1.98128
+Transaction History,Data,2025-09-09,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share (Ordinary Dividend),Dividend,JNJ,-,-,-,13.20284,-,13.20284
+Transaction History,Data,2025-09-04,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share - US Tax,Foreign Tax Withholding,RTX,-,-,-,-0.085835,-,-0.085835
+Transaction History,Data,2025-09-04,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share (Ordinary Dividend),Dividend,RTX,-,-,-,0.5750945,-,0.5750945
+Transaction History,Data,2025-09-02,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share - US Tax,Foreign Tax Withholding,PFE,-,-,-,-3.135423,-,-3.135423
+Transaction History,Data,2025-09-02,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share (Ordinary Dividend),Dividend,PFE,-,-,-,20.8827762,-,20.8827762
+Transaction History,Data,2025-08-28,U***53676,FGQI(IE00BYXVGZ48) Cash Dividend USD 0.04649 per Share (Mixed Income),Dividend,FGQI,-,-,-,1.3092363,-,1.3092363
+Transaction History,Data,2025-08-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-08-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0210827,-,-1.0210827
+Transaction History,Data,2025-08-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.355934,-,10.355934
+Transaction History,Data,2025-08-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5550990000000002,-,-1.5550990000000002
+Transaction History,Data,2025-08-15,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share (Ordinary Dividend),Dividend,PG,-,-,-,3.3408995000000004,-,3.3408995000000004
+Transaction History,Data,2025-08-15,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share - US Tax,Foreign Tax Withholding,PG,-,-,-,-0.5041255,-,-0.5041255
+Transaction History,Data,2025-08-12,U***53676,TXN(US8825081040) Cash Dividend USD 1.36 per Share (Ordinary Dividend),Dividend,TXN,-,-,-,0.573922,-,0.573922
+Transaction History,Data,2025-08-12,U***53676,TXN(US8825081040) Cash Dividend USD 1.36 per Share - US Tax,Foreign Tax Withholding,TXN,-,-,-,-0.08566000000000001,-,-0.08566000000000001
+Transaction History,Data,2025-08-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share - US Tax,Foreign Tax Withholding,PNC,-,-,-,-0.1382272,-,-0.1382272
+Transaction History,Data,2025-08-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.70 per Share (Ordinary Dividend),Dividend,PNC,-,-,-,0.8984768000000001,-,0.8984768000000001
+Transaction History,Data,2025-08-01,U***53676,VZ(US92343V1044) Cash Dividend USD 0.6775 per Share - US Tax,Foreign Tax Withholding,VZ,-,-,-,-2.7443082000000003,-,-2.7443082000000003
+Transaction History,Data,2025-08-01,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share - US Tax,Foreign Tax Withholding,T,-,-,-,-1.7518696999999999,-,-1.7518696999999999
+Transaction History,Data,2025-08-01,U***53676,VZ(US92343V1044) Cash Dividend USD 0.6775 per Share (Ordinary Dividend),Dividend,VZ,-,-,-,18.2867581,-,18.2867581
+Transaction History,Data,2025-08-01,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share (Ordinary Dividend),Dividend,T,-,-,-,11.693514500000001,-,11.693514500000001
+Transaction History,Data,2025-07-23,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share - US Tax,Foreign Tax Withholding,CMCSA,-,-,-,-0.8325394,-,-0.8325394
+Transaction History,Data,2025-07-23,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share (Ordinary Dividend),Dividend,CMCSA,-,-,-,5.5304402999999995,-,5.5304402999999995
+Transaction History,Data,2025-07-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-07-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0210827,-,-1.0210827
+Transaction History,Data,2025-07-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.446470399999999,-,10.446470399999999
+Transaction History,Data,2025-07-15,U***53676,O(US7561091049) Cash Dividend USD 0.269 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5686944,-,-1.5686944
+Transaction History,Data,2025-07-10,U***53676,MO(US02209S1033) Cash Dividend USD 1.02 per Share - US Tax,Foreign Tax Withholding,MO,-,-,-,-10.2814395,-,-10.2814395
+Transaction History,Data,2025-07-10,U***53676,MO(US02209S1033) Cash Dividend USD 1.02 per Share (Ordinary Dividend),Dividend,MO,-,-,-,68.52583700000001,-,68.52583700000001
+Transaction History,Data,2025-07-03,U***53676,ENG(ES0130960018) Cash Dividend EUR 0.0009 per Share (Ordinary Dividend),Dividend,ENGe,-,-,-,0.01,-,0.01
+Transaction History,Data,2025-07-03,U***53676,ENG(ES0130960018) Cash Dividend EUR 0.5991 per Share (Bonus Dividend),Dividend,ENGe,-,-,-,9.13,-,9.13
+Transaction History,Data,2025-07-03,U***53676,ENG(ES0130960018) Cash Dividend EUR 0.5991 per Share - ES Tax,Foreign Tax Withholding,ENGe,-,-,-,-1.71,-,-1.71
+Transaction History,Data,2025-07-02,U***53676,VHYL(IE00B8GKDB10) Cash Dividend USD 0.884055 per Share (Mixed Income),Dividend,VHYL,-,-,-,202.63639,-,202.63639
+Transaction History,Data,2025-07-01,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share (Ordinary Dividend),Dividend,KO,-,-,-,6.9370119,-,6.9370119
+Transaction History,Data,2025-07-01,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share - US Tax,Foreign Tax Withholding,KO,-,-,-,-1.0418223,-,-1.0418223
+Transaction History,Data,2025-06-30,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share (Ordinary Dividend),Dividend,PEP,-,-,-,0.7465392,-,0.7465392
+Transaction History,Data,2025-06-30,U***53676,PEP(US7134481081) Cash Dividend USD 1.4225 per Share - US Tax,Foreign Tax Withholding,PEP,-,-,-,-0.1102842,-,-0.1102842
+Transaction History,Data,2025-06-30,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.59 per Share (Ordinary Dividend),Dividend,AVGO,-,-,-,0.2884356,-,0.2884356
+Transaction History,Data,2025-06-30,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.59 per Share - US Tax,Foreign Tax Withholding,AVGO,-,-,-,-0.042417,-,-0.042417
+Transaction History,Data,2025-06-27,U***53676,LMT(US5398301094) Cash Dividend USD 3.30 per Share (Ordinary Dividend),Dividend,LMT,-,-,-,0.6058004,-,0.6058004
+Transaction History,Data,2025-06-27,U***53676,LMT(US5398301094) Cash Dividend USD 3.30 per Share - US Tax,Foreign Tax Withholding,LMT,-,-,-,-0.0938564,-,-0.0938564
+Transaction History,Data,2025-06-20,U***53676,EQQQ(IE0032077012) Cash Dividend USD 0.5043 per Share (Mixed Income),Dividend,EQQQ,-,-,-,1.718763,-,1.718763
+Transaction History,Data,2025-06-18,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share - US Tax,Foreign Tax Withholding,HD,-,-,-,-0.087094,-,-0.087094
+Transaction History,Data,2025-06-18,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share (Ordinary Dividend),Dividend,HD,-,-,-,0.5922392000000001,-,0.5922392000000001
+Transaction History,Data,2025-06-18,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share (Ordinary Dividend),Dividend,NOC,-,-,-,0.46159820000000007,-,0.46159820000000007
+Transaction History,Data,2025-06-18,U***53676,NOC(US6668071029) Cash Dividend USD 2.31 per Share - US Tax,Foreign Tax Withholding,NOC,-,-,-,-0.0696752,-,-0.0696752
+Transaction History,Data,2025-06-16,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share (Ordinary Dividend),Dividend,GOOG,-,-,-,0.3632706,-,0.3632706
+Transaction History,Data,2025-06-16,U***53676,GOOG(US02079K1079) Cash Dividend USD 0.21 per Share - US Tax,Foreign Tax Withholding,GOOG,-,-,-,-0.0518958,-,-0.0518958
+Transaction History,Data,2025-06-13,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-06-13,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.474727999999999,-,10.474727999999999
+Transaction History,Data,2025-06-13,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.5755376,-,-1.5755376
+Transaction History,Data,2025-06-13,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share (Ordinary Dividend),Dividend,PFE,-,-,-,21.0446808,-,21.0446808
+Transaction History,Data,2025-06-13,U***53676,PFE(US7170811035) Cash Dividend USD 0.43 per Share - US Tax,Foreign Tax Withholding,PFE,-,-,-,-3.159732,-,-3.159732
+Transaction History,Data,2025-06-13,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0126439999999999,-,-1.0126439999999999
+Transaction History,Data,2025-06-12,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share (Ordinary Dividend),Dividend,RTX,-,-,-,0.5783373,-,0.5783373
+Transaction History,Data,2025-06-12,U***53676,RTX(US75513E1010) Cash Dividend USD 0.68 per Share - US Tax,Foreign Tax Withholding,RTX,-,-,-,-0.086319,-,-0.086319
+Transaction History,Data,2025-06-12,U***53676,MSFT(US5949181045) Cash Dividend USD 0.83 per Share (Ordinary Dividend),Dividend,MSFT,-,-,-,0.822396,-,0.822396
+Transaction History,Data,2025-06-12,U***53676,MSFT(US5949181045) Cash Dividend USD 0.83 per Share - US Tax,Foreign Tax Withholding,MSFT,-,-,-,-0.12119520000000002,-,-0.12119520000000002
+Transaction History,Data,2025-06-10,U***53676,XOM(US30231G1022) Cash Dividend USD 0.99 per Share (Ordinary Dividend),Dividend,XOM,-,-,-,0.7789369,-,0.7789369
+Transaction History,Data,2025-06-10,U***53676,XOM(US30231G1022) Cash Dividend USD 0.99 per Share - US Tax,Foreign Tax Withholding,XOM,-,-,-,-0.11377730000000001,-,-0.11377730000000001
+Transaction History,Data,2025-06-10,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share (Ordinary Dividend),Dividend,JNJ,-,-,-,13.530746600000002,-,13.530746600000002
+Transaction History,Data,2025-06-10,U***53676,JNJ(US4781601046) Cash Dividend USD 1.30 per Share - US Tax,Foreign Tax Withholding,JNJ,-,-,-,-2.0304872,-,-2.0304872
+Transaction History,Data,2025-06-06,U***53676,AMGN(US0311621009) Cash Dividend USD 2.38 per Share (Ordinary Dividend),Dividend,AMGN,-,-,-,0.6651596000000001,-,0.6651596000000001
+Transaction History,Data,2025-06-06,U***53676,AMGN(US0311621009) Cash Dividend USD 2.38 per Share - US Tax,Foreign Tax Withholding,AMGN,-,-,-,-0.0962731,-,-0.0962731
+Transaction History,Data,2025-05-22,U***53676,FGQI(IE00BYXVGZ48) Cash Dividend USD 0.063524 per Share (Mixed Income),Dividend,FGQI,-,-,-,1.847811,-,1.847811
+Transaction History,Data,2025-05-15,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share (Ordinary Dividend),Dividend,PG,-,-,-,0.5811325,-,0.5811325
+Transaction History,Data,2025-05-15,U***53676,PG(US7427181091) Cash Dividend USD 1.0568 per Share - US Tax,Foreign Tax Withholding,PG,-,-,-,-0.08940500000000001,-,-0.08940500000000001
+Transaction History,Data,2025-05-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.6271710000000001,-,-1.6271710000000001
+Transaction History,Data,2025-05-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.0126439999999999,-,-1.0126439999999999
+Transaction History,Data,2025-05-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.5358434,-,1.5358434
+Transaction History,Data,2025-05-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share (Ordinary Dividend),Dividend,O,-,-,-,10.818005,-,10.818005
+Transaction History,Data,2025-05-13,U***53676,TXN(US8825081040) Cash Dividend USD 1.36 per Share (Ordinary Dividend),Dividend,TXN,-,-,-,0.5990403000000001,-,0.5990403000000001
+Transaction History,Data,2025-05-13,U***53676,TXN(US8825081040) Cash Dividend USD 1.36 per Share - US Tax,Foreign Tax Withholding,TXN,-,-,-,-0.08940900000000002,-,-0.08940900000000002
+Transaction History,Data,2025-05-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.60 per Share (Ordinary Dividend),Dividend,PNC,-,-,-,0.8661142,-,0.8661142
+Transaction History,Data,2025-05-05,U***53676,PNC(US6934751057) Cash Dividend USD 1.60 per Share - US Tax,Foreign Tax Withholding,PNC,-,-,-,-0.13256849999999998,-,-0.13256849999999998
+Transaction History,Data,2025-05-05,U***53676,STLA(NL00150001Q9) Cash Dividend USD 0.773636 per Share (Ordinary Dividend),Dividend,STLA,-,-,-,63.95724,-,63.95724
+Transaction History,Data,2025-05-05,U***53676,STLA(NL00150001Q9) Cash Dividend USD 0.773636 per Share - NL Tax,Foreign Tax Withholding,STLA,-,-,-,-9.595345,-,-9.595345
+Transaction History,Data,2025-05-01,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share (Ordinary Dividend),Dividend,T,-,-,-,12.0008285,-,12.0008285
+Transaction History,Data,2025-05-01,U***53676,T(US00206R1023) Cash Dividend USD 0.2775 per Share - US Tax,Foreign Tax Withholding,T,-,-,-,-1.7979100999999997,-,-1.7979100999999997
+Transaction History,Data,2025-05-01,U***53676,VZ(US92343V1044) Cash Dividend USD 0.6775 per Share (Ordinary Dividend),Dividend,VZ,-,-,-,11.735127499999999,-,11.735127499999999
+Transaction History,Data,2025-05-01,U***53676,VZ(US92343V1044) Cash Dividend USD 0.6775 per Share - US Tax,Foreign Tax Withholding,VZ,-,-,-,-1.7624833,-,-1.7624833
+Transaction History,Data,2025-04-30,U***53676,MO(US02209S1033) Cash Dividend USD 1.02 per Share (Ordinary Dividend),Dividend,MO,-,-,-,70.77729140000001,-,70.77729140000001
+Transaction History,Data,2025-04-30,U***53676,MO(US02209S1033) Cash Dividend USD 1.02 per Share - US Tax,Foreign Tax Withholding,MO,-,-,-,-10.6192419,-,-10.6192419
+Transaction History,Data,2025-04-29,U***53676,VANG FTSE HDY USDD,Buy,VHYL,1.0E-4,61.59,EUR,-0.006159,-,-0.006159
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: 0.01238167 EUR.USD,Forex Trade Component,EUR.USD,0.01238167,1.13870059,USD,-2.4844406600003227E-6,-,-2.4844406600003227E-6
+Transaction History,Data,2025-04-29,U***53676,VANG FTSE HDY USDD,Buy,VHYL,0.1186,61.59,EUR,-7.304574,-,-7.304574
+Transaction History,Data,2025-04-29,U***53676,ISHARES USD TRSRY 1-3Y USD D,Buy,IBTS,0.4367,112.695,EUR,-49.2139065,-,-49.2139065
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.15 EUR.USD,Forex Trade Component,EUR.USD,-0.15,1.13651,USD,-2.585566949999951E-4,-,-2.585566949999951E-4
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -440 EUR.USD,Forex Trade Component,EUR.USD,-440.0,1.13796,USD,-0.19803291199997375,-,-0.19803291199997375
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.11 EUR.USD,Forex Trade Component,EUR.USD,-0.11,1.13651,USD,-1.8960824300001677E-4,-,-1.8960824300001677E-4
+Transaction History,Data,2025-04-29,U***53676,VERIZON COMMUNICATIONS INC,Buy,VZ,11.0,42.695,USD,-412.52207864999997,-0.8788144552199999,-413.40089310521995
+Transaction History,Data,2025-04-29,U***53676,VERIZON COMMUNICATIONS INC,Buy,VZ,1.0E-4,42.7,USD,-0.0037506399000000004,-4.39185E-9,-0.0037506442918500004
+Transaction History,Data,2025-04-29,U***53676,VERIZON COMMUNICATIONS INC,Buy,VZ,0.7108,42.6983,USD,-26.6584870220268,-2.872006389E-5,-26.658515742090692
+Transaction History,Data,2025-04-29,U***53676,VANG FTSE AW USDA,Buy,VWCE,4.0,120.94,EUR,-483.76,-3.0,-486.76
+Transaction History,Data,2025-04-29,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.1342,120.94,EUR,-16.230148,-,-16.230148
+Transaction History,Data,2025-04-29,U***53676,VANG FTSE HDY USDD,Buy,VHYL,7.0,61.59,EUR,-431.13,-3.0,-434.13
+Transaction History,Data,2025-04-29,U***53676,VANG FTSE HDY USDD,Buy,VHYL,1.0,61.559,EUR,-61.56,-,-61.56
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -440.2 EUR.USD,Forex Trade Component,EUR.USD,-440.2,1.13796,USD,-0.19812292695996803,-,-0.19812292695996803
+Transaction History,Data,2025-04-29,U***53676,REALTY INCOME CORP,Buy,O,8.0,57.355,USD,-403.03129079999997,-0.8786932401599999,-403.90998404015994
+Transaction History,Data,2025-04-29,U***53676,REALTY INCOME CORP,Buy,O,0.7174,57.37,USD,-36.15128314206,-2.898621E-5,-36.15131212827
+Transaction History,Data,2025-04-29,U***53676,ISHARES USD TRSRY 1-3Y USD D,Buy,IBTS,4.0,112.695,EUR,-450.78,-3.0,-453.78
+Transaction History,Data,2025-04-29,U***53676,Electronic Fund Transfer,Deposit,-,-,-,-,4000.0,-,4000.0
+Transaction History,Data,2025-04-29,U***53676,JOHNSON & JOHNSON,Buy,JNJ,6.0,157.0,USD,-827.42454,-0.8785544577000001,-828.3030944577
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.1 EUR.USD,Forex Trade Component,EUR.USD,-0.1,1.13775,USD,-6.345325000001178E-5,-,-6.345325000001178E-5
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -713.65 EUR.USD,Forex Trade Component,EUR.USD,-713.65,1.13775,USD,-0.4528341186249918,-,-0.4528341186249918
+Transaction History,Data,2025-04-29,U***53676,JOHNSON & JOHNSON,Buy,JNJ,0.3694,156.96,USD,-50.92879205088,-1.4925263039999999E-5,-50.928806976143036
+Transaction History,Data,2025-04-29,U***53676,JOHNSON & JOHNSON,Buy,JNJ,1.0E-4,156.99,USD,-0.013789530630000001,-4.39185E-9,-0.013789535021850001
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -50.96 EUR.USD,Forex Trade Component,EUR.USD,-50.96,1.13775,USD,-0.032335776200000055,-,-0.032335776200000055
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.01 EUR.USD,Forex Trade Component,EUR.USD,-0.01,1.13775,USD,-6.345325000000485E-6,-,-6.345325000000485E-6
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -440.26 EUR.USD,Forex Trade Component,EUR.USD,-440.26,1.13776,USD,-0.27549216668796817,-,-0.27549216668796817
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.08 EUR.USD,Forex Trade Component,EUR.USD,-0.08,1.13776,USD,-5.005990400000493E-5,-,-5.005990400000493E-5
+Transaction History,Data,2025-04-29,U***53676,PROCTER & GAMBLE CO/THE,Buy,PG,3.0,161.805,USD,-426.37397355,-0.8784912150599999,-427.25246476506
+Transaction History,Data,2025-04-29,U***53676,PROCTER & GAMBLE CO/THE,Buy,PG,0.0901,161.83,USD,-12.80741020071,-3.64084365E-6,-12.80741384155365
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -440.21 EUR.USD,Forex Trade Component,EUR.USD,-440.21,1.13786,USD,-0.2367941534780016,-,-0.2367941534780016
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.08 EUR.USD,Forex Trade Component,EUR.USD,-0.08,1.13786,USD,-4.303294400000157E-5,-,-4.303294400000157E-5
+Transaction History,Data,2025-04-29,U***53676,COCA-COLA CO/THE,Buy,KO,1.0,72.25,USD,-63.4622325,-0.63466273002,-64.09689523002
+Transaction History,Data,2025-04-29,U***53676,COCA-COLA CO/THE,Buy,KO,5.0,72.2493,USD,-317.308088205,-0.24394970009999997,-317.5520379051
+Transaction History,Data,2025-04-29,U***53676,COCA-COLA CO/THE,Buy,KO,0.9204,72.2484,USD,-58.409345270203204,-3.7188429059999996E-5,-58.40938245863226
+Transaction History,Data,2025-04-29,U***53676,Net Amount in Base from Forex Trade: -0.08 EUR.USD,Forex Trade Component,EUR.USD,-0.08,1.13796,USD,-3.6005983999998215E-5,-,-3.6005983999998215E-5
+Transaction History,Data,2025-04-23,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share (Ordinary Dividend),Dividend,CMCSA,-,-,-,5.7534078,-,5.7534078
+Transaction History,Data,2025-04-23,U***53676,CMCSA(US20030N1019) Cash Dividend USD 0.33 per Share - US Tax,Foreign Tax Withholding,CMCSA,-,-,-,-0.8661044,-,-0.8661044
+Transaction History,Data,2025-04-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-0.8185539,-,-0.8185539
+Transaction History,Data,2025-04-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,1.2320502,-,1.2320502
+Transaction History,Data,2025-04-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share (Ordinary Dividend),Dividend,O,-,-,-,8.6510688,-,8.6510688
+Transaction History,Data,2025-04-15,U***53676,O(US7561091049) Cash Dividend USD 0.2685 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-1.2941147999999998,-,-1.2941147999999998
+Transaction History,Data,2025-04-02,U***53676,VHYL(IE00B8GKDB10) Cash Dividend USD 0.448015 per Share (Mixed Income),Dividend,VHYL,-,-,-,105.95676399999999,-,105.95676399999999
+Transaction History,Data,2025-04-01,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share (Ordinary Dividend),Dividend,KO,-,-,-,4.3180492,-,4.3180492
+Transaction History,Data,2025-04-01,U***53676,KO(US1912161007) Cash Dividend USD 0.51 per Share - US Tax,Foreign Tax Withholding,KO,-,-,-,-0.6486339999999999,-,-0.6486339999999999
+Transaction History,Data,2025-04-01,U***53676,Net Amount in Base from Forex Trade: 3.66868383 EUR.USD,Forex Trade Component,EUR.USD,3.66868383,1.07940618,USD,-7.31370000000009E-4,-,-7.31370000000009E-4
+Transaction History,Data,2025-03-31,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.59 per Share (Ordinary Dividend),Dividend,AVGO,-,-,-,0.3143742,-,0.3143742
+Transaction History,Data,2025-03-31,U***53676,AVGO(US11135F1012) Cash Dividend USD 0.59 per Share - US Tax,Foreign Tax Withholding,AVGO,-,-,-,-0.0462315,-,-0.0462315
+Transaction History,Data,2025-03-31,U***53676,Net Amount in Base from Forex Trade: 0.92445972 EUR.USD,Forex Trade Component,EUR.USD,0.92445972,1.08171289,USD,-1.7027999999996712E-4,-,-1.7027999999996712E-4
+Transaction History,Data,2025-03-31,U***53676,PEP(US7134481081) Cash Dividend USD 1.355 per Share - US Tax,Foreign Tax Withholding,PEP,-,-,-,-0.11095559999999999,-,-0.11095559999999999
+Transaction History,Data,2025-03-31,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.948,125.58,EUR,-119.04984,-,-119.04984
+Transaction History,Data,2025-03-31,U***53676,VANG FTSE AW USDA,Buy,VWCE,0.0018,125.58,EUR,-0.226044,-,-0.226044
+Transaction History,Data,2025-03-31,U***53676,PEP(US7134481081) Cash Dividend USD 1.355 per Share (Ordinary Dividend),Dividend,PEP,-,-,-,0.7674428999999999,-,0.7674428999999999
+Transaction History,Data,2025-03-31,U***53676,VANG FTSE AW USDA,Buy,VWCE,11.0,125.52,EUR,-1380.72,-3.0,-1383.72
+Transaction History,Data,2025-03-28,U***53676,Net Amount in Base from Forex Trade: 0.00655183 EUR.USD,Forex Trade Component,EUR.USD,0.00655183,1.08326864,USD,-1.8335690500003929E-6,-,-1.8335690500003929E-6
+Transaction History,Data,2025-03-28,U***53676,AT&T INC,Buy,T,1.0E-4,28.13,USD,-0.00259749607,-4.616950000000001E-9,-0.00259750068695
+Transaction History,Data,2025-03-28,U***53676,AT&T INC,Buy,T,1.0,28.13,USD,-25.9749607,-3.2318649999999996E-5,-25.97499301865
+Transaction History,Data,2025-03-28,U***53676,Net Amount in Base from Forex Trade: -0.08 EUR.USD,Forex Trade Component,EUR.USD,-0.08,1.08121,USD,-1.297198480000039E-4,-,-1.297198480000039E-4
+Transaction History,Data,2025-03-28,U***53676,AT&T INC,Buy,T,34.0,28.1293,USD,-883.1266871180001,-0.92483418196,-884.0515212999601
+Transaction History,Data,2025-03-28,U***53676,AT&T INC,Buy,T,0.55,28.1289,USD,-14.285669734050002,-2.3361767E-5,-14.285693095817003
+Transaction History,Data,2025-03-28,U***53676,LMT(US5398301094) Cash Dividend USD 3.30 per Share - US Tax,Foreign Tax Withholding,LMT,-,-,-,-0.10157290000000001,-,-0.10157290000000001
+Transaction History,Data,2025-03-28,U***53676,Net Amount in Base from Forex Trade: -754.49 EUR.USD,Forex Trade Component,EUR.USD,-754.49,1.08121,USD,-1.2234041014689865,-,-1.2234041014689865
+Transaction History,Data,2025-03-28,U***53676,LMT(US5398301094) Cash Dividend USD 3.30 per Share (Ordinary Dividend),Dividend,LMT,-,-,-,0.6556069,-,0.6556069
+Transaction History,Data,2025-03-27,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share - US Tax,Foreign Tax Withholding,HD,-,-,-,-0.092577,-,-0.092577
+Transaction History,Data,2025-03-27,U***53676,HD(US4370761029) Cash Dividend USD 2.30 per Share (Ordinary Dividend),Dividend,HD,-,-,-,0.6295236000000001,-,0.6295236000000001
+Transaction History,Data,2025-03-26,U***53676,IBTS(IE00B14X4S71) Cash Dividend USD 2.7494 per Share (Mixed Income),Dividend,IBTS,-,-,-,170.32316459999998,-,170.32316459999998
+Transaction History,Data,2025-03-26,U***53676,IHYG(IE00B66F4759) Cash Dividend EUR 2.6722 per Share (Mixed Income),Dividend,IHYG,-,-,-,18.75,-,18.75
+Transaction History,Data,2025-03-14,U***53676,O(US7561091049) Cash Dividend USD 0.268 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-0.43881240000000005,-,-0.43881240000000005
+Transaction History,Data,2025-03-14,U***53676,O(US7561091049) Cash Dividend USD 0.268 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,0.6582186,-,0.6582186
+Transaction History,Data,2025-02-14,U***53676,O(US7561091049) Cash Dividend USD 0.264 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,0.337548,-,0.337548
+Transaction History,Data,2025-02-14,U***53676,O(US7561091049) Cash Dividend USD 0.264 per Share - US Tax,Foreign Tax Withholding,O,-,-,-,-0.22784490000000002,-,-0.22784490000000002

@@ -1,0 +1,1089 @@
+RAW IBKR SNAPSHOT — 2026-06-24
+================================
+Source: IBKR Client Portal / Web Portfolio view
+Account: U19253676
+Base currency: EUR
+EUR.USD at snapshot: 1.13433
+
+This file is the verbatim paste from IBKR. Parsed/structured versions live in:
+- holdings.csv               (input for analyze.py / rebalance.py)
+- coverage/snapshot-2026-06-24.json   (full structured snapshot)
+- coverage/prices-2026-06-24.json     (prices extracted from this paste)
+
+================================
+
+Search
+⌘ + K
+Account
+U19253676
+EUR
+103,885.61
++322.10
+Settled Cash
+158.53
+Unrealized P&L
+10,383.52
+Realized P&L
+0.00
+Maintenance Margin
+0.00
+Excess Liquidity
+158.53
+Buying Power
+158.53
+Dividends
+460.41
+Customize
+
+
+
+
+
+
+Your Holdings
+Instrument 	 Position	 Last	 Change %	 Cost Basis	 Market Value	 Avg Price	 Daily P&L	 Unrealized P&L
+VHYL
+494.0402	78.80	+0.13%	34,135
+38,940.25
+69.09	+64.20	+4,810.00
+VWCE
+224.882	164.98	+0.65%	33,441
+37,101.03
+148.71	+238.00	+3,660.00
+O
+85.4637	61.51	-0.03%	5,012.87
+5,256.87
+58.66	-2.14	+244.00
+JNJ
+20.7198	240.38	+0.54%	3,857.45
+4,979.38
+186.17	+26.80	+1,120.00
+IBTS
+36.4759	112.50	+0.48%	4,436.92
+4,101.71
+121.64	+17.90	-335.00
+MO
+46.8771	71.47	-0.20%	2,694.57
+3,350.78
+57.48	-6.56	+656.00
+XOM
+14.8889	136.00	-2.67%	2,302.98
+2,024.52
+154.68	-55.20	-278.00
+KO
+22.4312	81.22	+1.13%	1,605.98
+1,821.97
+71.60	+20.50	+216.00
+VZ
+36.7295	45.80	-1.99%	1,648.74
+1,682.39
+44.89	-34.10	+33.50
+AVGO
+4.1055	385.57	+1.43%	1,602.78
+1,582.82
+390.40	+22.10	-20.00
+MVUS
+15.7413	98.51	+0.72%	1,481.99
+1,553.04
+94.15	+13.50	+71.20
+GOOG
+3.3082	352.15	+1.75%	844.12
+1,165.78
+255.16	+20.60	+321.00
+IHYG
+7.0164	91.0700	+0.10%	658.97
+638.77
+93.92	+0.42	-20.20
+T
+24.8438	22.50	-1.36%	699.53
+559.11
+28.16	-7.45	-140.00
+FGQI
+33	11.2200	-0.11%	296.13
+372.40
+8.97	+1.73	+76.30
+ENG
+15.2297	17.71	+0.03%	206.00
+269.72
+13.53	0.00	+63.70
+RTX
+0.9803	185.92	-0.25%	100.99
+182.26
+103.02	-0.45	+81.30
+TXN
+0.4955	307.39	+1.00%	100.99
+152.18
+203.82	+1.35	+51.20
+PNC
+0.6138	239.05	+0.16%	100.99
+146.70
+164.54	+0.20	+45.70
+NOC
+0.2291	506.47	-1.32%	101.00
+115.96
+440.84	-1.56	+15.00
+AMGN
+0.3205	351.90	+1.41%	101.00
+112.73
+315.12	+1.55	+11.80
+LMT
+0.2141	494.44	-1.83%	100.98
+105.91
+471.67	-1.82	+5.03
+Cash Holdings
+
+ EUR (base currency)	118.19
+ USD	45.75
+Total Cash (in EUR)	158.53
+ | 
+ | 
+ | 
+ | 
+Data powered by
+Logo
+
+IBot
+← For You (5 unread)
+ME
+
+“
+IBot
+
+”
+
+How can I help you?
+
+Demo
+Help
+Close All Positions
+Close Positions at Ask
+Close Positions at Bid -0.1 Offset
+Account Overview
+My Buying Power
+Account P&L for the day
+Show my NLV
+Show my Overnight Margin
+Data powered by
+
+
+
+Search
+⌘ + K
+Account
+U19253676
+EUR
+103,885.61
++325.30
+Settled Cash
+158.53
+Unrealized P&L
+10,383.52
+Realized P&L
+0.00
+Maintenance Margin
+0.00
+Excess Liquidity
+158.53
+Buying Power
+158.53
+Dividends
+460.41
+Customize
+
+
+
+
+
+
+U19253676
+
+104,046.56
+Change (All)
+
+103,050.29
+Chart
+Chart with 517 data points.
+The chart has 1 X axis displaying Time. Range: 2024-07-02 00:00:00 to 2026-06-24 00:00:00.
+The chart has 1 Y axis displaying values. Range: -25000 to 125000.
+-25K
+0.00
+25K
+50K
+75K
+100K
+125K
+End of interactive chart.
+For You
+You have 1 pending requests to provide information or documents we would appreciate you completing to help us service your account and process the requests you have made. More
+IHYG had a large volume of 322K on Jun 22, 2026 which is 105.26% higher than the 30-day average daily volume. You have other positions where the position or the underlying had a large volume change since your last login. More
+JNJ had a large price change of 12.02 USD (5.26%). You have other positions where the position or the underlying had a large price change since your last login. More
+VWCE had a 52 week high of 167.08 on Jun 22, 2026. You have other positions where the position or underlying had a new 52 week high or low since your last login. More
+New Home Sales is scheduled to occur at Jun 24, 2026 10:00 EDT. More
+Market Overview
+briefing.com market update
+Homebuilder stocks rally despite weak report
+The major averages remain modestly higher, supported by relatively broad participation this morning.
+
+New home sales decreased 7.3% month-over-month in May to a seasonally adjusted annual rate of 580,000 (Briefing.com consensus: 627,000) from a downwardly revised 626,000 (from 622,000) in April. The level of sales in May is the second lowest over the last 12 months. On a year-over-year basis, new home sales were down 6.8%.
+
+The key takeaway from the report is that new home sales in May were pressured by affordability constraints tied to rising mortgage rates. Notably, the West region, which features the highest-priced homes, saw the biggest hit to sales month-over-month; however, there was also weakness in the more affordable South region, which is the nation's largest homebuilding market.
+
+Despite the weaker report, homebuilder stocks are rallying today as Treasury yields continue to move off their May highs.
+
+
+
+Copyright (C) 2026 Briefing.com
+Top Portfolio Positions
+Symbol	Mkt Value	Last	Change
+VHYL
+VANG FTSE HDY USDD
+38,945EUR	78.80	+0.13%
+VWCE
+VANG FTSE AW USDA
+37,101EUR	164.98	+0.65%
+O
+REALTY INCOME CORP
+5,258.15USD	61.53	0.00%
+JNJ
+JOHNSON & JOHNSON
+4,979.38USD	240.38	+0.54%
+IBTS
+ISHARES USD TRSRY 1-3Y USD D
+4,101.53EUR	112.50	+0.48%
+Hot News
+From Daily Overview News
+
+1 / 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Watchlist
+Symbol	Last	Change
+SPX
+S&P 500 Stock Index
+7411.62	+0.63%
+AAPL
+APPLE INC
+297.22	+0.99%
+AMZN
+AMAZON.COM INC
+241.16	+3.01%
+GOOGL
+ALPHABET INC-CL A
+352.27	+1.77%
+IBKR
+INTERACTIVE BROKERS GRO-CL A
+94.74	+0.04%
+META
+META PLATFORMS INC-CLASS A
+566.29	+0.73%
+MSFT
+MICROSOFT CORP
+375.00	+0.28%
+NVDA
+NVIDIA CORP
+201.40	+0.68%
+QQQ
+INVESCO QQQ TRUST SERIES 1
+719.74	+0.85%
+SPY
+SS SPDR S&P 500 ETF TRUST-US
+739.85	+0.85%
+TSLA
+TESLA INC
+383.51	+0.50%
+EUR.USD
+United States dollar
+1.13433	-0.34%
+GBP.USD
+United States dollar
+1.31507	-0.40%
+USD.JPY
+United States dollar
+161.805	+0.14%
+Recent News From IBKR
+PortfolioAnalyst
+Chart
+Bar chart with 5 bars.
+The chart has 1 X axis displaying categories.
+The chart has 1 Y axis displaying values. Range: 0 to 150000.
+06/17
+06/18
+06/19
+06/22
+06/23
+0.00
+50,000
+100,000
+150,000
+End of interactive chart.
+103651.32
+Total	€ 103651.32
+Last Updated: N/A
+
+Cryptocurrencies 
+Instrument	Last	Change
+BTC
+Bitcoin cryptocurrency
+60982.50	-2.14%
+ETH
+Ethereum cryptocurrency
+1643.95	-1.02%
+LTC
+Litecoin cryptocurrency
+41.57	-0.69%
+BCH
+Bitcoin Cash cryptocurrency
+191.10	-0.42%
+SOL
+Solana cryptocurrency
+68.75	-0.03%
+AAVE
+Aave cryptocurrency
+74.68	+3.56%
+UNI
+Uniswap cryptocurrency
+2.872	-0.83%
+ | 
+ | 
+ | 
+ | 
+Data powered by
+
+IBot
+← For You (5 unread)
+ME
+
+“
+IBot
+
+”
+
+How can I help you?
+
+Demo
+Help
+Close All Positions
+Close Positions at Ask
+Close Positions at Bid -0.1 Offset
+Account Overview
+My Buying Power
+Account P&L for the day
+Show my NLV
+Show my Overnight Margin
+Data powered by
+
+Search
+⌘ + K
+Account
+U19253676
+EUR
+103,885.61
++302.10
+Settled Cash
+158.53
+Unrealized P&L
+10,383.52
+Realized P&L
+0.00
+Maintenance Margin
+0.00
+Excess Liquidity
+158.53
+Buying Power
+158.53
+Dividends
+460.41
+Customize
+
+
+
+
+
+
+Balances
+Balances
+Balances	Total (EUR)
+Net Liquidation	103,885.61
+Equity With Loan (EWL)	158.53
+Buying Power	158.53
+Securities Gross Position Value Cash	103,266.68
+Cash	158.53
+Settled Cash	158.53
+Available Funds	158.53
+Leverage
+Margin Requirements
+Current Requirements	Total (EUR)
+Initial Margin	0.00
+Maintenance Margin	0.00
+Available Funds	158.53
+Excess Liquidity	158.53
+Overnight requirements	Total (EUR)
+Initial Margin	0.00
+Maintenance Margin	0.00
+Available Funds	158.53
+Excess Liquidity	158.53
+ | 
+ | 
+ | 
+ | 
+Data powered by
+
+IBot
+← For You (5 unread)
+ME
+
+“
+IBot
+
+”
+
+How can I help you?
+
+Demo
+Help
+Close All Positions
+Close Positions at Ask
+Close Positions at Bid -0.1 Offset
+Account Overview
+My Buying Power
+Account P&L for the day
+Show my NLV
+Show my Overnight Margin
+Data powered by
+
+Search
+⌘ + K
+Account
+U19253676
+EUR
+103,885.61
++279.50
+Settled Cash
+158.53
+Unrealized P&L
+10,383.52
+Realized P&L
+0.00
+Maintenance Margin
+0.00
+Excess Liquidity
+158.53
+Buying Power
+158.53
+Dividends
+460.41
+Customize
+
+
+
+
+
+
+Portfolio News
+
+Companies in the News
+
+Benzinga
+
+Stifel analyst Tore Svanberg maintains Texas Instruments (NASDAQ:TXN) with a Buy and raises the price target from $340 to $360. Copyright © Benzinga. All rights reserved. Write to editorial@benzinga.com with any questions about this content.
+
+9 minutes ago
+•
+<1 minute read
+The Motley Fool RSS
+
+Key Points Alphabet has the ingredients to become a larger company than Nvidia over the next decade. It is the most complete AI player, with both its own chips and top-tier AI models. 10 stocks we like better than Alphabet ›
+
+,
+13 minutes ago
+•
+5 minute read
+
+IB Market Signals
+
+Stock: VZ Exchange: NYSE VZ has a price spike Down at Jun 24, 2026 10:47:24 ET (14:47:24 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+15 minutes ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: T Exchange: NYSE T has a price spike Down at Jun 24, 2026 10:47:06 ET (14:47:06 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+16 minutes ago
+•
+<1 minute read
+Reuters News
+
+* ADNOC sells at least 48 mln bbls for June-August loading, more to come * Mideast benchmarks in discount, opens arbitrage to Europe * North Sea Brent discount hits four-year low, LSEG data shows * U.S.
+
+,
+18 minutes ago
+•
+4 minute read
+Dow Jones Trader News
+
+By Nate Wolf OpenAI finally has its own artificial-intelligence chip, joining an increasingly crowded field of custom chip makers. On Wednesday, the ChatGPT maker unveiled an AI processor called Jalapeño -- yes, like the pepper -- which incorporates silicon from Broadcom and rack technology from Celestica.
+
+,
+19 minutes ago
+•
+2 minute read
+Dow Jones Global News
+
+By Nate Wolf OpenAI finally has its own artificial-intelligence chip, joining an increasingly crowded field of custom chip makers. On Wednesday, the ChatGPT maker unveiled an AI processor called Jalapeño -- yes, like the pepper -- which incorporates silicon from Broadcom and rack technology from Celestica.
+
+,
+19 minutes ago
+•
+2 minute read
+Dow Jones Global News
+
+By Dean Seal Terawatt Infrastructure said it has secured up to $300 million in debt financing to buy and develop more electric-vehicle charging stations. The builder and operator of charging networks for EV fleets said Wednesday that it has entered into a five-year facility for up to $150 million in committed senior secured financing, along with an option for another $150 million, from a syndicate of global banks led by RBC Capital Markets.
+
+,
+21 minutes ago
+•
+2 minute read
+Benzinga
+
+Treasury Secretary Scott Bessent credited a four-stage pressure campaign with bringing Iran to the negotiating table, citing maximum pressure, “epic fury,” “economic fury,” and finally a naval blockade.
+
+,
+21 minutes ago
+•
+3 minute read
+Dow Jones Top Stories Pro
+
+By Connor Hart OpenAI and Broadcom collaborated to develop a custom artificial-intelligence chip, marking the next step in the ChatGPT-parent's strategy to build out a full stack behind its models and products.
+
+31 minutes ago
+•
+2 minute read
+Dow Jones Global News
+
+By Connor Hart OpenAI and Broadcom collaborated to develop a custom artificial-intelligence chip, marking the next step in the ChatGPT-parent's strategy to build out a full stack behind its models and products.
+
+31 minutes ago
+•
+2 minute read
+Dow Jones Trader News
+
+By Adam Clark Alphabet stock has struggled in recent weeks. News that the Google parent is set to be included in the Dow Jones Industrial Average is unlikely to provide a boost, based on previous tech company additions to the index.
+
+,
+37 minutes ago
+•
+3 minute read
+Dow Jones Global News
+
+By Adam Clark Alphabet stock has struggled in recent weeks. News that the Google parent is set to be included in the Dow Jones Industrial Average is unlikely to provide a boost, based on previous tech company additions to the index.
+
+,
+37 minutes ago
+•
+3 minute read
+Seeking Alpha
+
+Tesla (TSLA) and Amazon (AMZN) have received upgrades, with Seeking Alpha analysts seeing potential upside despite market headwinds. Bill Maurer upgraded Tesla amid shifting Q2 narratives, while Oliver Rodzianko sees Amazon expanding into manufacturing services.
+
+,
+40 minutes ago
+•
+7 minute read
+
+IB Market Signals
+
+Stock: LMT Exchange: NYSE LMT has a price spike Down at Jun 24, 2026 10:18:16 ET (14:18:16 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+44 minutes ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: T Exchange: NYSE T has a price spike Up at Jun 24, 2026 10:16:40 ET (14:16:40 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+46 minutes ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: VZ Exchange: NYSE VZ has a price spike Up at Jun 24, 2026 10:16:22 ET (14:16:22 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+46 minutes ago
+•
+<1 minute read
+Reuters News
+
+** S&P 500 energy index <.SPNY> down 2.45%, tracking decline in crude prices [O/R] ** Brent crude futures fell 4.3% at $73.76/barrel while U.S. West Texas Intermediate crude down 4.13% at $70.19/barrel ** Oil prices fall more than $3 to their lowest level since before the start of the Iran war as signs emerged that more oil tankers are set to move out of the Strait of Hormuz ** Energy giants Exxon Mobil and Chevron down 1.
+
+,
+54 minutes ago
+•
+1 minute read
+Dow Jones Trader News
+
+By Adam Clark Alphabet stock has struggled in recent weeks. News that the Google parent is set to be included in the Dow Jones Industrial Average is unlikely to provide a boost, based on previous tech company additions to the index.
+
+,
+1 hour ago
+•
+2 minute read
+Dow Jones Global News
+
+By Adam Clark Alphabet stock has struggled in recent weeks. News that the Google parent is set to be included in the Dow Jones Industrial Average is unlikely to provide a boost, based on previous tech company additions to the index.
+
+,
+1 hour ago
+•
+2 minute read
+The Fly
+
+09:54 EDT Catch up on the top industries and stocks that were impacted, or were predicted to be impacted, by the comments, actions and policies of President Trump with this daily recap compiled by The Fly:OIL COMPANIES: President Donald Trump stated in a post to Truth Social: "The big Oil Companies are not dropping their price at the pump commensurate with the sharply lower prices they are paying for Oil.
+
+,
+1 hour ago
+•
+1 minute read
+Seeking Alpha
+
+Broadcom (AVGO) and OpenAI (OPENAI) revealed the fruits of its partnership today with Jalapeño, a new chip designed specifically to run inference for large language models. AVGO AVGO peño, a new chip designed specifically to run inference for large language models.
+
+,
+1 hour ago
+•
+5 minute read
+
+Dow Jones Top Stories Pro
+
+By Harrison Miller Cathie Wood on Tuesday shored up some of her Magnificent 7 stock holdings while the market skidded. Her ARK Invest firm purchased shares of Amazon, Alphabet and Tesla. Wood also loaded up on Palantir and CoreWeave, as well as recently IPO'd chipmaker Cerebras Systems ahead of its quarterly report.
+
+,
+1 hour ago
+•
+5 minute read
+IB Market Signals
+
+Stock: O Exchange: NYSE O has a price spike Down at Jun 24, 2026 09:47:02 ET (13:47:02 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: VZ Exchange: NYSE VZ has a price spike Down at Jun 24, 2026 09:45:20 ET (13:45:20 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: XOM Exchange: NYSE XOM has a price spike Up at Jun 24, 2026 09:45:14 ET (13:45:14 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: KO Exchange: NYSE KO has a price spike Up at Jun 24, 2026 09:42:32 ET (13:42:32 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: JNJ Exchange: NYSE JNJ has a price spike Up at Jun 24, 2026 09:41:44 ET (13:41:44 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+Reuters News
+
+OCCIDENTAL PETROLEUM DOWN 3%, APA CORP DOWN 3.5%
+
+,
+1 hour ago
+•
+<1 minute read
+Zacks Investment Research Newswire
+
+Marvell Technology’s MRVL networking business remains a key beneficiary of rising AI cluster size and complexity. Marvell Technology now expects its interconnect business to grow more than 70% year over year in fiscal 2027, supported by scale-out PAM ramp-ups and growing contributions from scale-up and scale-across networking.
+
+,
+1 hour ago
+•
+4 minute read
+
+IB Market Signals
+
+Stock: AMGN Exchange: NASDAQ AMGN has a price spike Up at Jun 24, 2026 09:37:32 ET (13:37:32 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: T Exchange: NYSE T has a price spike Down at Jun 24, 2026 09:35:50 ET (13:35:50 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+IB Market Signals
+
+Stock: LMT Exchange: NYSE LMT has a price spike Down at Jun 24, 2026 09:35:14 ET (13:35:14 GMT) Copyright(c) 2026 Interactive Brokers Group
+
+1 hour ago
+•
+<1 minute read
+Dow Jones Top Stories Pro
+
+By Paolo Confino Boeing and Lockheed Martin secured major contracts from the federal government this week. Meanwhile, a Senate vote supporting a House measure passed earlier this month indicated waning support for U.
+
+,
+1 hour ago
+•
+3 minute read
+Reuters News
+
+(Adds details from union demands in second to fourth paragraphs, details on the refinery in fifth) By Inti Landauro BRUSSELS, June 24 (Reuters) - Exxon Mobil's oil refinery in the Belgian port of Antwerp is to stop output from June 29 to July 3 due to a strike action, the company's press office said on Wednesday.
+
+1 hour ago
+•
+1 minute read
+Seeking Alpha
+
+Bain & Company said on Wednesday it has entered a partnership with Google Cloud (GOOG) aimed at helping enterprises scale artificial intelligence deployments by combining consulting expertise with cloud-based AI infrastructure.
+
+,
+2 hours ago
+•
+3 minute read
+
+ISS-EVA Company and Sector Reports
+
+Powered by ISS EVA and PRVit® Analyst Contact: Casey Lea June 23, 2026 evaanalytics@iss-stoxx.com PRVit Score PRVit Score JOHNSON & JOHNSON (JNJ) Industry Median (vs. Market) (vs. Industry) PRVit Rating: UNDERWEIGHT (34) $ 239.
+
+2 hours ago
+•
+14 minute read
+Seeking Alpha
+
+INTC INTC UBER UBER More on Intel, Uber The Nvidia Vs. Intel Pair Trade Wall Street Lunch: AI Chip Stocks Sink As Investors Take Profits, Analysts Stay Bullish Intel: The Three Things The Bulls And Bears Are Both Getting Wrong Uber Eats expands U.
+
+,
+2 hours ago
+•
+3 minute read
+
+Seeking Alpha
+
+Lockheed Martin (LMT) said it developed a hypersonic glide body designed to provide a longer-range strike capability while reducing manufacturing costs and supporting larger-scale production, as the U.
+
+2 hours ago
+•
+4 minute read
+
+The Fly
+
+09:12 EDT OpenAI and Broadcom unveiled Jalapeno, OpenAI's first Intelligence Processor, which the companies call "an accelerator architected around OpenAI's vision for the future of LLM inference, and the first AI accelerator in a multi-generation compute platform the companies are building together to make advanced AI faster, more reliable, and more accessible to more people.
+
+2 hours ago
+•
+1 minute read
+StreetInsider.com
+
+Read full article Wed, 24 Jun 2026 09:10:42 -0400 Copyright (c) 2026 StreetInsider.com
+
+2 hours ago
+The Motley Fool RSS
+
+Key Points SpaceX stock is up more than 17% from IPO. The largest IPOs in the U.S. have been all over the map after three months. 10 stocks we like better than Space Exploration Technologies › SpaceX stock is up more than 17% from IPO.
+
+,
+2 hours ago
+•
+6 minute read
+
+StreetInsider
+
+Investing.com -- Broadcom (NASDAQ: AVGO) shares jumped 3.4% Wednesday morning following the unveiling of "Jalapeño," a custom AI chip developed in partnership with OpenAI. Broadcom Broadcom Billed as OpenAI’s first "Intelligence Processor," the custom accelerator was designed specifically for large language model (LLM) inference and moved from design to production in just nine months.
+
+2 hours ago
+•
+2 minute read
+Benzinga
+
+Copyright © Benzinga. All rights reserved. Write to editorial@benzinga.com with any questions about this content. Benzinga does not provide investment advice.
+
+2 hours ago
+•
+<1 minute read
+Dow Jones Top Stories Pro
+
+By Michael Larkin The artificial intelligence revolution helped equities overcome the closure of the Strait of Hormuz and interest rate uncertainty to turn in powerful gains so far in 2026. And for now, the stock market forecast for the next six months is bullish.
+
+,
+2 hours ago
+•
+8 minute read
+Dow Jones Top Stories Pro
+
+Parker highlighted semiconductor capital equipment, which refers to firms that make machines for factories that manufacture advanced chips. He also said investors should consider select vertical and edge beneficiaries.
+
+,
+2 hours ago
+•
+9 minute read
+Dow Jones Top Stories Pro
+
+On a more granular level, small-cap growth stocks have a sizable lead over small-cap value stocks. Parker said investors have been rewarding revenue growth, momentum and potential quality improvement more than static valuation.
+
+,
+2 hours ago
+•
+8 minute read
+Reuters News
+
+BRUSSELS, June 24 (Reuters) - ExxonMobil's oil refinery located in the Belgian port of Antwerp is set to stop output from June 29 to July 3 due to a strike action, the company's press office said on Wednesday.
+
+2 hours ago
+•
+<1 minute read
+The Motley Fool RSS
+
+Broadcom (NASDAQ: AVGO) is moving deeper into AI infrastructure by helping finance the compute capacity frontier AI labs need. The opportunity looks powerful because demand visibility now stretches into 2028, but investors are already paying a premium for future growth.
+
+2 hours ago
+•
+2 minute read
+Morningstar Analyst Reports
+
+Page 1 of 23 Morningstar Equity Analyst Report | Report as of 24 Jun 2026 13:00, UTC | Reporting Currency: USD | Trading Currency: USD | Exchange: NEW YORK STOCK EXCHANGE, INC. Verizon Communications Inc VZ QQQQ 23 Jun 2026 21:30, UTC TM Last Price Fair Value Estimate Price/FVE Market Cap Economic Moat Equity Style Box Uncertainty Capital Allocation 195.
+
+2 hours ago
+•
+46 minute read
+
+
+ | 
+ | 
+ | 
+ | 
+Data powered by
+AI Summary
+
+Rate This Content
+
+
+IBot
+← For You (5 unread)
+ME
+
+“
+IBot
+
+”
+
+How can I help you?
+
+Demo
+Help
+Close All Positions
+Close Positions at Ask
+Close Positions at Bid -0.1 Offset
+Account Overview
+My Buying Power
+Account P&L for the day
+Show my NLV
+Show my Overnight Margin
+Data powered by
+
+
+Search
+⌘ + K
+Account
+U19253676
+EUR
+103,885.61
++277.20
+Settled Cash
+158.53
+Unrealized P&L
+10,383.52
+Realized P&L
+0.00
+Maintenance Margin
+0.00
+Excess Liquidity
+158.53
+Buying Power
+158.53
+Dividends
+460.41
+Customize
+
+
+
+
+
+
+Portfolio PerformanceCumulative Rate of Return (TWR)	Go to PortfolioAnalyst
+Chart
+Chart with 262 data points.
+The chart has 1 X axis displaying Time. Range: 2025-06-24 00:00:00 to 2026-06-24 00:00:00.
+The chart has 1 Y axis displaying values. Range: -10 to 30.
+-10.0%
+0.0%
+10.0%
+20.0%
+30.0%
+Jul 2025Aug 2025Sep 2025Oct 2025Nov 2025Dec 2025Jan 2026Feb 2026Mar 2026Apr 2026May 2026Jun 2026
+October 2, 2025
+Portfolio Performance : 6.74
+End of interactive chart.
+Portfolio Allocation
+Asset Class
+
+LONG
+104,001
+Accruals amounts in this chart reset each month
+Sector
+
+LONG
+103,382
+Industry
+
+LONG
+103,382
+ | 
+ | 
+ | 
+ | 
+Data powered by
+AI Summary
+
+Rate This Content
+
+
+IBot
+← For You (5 unread)
+ME
+
+“
+IBot
+
+”
+
+How can I help you?
+
+Demo
+Help
+Close All Positions
+Close Positions at Ask
+Close Positions at Bid -0.1 Offset
+Account Overview
+My Buying Power
+Account P&L for the day
+Show my NLV
+Show my Overnight Margin
+Data powered by

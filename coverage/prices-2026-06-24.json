@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-06-24",
+  "source": "IBKR snapshot (parsed from portfolio.txt)",
+  "fx_eur_usd": 1.13433,
+  "prices": {
+    "VHYL": {"price_eur": 78.80,   "currency_native": "EUR", "price_native": 78.80},
+    "VWCE": {"price_eur": 164.98,  "currency_native": "EUR", "price_native": 164.98},
+    "O":    {"price_eur": 54.22,   "currency_native": "USD", "price_native": 61.51},
+    "JNJ":  {"price_eur": 211.86,  "currency_native": "USD", "price_native": 240.38},
+    "IBTS": {"price_eur": 112.50,  "currency_native": "EUR", "price_native": 112.50},
+    "MO":   {"price_eur": 63.01,   "currency_native": "USD", "price_native": 71.47},
+    "XOM":  {"price_eur": 119.90,  "currency_native": "USD", "price_native": 136.00},
+    "KO":   {"price_eur": 71.60,   "currency_native": "USD", "price_native": 81.22},
+    "VZ":   {"price_eur": 40.37,   "currency_native": "USD", "price_native": 45.80},
+    "AVGO": {"price_eur": 339.92,  "currency_native": "USD", "price_native": 385.57},
+    "MVUS": {"price_eur": 86.84,   "currency_native": "USD", "price_native": 98.51},
+    "GOOG": {"price_eur": 310.43,  "currency_native": "USD", "price_native": 352.15},
+    "IHYG": {"price_eur": 80.28,   "currency_native": "USD", "price_native": 91.07},
+    "T":    {"price_eur": 19.83,   "currency_native": "USD", "price_native": 22.50},
+    "FGQI": {"price_eur": 11.22,   "currency_native": "EUR", "price_native": 11.22},
+    "ENG":  {"price_eur": 17.71,   "currency_native": "EUR", "price_native": 17.71},
+    "RTX":  {"price_eur": 163.91,  "currency_native": "USD", "price_native": 185.92},
+    "TXN":  {"price_eur": 271.01,  "currency_native": "USD", "price_native": 307.39},
+    "PNC":  {"price_eur": 210.74,  "currency_native": "USD", "price_native": 239.05},
+    "NOC":  {"price_eur": 446.51,  "currency_native": "USD", "price_native": 506.47},
+    "AMGN": {"price_eur": 310.30,  "currency_native": "USD", "price_native": 351.90},
+    "LMT":  {"price_eur": 435.79,  "currency_native": "USD", "price_native": 494.44},
+    "CASH": {"price_eur": 1.00,    "currency_native": "EUR", "price_native": 1.00}
+  }
+}

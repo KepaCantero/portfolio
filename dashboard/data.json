@@ -1,0 +1,390 @@
+{
+ "generated": "2026-10-01T16:05",
+ "portfolio": {
+  "nlv": 112366.72,
+  "cash": 560.36,
+  "pnl": 11941.23,
+  "date": "2026-09-28",
+  "positions": [
+   {
+    "t": "VHYL",
+    "v": 39686.25,
+    "w": 0.35477665792011465,
+    "p": 5553.01,
+    "pp": 16.27,
+    "s": "ETF"
+   },
+   {
+    "t": "VWCE",
+    "v": 38032.04,
+    "w": 0.3399887881844245,
+    "p": 4589.84,
+    "pp": 13.72,
+    "s": "ETF"
+   },
+   {
+    "t": "O",
+    "v": 6776.87,
+    "w": 0.060582072878114894,
+    "p": -344.37,
+    "pp": -4.84,
+    "s": "Stock"
+   },
+   {
+    "t": "JNJ",
+    "v": 4960.27,
+    "w": 0.0443425119022686,
+    "p": 1564.3,
+    "pp": 46.06,
+    "s": "Stock"
+   },
+   {
+    "t": "VZ",
+    "v": 4591.23,
+    "w": 0.0410434655615627,
+    "p": 44.96,
+    "pp": 0.99,
+    "s": "Stock"
+   },
+   {
+    "t": "IBTS",
+    "v": 4004.69,
+    "w": 0.03580007015543429,
+    "p": -432.24,
+    "pp": -9.74,
+    "s": "Bond"
+   },
+   {
+    "t": "XOM",
+    "v": 3277.86,
+    "w": 0.0293025472532685,
+    "p": 103.62,
+    "pp": 3.26,
+    "s": "Stock"
+   },
+   {
+    "t": "MO",
+    "v": 2852.71,
+    "w": 0.025501903551363263,
+    "p": 480.73,
+    "pp": 20.27,
+    "s": "Stock"
+   },
+   {
+    "t": "ENG",
+    "v": 2607.47,
+    "w": 0.02330957175915994,
+    "p": -92.18,
+    "pp": -3.41,
+    "s": "Stock"
+   },
+   {
+    "t": "KO",
+    "v": 1724.24,
+    "w": 0.015413905437076532,
+    "p": 310.4,
+    "pp": 21.95,
+    "s": "Stock"
+   },
+   {
+    "t": "AVGO",
+    "v": 1259.11,
+    "w": 0.011255859088570866,
+    "p": -151.83,
+    "pp": -10.76,
+    "s": "Stock"
+   },
+   {
+    "t": "GOOG",
+    "v": 984.97,
+    "w": 0.00880517470790451,
+    "p": 241.88,
+    "pp": 32.55,
+    "s": "Stock"
+   },
+   {
+    "t": "T",
+    "v": 544.56,
+    "w": 0.00486811368766204,
+    "p": -71.31,
+    "pp": -11.58,
+    "s": "Stock"
+   }
+  ],
+  "sleeves": {
+   "ETF": {
+    "value_eur": 77718.29,
+    "current_weight": 0.6948,
+    "target_weight": 0.5756
+   },
+   "Stock": {
+    "value_eur": 29579.29,
+    "current_weight": 0.2644,
+    "target_weight": 0.3943
+   },
+   "Bond": {
+    "value_eur": 4004.69,
+    "current_weight": 0.0358,
+    "target_weight": 0.0301
+   },
+   "Other": {
+    "value_eur": 560.36,
+    "current_weight": 0.005,
+    "target_weight": 0.0
+   }
+  },
+  "candidates": {
+   "VHYL": {
+    "st": "congelado-test",
+    "ul": "n/a"
+   },
+   "O": {
+    "st": "congelado",
+    "ul": "n/a"
+   },
+   "VZ": {
+    "st": "congelado",
+    "ul": "esclarecer congelacion dividendo (Q3 26-oct)"
+   },
+   "JNJ": {
+    "st": "cuarentena",
+    "ul": "P/E <=15 (V4)"
+   },
+   "XOM": {
+    "st": "activo",
+    "ul": "n/a"
+   },
+   "MO": {
+    "st": "cuarentena",
+    "ul": "payout <=75% sostenido (Q3 29-oct)"
+   },
+   "T": {
+    "st": "cuarentena",
+    "ul": "reanudar subidas dividendo"
+   },
+   "KO": {
+    "st": "mantener",
+    "ul": "n/a"
+   },
+   "GOOG": {
+    "st": "mantener",
+    "ul": "n/a"
+   },
+   "AVGO": {
+    "st": "activo-post-2028",
+    "ul": "P/E <30 (ahora 28.9x fwd)"
+   },
+   "ENG": {
+    "st": "cuarentena",
+    "ul": "CNMC 2027+ y dividendo post-2026"
+   },
+   "VWCE": {
+    "st": "activo",
+    "ul": "n/a"
+   },
+   "IBTS": {
+    "st": "ok",
+    "ul": "n/a"
+   }
+  },
+  "threads": [
+   {
+    "n": "TH-Fills",
+    "d": "ABIERTO: fills del tramo 1-oct (XOM +7 / VWCE +11) sin confirmar — pedirlos, actualizar holdings/decisions"
+   },
+   {
+    "n": "TH-Deka",
+    "d": "ABIERTO: paso 0 → venta → destino (VWCE vs reserva casa según banda de precio de la casa elegida)"
+   },
+   {
+    "n": "TH-Laredo-SantaMaria",
+    "d": "ABIERTO: Laredo Santa María 100 m²/149,9 k (idealista 111524636) — due diligence: nota simple, ITE, actas comunidad, boletín eléctrico, IBI, visita viernes 22:00 (ruido Puebla Vieja)"
+   },
+   {
+    "n": "TH-StepUp",
+    "d": "ABIERTO: step-up fiscal Deka (valor a fecha de residencia ES) — buscar Jahresdepotaufstellung; puede bajar IRPF de ~1.980 a ~600 €"
+   },
+   {
+    "n": "TH-Asesor",
+    "d": "ABIERTO: asesor Bizkaia — escala ahorro foral, 720, regularizar 2024-25, step-up, intereses alemanes en Renta"
+   },
+   {
+    "n": "TH-BandasAbsolutas",
+    "d": "ABIERTO (aprobación): bandas absolutas ±2,5-5 pp en vez de relativas; V1/A4 a informativas"
+   }
+  ],
+  "events": [
+   {
+    "n": "EV-JNJ-Q3",
+    "d": "13-oct-2026: JNJ resultados — vigilancia barra mantener"
+   },
+   {
+    "n": "EV-VZ-Q3",
+    "d": "26-oct-2026: VZ resultados — ESCLARECE la contradicción del dividendo (congelado vs +2 %)"
+   },
+   {
+    "n": "EV-MO-Q3",
+    "d": "29-oct-2026: MO resultados — payout GAAP ~93,5 % roza el trigger de venta >90 %"
+   },
+   {
+    "n": "EV-XOM-DECL",
+    "d": "~fin oct-2026: declaración anual XOM (subida esperable de $1.03)"
+   },
+   {
+    "n": "EV-Deka-Paso0",
+    "d": "Certificado residencia fiscal AEAT → Sparkasse. SIN ESTO: retención alemana ~2.650 € al vender"
+   },
+   {
+    "n": "EV-Deka-Venta",
+    "d": "Tras paso 0: vender TODO (incl. 8,8 k renta fija oculta) → SEPA IBKR → VWCE (si casa ≤210 k) o reserva casa (255 k+)"
+   },
+   {
+    "n": "EV-Polvo-Ene",
+    "d": "Ene-2027: venta AVGO/GOOG/T/KO/ENG (+233 € neto; minusvalías compensan 2026)"
+   },
+   {
+    "n": "EV-AS-Q4",
+    "d": "Activity Statement Q3/Q4: cerrar reconciliaciones + coste por lote real"
+   },
+   {
+    "n": "EV-Informativa720",
+    "d": "Ene-mar 2027: declaración informativa extranjería (IBKR >112 k > umbral 50 k; foral VERIFICAR)"
+   },
+   {
+    "n": "EV-Veredicto2028",
+    "d": "31-dic-2028: veredicto TEST-2028 (vinculante)"
+   }
+  ],
+  "contradictions": [
+   {
+    "n": "CON-VZ-Dividendo",
+    "o": [
+     "Research 22-sep: VZ +2 % (año 20) VS research 29-sep: congelado 9-sep (rompe 19 años)",
+     "Ganador: PENDIENTE — EV-VZ-Q3 26-oct dirime"
+    ]
+   },
+   {
+    "n": "CON-Perfil4pct",
+    "o": [
+     "PROFILE decía '4 % neto yield' vs blend real 2,2 % (sep-2026)",
+     "Ganador: 2,2 % como dato; 4 % reinterpretado como yield-on-cost a 8-10 años"
+    ]
+   },
+   {
+    "n": "CON-DobleEscala",
+    "o": [
+     "Pesos crudos (suma 1,14) vs normalizados de analyze.py",
+     "RESUELTA: documentada en STRATEGY; análisis siempre en normalizado"
+    ]
+   },
+   {
+    "n": "CON-IBTS-Etiqueta",
+    "o": [
+     "IBTS descrita como EUR Govt 0-1y vs realidad USD Treasury 1-3y unhedged (cazada por auditoría externa 30-sep)",
+     "RESUELTA: target.csv corregido; USD efectivo ~68-70 %"
+    ]
+   },
+   {
+    "n": "CON-FX-Parse",
+    "o": [
+     "Gaps NLV −2.599/−2.499 € 'inexplicados' = columnas USA de snapshots en USD nativo mal leídas por el agente",
+     "RESUELTA: fx implícito re-derivable en cada paste; 'Dividends' del overview = accruals"
+    ]
+   }
+  ],
+  "graph": {
+   "e": 68,
+   "r": 58
+  },
+  "test2028": {
+   "block": 62145.19,
+   "sh": 367.4621,
+   "px": 169.12
+  },
+  "decisions": [
+   {
+    "t": "## 2026-10-01 — GRAFO SEMÁNTICO instalado (arquitectura Fukura adaptada)\n\n",
+    "d": "## 2026-10-01 — GRAFO SEMÁNTICO instalado (arquitectura Fukura adaptada)  **Contexto**: El usuario pide replicar el knowledge graph de Obsidian que ti"
+   },
+   {
+    "t": "## 2026-10-01 — NIVEL 7 ACTIVADO (opción A) + ingreso 3.000 €: XOM+VWCE\n\n",
+    "d": "## 2026-10-01 — NIVEL 7 ACTIVADO (opción A) + ingreso 3.000 €: XOM+VWCE  **Contexto**: El inversor activa la opción A (tramo satélite operativo ya; B "
+   },
+   {
+    "t": "## 2026-09-30 (noche) — NIVEL 7: opción B elegida + maquinaria construida y operativa\n\n",
+    "d": "## 2026-09-30 (noche) — NIVEL 7: opción B elegida + maquinaria construida y operativa  **Contexto**: Tras el diseño completo del nivel 7 gestionado po"
+   },
+   {
+    "t": "## 2026-09-30 (tarde) — REVISIÓN DE LA C: congelación por dilución en vez de venta + re-verificación de las 5\n\n",
+    "d": "## 2026-09-30 (tarde) — REVISIÓN DE LA C: congelación por dilución en vez de venta + re-verificación de las 5  **Contexto**: El inversor rechaza vende"
+   },
+   {
+    "t": "## 2026-09-30 — Auditoría externa de la C: aceptada con 2 acciones + 1 error corregido\n\n",
+    "d": "## 2026-09-30 — Auditoría externa de la C: aceptada con 2 acciones + 1 error corregido  **Contexto**: El inversor aporta crítica externa de la estruct"
+   },
+   {
+    "t": "## 2026-09-29/30 — DECISIÓN: ESTRUCTURA C ELEGIDA + plan de ejecución dic/ene\n\n",
+    "d": "## 2026-09-29/30 — DECISIÓN: ESTRUCTURA C ELEGIDA + plan de ejecución dic/ene  **Contexto**: Tras el análisis A/B/C y la re-auditoría no circular (por"
+   },
+   {
+    "t": "## 2026-09-29 (noche 2) — DECISIÓN EN PRINCIPIO: liquidar Deka y llevar a IBKR\n\n",
+    "d": "## 2026-09-29 (noche 2) — DECISIÓN EN PRINCIPIO: liquidar Deka y llevar a IBKR  **Contexto**: El usuario decide vender todo el depot Deka/SkkM (33.039"
+   },
+   {
+    "t": "## 2026-09-29 (noche) — Mapa cerrado casi del todo: Deka/SkkM 33.039 € (+43,5 %)\n\n",
+    "d": "## 2026-09-29 (noche) — Mapa cerrado casi del todo: Deka/SkkM 33.039 € (+43,5 %)  **Contexto**: El bloque alemán identificado: depot DekaBank en Stadt"
+   }
+  ]
+ },
+ "casa": {
+  "top": [],
+  "perfil": {
+   "ingresos": "4.200 €/mes",
+   "sin_alquiler": true,
+   "ahorros": "~70 k€ + Deka 33 k€",
+   "techo_bizkaia": "210 k€",
+   "techo_cantabria": "188 k€"
+  }
+ },
+ "money": {
+  "tracks": [
+   {
+    "n": "Micro-SaaS",
+    "st": "investigación",
+    "files": 12
+   },
+   {
+    "n": "Consultoría IA",
+    "st": "investigación",
+    "files": 13
+   }
+  ],
+  "informe": "ANALISIS_MODELOS_NEGOCIO.md v3.0"
+ },
+ "algo": {
+  "status": "inactivo",
+  "last_commit": "ce009fb8 fix: resolve mypy errors in NiceGUI pages and legac",
+  "strategies": 34,
+  "backtests": 8,
+  "market_regime": "bear",
+  "signals": {
+   "buy": 3,
+   "sell": 2,
+   "hold": 2
+  },
+  "last_backtest": "20260125",
+  "risk": "HIGH (1 viol.)",
+  "positions": [
+   "AAPL",
+   "MSFT",
+   "GOOGL",
+   "AMZN",
+   "NVDA",
+   "TSLA",
+   "META"
+  ],
+  "volatility": 0.0377592611850029,
+  "vol_regime": "low",
+  "presentation_files": 80
+ }
+}

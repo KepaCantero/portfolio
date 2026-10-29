@@ -1,0 +1,63 @@
+{
+ "snapshot_date": "2026-09-28",
+ "state": "post-fills tanda 1+1b",
+ "source": "IBKR paste usuario tras ejecucion",
+ "summary_eur": {
+  "net_liquidation_value": 112366.72,
+  "daily_pnl": 300.8,
+  "settled_cash": 560.36,
+  "unrealized_pnl_header": 11941.23,
+  "accrued_dividends": 353.87
+ },
+ "cash_breakdown": {
+  "eur": 560.36,
+  "usd": 0.0,
+  "total_eur": 560.36
+ },
+ "fills": [
+  {
+   "ticker": "O",
+   "qty": 38,
+   "price": 56.0,
+   "exec_usd": 55.7,
+   "amount_usd": 2116.6,
+   "fee": 1.0,
+   "order_id": "459863132"
+  },
+  {
+   "ticker": "VZ",
+   "qty": 75,
+   "exec_usd": 46.86,
+   "amount_usd": 3514.5,
+   "fee": 1.0,
+   "note": "dos fills 20+55; plan decia 86 -> quedan 11 sh para el plan",
+   "order_id": "459863134"
+  },
+  {
+   "ticker": "XOM",
+   "qty": 8,
+   "exec_usd": 162.74,
+   "amount_usd": 1301.92,
+   "fee": 1.0,
+   "order_id": "459863136"
+  }
+ ],
+ "totals": {
+  "shares": 121,
+  "usd_spent": 6933.02,
+  "fees_usd": 3.0,
+  "eur_converted": 5523.75,
+  "eur_cost_total": 6106.0
+ },
+ "new_positions": {
+  "O": "138.7344 @ 58.32 USD",
+  "VZ": "111.7295 @ 46.22 USD",
+  "XOM": "22.8889 @ 157.54 USD"
+ },
+ "dividends_expected": {
+  "O_15oct": "138.7344 x 0.2715 = $37.67 br -> ~28 EUR net (ex-div 30-sep: CUBIERTO, se compró el 28)",
+  "VZ_2nov": "111.7295 x 0.7075 = $79.05 br -> ~59 EUR net",
+  "XOM_dic": "22.8889 x 1.03 = $23.58 br -> ~18 EUR net"
+ },
+ "reconciliation": "NLV 112.366,72 = ΣEUR 84.607,85 + USD 30.647,66 x 0.8803 = 26.972,6 + cash 560,36 + devengos 353,87 - residual ~128 (0,1%, marks). Cuadre de cash exacto: 6.084,12 EUR - 5.523,75 convertidos = 560,37."
+}

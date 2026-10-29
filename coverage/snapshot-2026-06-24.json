@@ -1,0 +1,548 @@
+{
+  "snapshot_date": "2026-06-24",
+  "source": "IBKR Client Portal",
+  "account": "U19253676",
+  "base_currency": "EUR",
+  "fx": {
+    "EUR_USD": 1.13433,
+    "note": "1 EUR = 1.13433 USD; USD->EUR = divide by 1.13433"
+  },
+  "summary_eur": {
+    "net_liquidation_value": 103885.61,
+    "settled_cash": 158.53,
+    "unrealized_pnl": 10383.52,
+    "realized_pnl": 0.0,
+    "maintenance_margin": 0.0,
+    "excess_liquidity": 158.53,
+    "buying_power": 158.53,
+    "dividends_ytd": 1524.59,
+    "dividends_ytd_note": "Total YTD from Activity Statement 2026-06-23: €762.09 EUR-section + ($868.15 USD × 0.87861 = €762.50) = €1,524.59. El valor previo 460.41 eran solo accruals del día.",
+    "withholding_tax_ytd": 103.23,
+    "withholding_tax_ytd_note": "€51.24 EUR-section + ($59.18 USD × 0.87861 = €51.99). Deducible en Anexo A (doble imposición internacional).",
+    "realized_lt_ytd": 9099.57,
+    "realized_st_ytd": 1464.67,
+    "realized_total_ytd": 10073.39,
+    "realized_ytd_note": "L/T profit €9,099.57 (tributa IRPF 2026 base ahorro: 19% hasta 6k, 21% hasta 50k). S/T net €1,464.67 (profit 1888.79 - loss 424.12). L/T loss €490.85 compensable.",
+    "deposits_ytd": 32000.0,
+    "commissions_ytd": -62.69,
+    "broker_interest_ytd": 2.19,
+    "dividends_lifetime_eur": 2619.990046,
+    "dividends_lifetime_note": "Lifetime total from IBKR Inception Key Statistics (€2,619.99, includes proper FX per pay date). YTD 2026 paid-only approximation from dividends-inception.csv with constant FX=0.87861: ~€610.81. Previous figure of €1,524.59 was from Activity Statement and includes accruals (declared-not-yet-paid), not just paid dividends.",
+    "realized_pnl_lifetime_eur": 1022.09,
+    "realized_pnl_lifetime_note": "Lifetime net realized P&L from Inception Performance-by-Symbol. Previous 'realized_lt_ytd: 9099.57' was a misread of the activity statement (likely proceeds, not gains). Top lifetime winners: CSPX +€940, EQQQ +€533, MO +€730, VZ +€89, T +€56. Top lifetime losers: STLA -€583, IBTS -€424, CMCSA -€195, PG -€55, PFE -€21."
+  },
+  "cash_breakdown": {
+    "eur": 118.19,
+    "usd": 45.75,
+    "usd_in_eur": 40.33,
+    "total_eur": 158.53
+  },
+  "portfolio_performance": {
+    "twr_ytd_pct": 6.74,
+    "twr_note": "Cumulative Time-Weighted Return desde 2025-06-24 hasta 2026-06-24 (IBKR PortfolioAnalyst)",
+    "nlv_history_range": {
+      "start": "2024-07-02",
+      "end": "2026-06-24"
+    },
+    "nlv_change_all_eur": 104046.56,
+    "nlv_chart_total_eur": 103651.32
+  },
+  "market_data": {
+    "SPX": {
+      "level": 7411.62,
+      "change_pct": 0.63,
+      "note": "S&P 500 — circuit breaker Housel check vs 52w high (~6133 assumido); NO hay dato de 52w high en el paste → marcar 'sin dato' si se necesita"
+    },
+    "SPY": {
+      "level": 739.85,
+      "change_pct": 0.85
+    },
+    "QQQ": {
+      "level": 719.74,
+      "change_pct": 0.85
+    },
+    "EUR_USD": 1.13433,
+    "GBP_USD": 1.31507,
+    "USD_JPY": 161.805
+  },
+  "ibkr_for_you_alerts": [
+    {
+      "severity": "info",
+      "text": "1 pending request to provide information or documents"
+    },
+    {
+      "severity": "high",
+      "text": "IHYG large volume 322K on Jun 22, 2026 (+105.26% vs 30-day avg)",
+      "ticker": "IHYG"
+    },
+    {
+      "severity": "high",
+      "text": "JNJ large price change +12.02 USD (+5.26%)",
+      "ticker": "JNJ"
+    },
+    {
+      "severity": "info",
+      "text": "VWCE 52-week high 167.08 on Jun 22, 2026",
+      "ticker": "VWCE"
+    },
+    {
+      "severity": "calendar",
+      "text": "New Home Sales report scheduled Jun 24, 2026 10:00 EDT — actual: -7.3% MoM (580k vs 627k cons)"
+    }
+  ],
+  "market_overview_macro": {
+    "source": "briefing.com, 2026-06-24",
+    "headline": "Homebuilder stocks rally despite weak report; major averages modestly higher",
+    "key_points": [
+      "New home sales May: 580k SAAR (consensus 627k), -7.3% MoM, -6.8% YoY",
+      "Affordability pressured by rising mortgage rates",
+      "West region (highest-priced) hit hardest; South also weak",
+      "Treasury yields moving off May highs — homebuilder stocks rallying"
+    ]
+  },
+  "holdings": [
+    {
+      "ticker": "VHYL",
+      "quantity": 494.0402,
+      "last_native": 78.8,
+      "currency": "EUR",
+      "cost_basis_native": 34135.0,
+      "market_value_native": 38940.25,
+      "market_value_eur": 38940.25,
+      "avg_price_native": 69.09,
+      "daily_pnl_eur": 64.2,
+      "unrealized_pnl_eur": 4810.0
+    },
+    {
+      "ticker": "VWCE",
+      "quantity": 224.882,
+      "last_native": 164.98,
+      "currency": "EUR",
+      "cost_basis_native": 33441.0,
+      "market_value_native": 37101.03,
+      "market_value_eur": 37101.03,
+      "avg_price_native": 148.71,
+      "daily_pnl_eur": 238.0,
+      "unrealized_pnl_eur": 3660.0
+    },
+    {
+      "ticker": "O",
+      "quantity": 85.4637,
+      "last_native": 61.51,
+      "currency": "USD",
+      "cost_basis_native": 5012.87,
+      "market_value_native": 5256.87,
+      "market_value_eur": 4634.41,
+      "avg_price_native": 58.66,
+      "daily_pnl_eur": -2.14,
+      "unrealized_pnl_eur": 244.0
+    },
+    {
+      "ticker": "JNJ",
+      "quantity": 20.7198,
+      "last_native": 240.38,
+      "currency": "USD",
+      "cost_basis_native": 3857.45,
+      "market_value_native": 4979.38,
+      "market_value_eur": 4389.55,
+      "avg_price_native": 186.17,
+      "daily_pnl_eur": 26.8,
+      "unrealized_pnl_eur": 1120.0
+    },
+    {
+      "ticker": "IBTS",
+      "quantity": 36.4759,
+      "last_native": 112.5,
+      "currency": "EUR",
+      "cost_basis_native": 4436.92,
+      "market_value_native": 4101.71,
+      "market_value_eur": 4101.71,
+      "avg_price_native": 121.64,
+      "daily_pnl_eur": 17.9,
+      "unrealized_pnl_eur": -335.0
+    },
+    {
+      "ticker": "MO",
+      "quantity": 46.8771,
+      "last_native": 71.47,
+      "currency": "USD",
+      "cost_basis_native": 2694.57,
+      "market_value_native": 3350.78,
+      "market_value_eur": 2954.83,
+      "avg_price_native": 57.48,
+      "daily_pnl_eur": -6.56,
+      "unrealized_pnl_eur": 656.0
+    },
+    {
+      "ticker": "XOM",
+      "quantity": 14.8889,
+      "last_native": 136.0,
+      "currency": "USD",
+      "cost_basis_native": 2302.98,
+      "market_value_native": 2024.52,
+      "market_value_eur": 1785.2,
+      "avg_price_native": 154.68,
+      "daily_pnl_eur": -55.2,
+      "unrealized_pnl_eur": -278.0
+    },
+    {
+      "ticker": "KO",
+      "quantity": 22.4312,
+      "last_native": 81.22,
+      "currency": "USD",
+      "cost_basis_native": 1605.98,
+      "market_value_native": 1821.97,
+      "market_value_eur": 1606.32,
+      "avg_price_native": 71.6,
+      "daily_pnl_eur": 20.5,
+      "unrealized_pnl_eur": 216.0
+    },
+    {
+      "ticker": "VZ",
+      "quantity": 36.7295,
+      "last_native": 45.8,
+      "currency": "USD",
+      "cost_basis_native": 1648.74,
+      "market_value_native": 1682.39,
+      "market_value_eur": 1483.13,
+      "avg_price_native": 44.89,
+      "daily_pnl_eur": -34.1,
+      "unrealized_pnl_eur": 33.5
+    },
+    {
+      "ticker": "AVGO",
+      "quantity": 4.1055,
+      "last_native": 385.57,
+      "currency": "USD",
+      "cost_basis_native": 1602.78,
+      "market_value_native": 1582.82,
+      "market_value_eur": 1395.43,
+      "avg_price_native": 390.4,
+      "daily_pnl_eur": 22.1,
+      "unrealized_pnl_eur": -20.0
+    },
+    {
+      "ticker": "MVUS",
+      "quantity": 15.7413,
+      "last_native": 98.51,
+      "currency": "EUR",
+      "cost_basis_native": 1481.99,
+      "market_value_native": 1551.1,
+      "market_value_eur": 1551.1,
+      "avg_price_native": 94.15,
+      "daily_pnl_eur": 13.5,
+      "unrealized_pnl_eur": 69.11,
+      "_fix_note": "Antes marcado como USD por error. MVUS (iShares Edge S&P 500 Min Vol IE00B6SPMN59) cotiza en EUR. Activity Statement Open Positions sección EUR confirma cost_price_eur 94.147."
+    },
+    {
+      "ticker": "GOOG",
+      "quantity": 3.3082,
+      "last_native": 352.15,
+      "currency": "USD",
+      "cost_basis_native": 844.12,
+      "market_value_native": 1165.78,
+      "market_value_eur": 1027.65,
+      "avg_price_native": 255.16,
+      "daily_pnl_eur": 20.6,
+      "unrealized_pnl_eur": 321.0
+    },
+    {
+      "ticker": "IHYG",
+      "quantity": 7.0164,
+      "last_native": 91.07,
+      "currency": "EUR",
+      "cost_basis_native": 658.97,
+      "market_value_native": 638.99,
+      "market_value_eur": 638.99,
+      "avg_price_native": 93.92,
+      "daily_pnl_eur": 0.42,
+      "unrealized_pnl_eur": -19.98,
+      "_fix_note": "Antes marcado como USD por error. IHYG (iShares Euro HY Corp IE00B66F4759) cotiza en EUR. Activity Statement sección EUR confirma cost_price_eur 93.919."
+    },
+    {
+      "ticker": "T",
+      "quantity": 24.8438,
+      "last_native": 22.5,
+      "currency": "USD",
+      "cost_basis_native": 699.53,
+      "market_value_native": 559.11,
+      "market_value_eur": 492.86,
+      "avg_price_native": 28.16,
+      "daily_pnl_eur": -7.45,
+      "unrealized_pnl_eur": -140.0
+    },
+    {
+      "ticker": "FGQI",
+      "quantity": 33,
+      "last_native": 11.22,
+      "currency": "USD",
+      "cost_basis_native": 296.13,
+      "market_value_native": 370.4,
+      "market_value_eur": 325.36,
+      "avg_price_native": 8.974,
+      "daily_pnl_eur": 1.52,
+      "unrealized_pnl_eur": 29.23,
+      "_fix_note": "Antes marcado como EUR por error. FGQI es USD nativo (Fidelity Global Quality Income IE00BYXVGZ48). market_value_eur = 370.40 × 0.87861. avg_price_native 8.974 es USD (cost_basis_usd 296.13 / qty 33). Conversion a EUR: 8.974 × 0.87861 = 7.89."
+    },
+    {
+      "ticker": "ENG",
+      "quantity": 15.2297,
+      "last_native": 17.71,
+      "currency": "EUR",
+      "cost_basis_native": 206.0,
+      "market_value_native": 269.72,
+      "market_value_eur": 269.72,
+      "avg_price_native": 13.53,
+      "daily_pnl_eur": 0.0,
+      "unrealized_pnl_eur": 63.7
+    },
+    {
+      "ticker": "RTX",
+      "quantity": 0.9803,
+      "last_native": 185.92,
+      "currency": "USD",
+      "cost_basis_native": 100.99,
+      "market_value_native": 182.26,
+      "market_value_eur": 160.69,
+      "avg_price_native": 103.02,
+      "daily_pnl_eur": -0.45,
+      "unrealized_pnl_eur": 81.3
+    },
+    {
+      "ticker": "TXN",
+      "quantity": 0.4955,
+      "last_native": 307.39,
+      "currency": "USD",
+      "cost_basis_native": 100.99,
+      "market_value_native": 152.18,
+      "market_value_eur": 134.17,
+      "avg_price_native": 203.82,
+      "daily_pnl_eur": 1.35,
+      "unrealized_pnl_eur": 51.2
+    },
+    {
+      "ticker": "PNC",
+      "quantity": 0.6138,
+      "last_native": 239.05,
+      "currency": "USD",
+      "cost_basis_native": 100.99,
+      "market_value_native": 146.7,
+      "market_value_eur": 129.33,
+      "avg_price_native": 164.54,
+      "daily_pnl_eur": 0.2,
+      "unrealized_pnl_eur": 45.7
+    },
+    {
+      "ticker": "NOC",
+      "quantity": 0.2291,
+      "last_native": 506.47,
+      "currency": "USD",
+      "cost_basis_native": 101.0,
+      "market_value_native": 115.96,
+      "market_value_eur": 102.23,
+      "avg_price_native": 440.84,
+      "daily_pnl_eur": -1.56,
+      "unrealized_pnl_eur": 15.0
+    },
+    {
+      "ticker": "AMGN",
+      "quantity": 0.3205,
+      "last_native": 351.9,
+      "currency": "USD",
+      "cost_basis_native": 101.0,
+      "market_value_native": 112.73,
+      "market_value_eur": 99.38,
+      "avg_price_native": 315.12,
+      "daily_pnl_eur": 1.55,
+      "unrealized_pnl_eur": 11.8
+    },
+    {
+      "ticker": "LMT",
+      "quantity": 0.2141,
+      "last_native": 494.44,
+      "currency": "USD",
+      "cost_basis_native": 100.98,
+      "market_value_native": 105.91,
+      "market_value_eur": 93.37,
+      "avg_price_native": 471.67,
+      "daily_pnl_eur": -1.82,
+      "unrealized_pnl_eur": 5.03
+    }
+  ],
+  "micro_positions_pending_cleanup": [
+    "RTX",
+    "TXN",
+    "PNC",
+    "NOC",
+    "AMGN",
+    "LMT",
+    "MVUS",
+    "IHYG",
+    "FGQI"
+  ],
+  "sold_tickers_ytd_2026": [
+    {
+      "ticker": "CMCSA",
+      "ytd_mtm_eur": -14.07,
+      "ytd_lt_realized_eur": -194.94
+    },
+    {
+      "ticker": "CSPX",
+      "ytd_mtm_eur": 260.24,
+      "ytd_lt_realized_eur": 940.04
+    },
+    {
+      "ticker": "EQQQ",
+      "ytd_mtm_eur": 256.82,
+      "ytd_lt_realized_eur": 532.8
+    },
+    {
+      "ticker": "HD",
+      "ytd_mtm_eur": -6.25,
+      "ytd_lt_realized_eur": -6.25
+    },
+    {
+      "ticker": "MSFT",
+      "ytd_mtm_eur": -70.65,
+      "ytd_lt_realized_eur": -26.78
+    },
+    {
+      "ticker": "PEP",
+      "ytd_mtm_eur": 6.82,
+      "ytd_lt_realized_eur": -5.05
+    },
+    {
+      "ticker": "PFE",
+      "ytd_mtm_eur": 76.99,
+      "ytd_lt_realized_eur": -20.78
+    },
+    {
+      "ticker": "PG",
+      "ytd_mtm_eur": 10.36,
+      "ytd_lt_realized_eur": -55.3
+    },
+    {
+      "ticker": "STLA",
+      "ytd_mtm_eur": -294.66,
+      "ytd_lt_realized_eur": -583.22
+    },
+    {
+      "ticker": "VSNT",
+      "ytd_mtm_eur": 0.49,
+      "ytd_lt_realized_eur": -9.55
+    }
+  ],
+  "lot_dates_note": "Todos los lotes abiertos son de 2026-05-05 a 2026-05-18 (despliegue de los 30k). Days to long term: 317-330 →合格 2027-05-06 a 2027-05-19.",
+  "fx_rates_used_by_ibkr_at_2026_06_23_close": {
+    "USD_to_EUR": 0.87861,
+    "GBP_to_EUR": 1.1601,
+    "JPY_to_EUR": 0.005438,
+    "CHF_to_EUR": 1.0851
+  },
+  "nlv_reconciliation_note": "Suma de market_value_eur (23 holdings) + cash = 103575.24 EUR. NLV reportado por IBKR = 103885.61 EUR. Diferencia 310.37 EUR (~0.3%) atribuible a: (a) snapshot intraday vs Activity Statement close (2026-06-24 vs 2026-06-23), (b) FX translation marks no desglosados, (c) redondeos en las correcciones de MVUS/IHYG/FGQI. Para análisis de peso por activo, usar siempre market_value_eur / (suma market_value_eur + cash) = denominador interno, NO el NLV reportado. Para análisis de P&L total, usar NLV reportado.",
+  "news_signals_2026_06_24": [
+    {
+      "ticker": "AVGO",
+      "signal": "Bullish",
+      "note": "OpenAI partnership unveiled 'Jalapeno' custom AI chip; AVGO +3.4%"
+    },
+    {
+      "ticker": "XOM",
+      "signal": "Bearish",
+      "note": "Antwerp refinery strike Jun 29-Jul 3; Brent -4.3%"
+    },
+    {
+      "ticker": "T",
+      "signal": "Mixed",
+      "note": "Multiple price spikes down intraday"
+    },
+    {
+      "ticker": "VZ",
+      "signal": "Mixed",
+      "note": "Multiple price spikes down intraday"
+    },
+    {
+      "ticker": "JNJ",
+      "signal": "Neutral",
+      "note": "ISS-EVA PRVit Rating UNDERWEIGHT (34); price target $239"
+    }
+  ],
+  "inception_2026_06_23": {
+    "source_file": "Kepa_Cantero_Inception_June_24_2026.csv",
+    "analysis_period": "2024-07-02 to 2026-06-23",
+    "reporting_measure": "TWR (time-weighted return)",
+    "key_statistics_eur": {
+      "beginning_nav": 0.0,
+      "ending_nav": 103651.3242707,
+      "cumulative_return_pct": 20.681284584,
+      "ytd_return_pct": 12.314554877,
+      "1y_return_pct": 21.643426752,
+      "since_inception_return_pct": 9.973040826,
+      "mtm_lifetime": 11259.647879308,
+      "deposits_lifetime": 90700.0096498,
+      "dividends_lifetime": 2619.990046,
+      "interest_lifetime": 2.0,
+      "fees_commissions_lifetime": -308.258255907,
+      "other_lifetime": -622.065048501
+    },
+    "risk_measures": {
+      "max_drawdown_pct": 9.153764249,
+      "peak_to_valley_period": "20250228 - 20250430",
+      "recovery_months": "7 Months",
+      "sharpe": 0.661442469,
+      "sortino": 0.977165753,
+      "std_dev_monthly_pct": 2.487765789,
+      "downside_dev_pct": 1.683966042,
+      "turnover_pct": 32.553770249,
+      "positive_periods": "16 (66.666666667)",
+      "negative_periods": "8 (33.333333333)"
+    },
+    "benchmark_vs_vdhg": {
+      "correlation": 0.590019024,
+      "beta": 0.58519798,
+      "alpha": 0.003715403,
+      "tracking_error": 2.262068572,
+      "information_ratio": -3.715767222,
+      "vdhg_sharpe": 1.047982674,
+      "vdhg_max_drawdown_pct": 6.182011144,
+      "vdhg_return_since_inception_pct": 13.782079555,
+      "account_return_since_inception_pct": 9.973040826
+    },
+    "monthly_returns": {},
+    "quarterly_returns": {},
+    "realized_pnl_lifetime_eur": 1022.09,
+    "unrealized_pnl_lifetime_eur": 10072.75,
+    "projected_income_annual_eur": 2088.78,
+    "projected_yield_pct": 3.23,
+    "projected_2026_remaining_income_eur": 919.14,
+    "deposits_breakdown_eur": {
+      "2024": 38700.0,
+      "2025": 20000.0,
+      "2026_ytd": 32000.01,
+      "lifetime": 90700.01
+    },
+    "corporate_actions": [
+      {
+        "date": "2024-07-12",
+        "type": "Split",
+        "symbol": "AVGO",
+        "description": "AVGO 10-for-1 split, ratio 0.5112"
+      },
+      {
+        "date": "2026-01-02",
+        "type": "Spinoff",
+        "symbol": "CMCSA",
+        "description": "CMCSA spinoff 1-for-25 from LILAK, qty 0.7886"
+      }
+    ],
+    "investor_profile": {
+      "age": 44,
+      "objectives": "Preservation, Growth, Income",
+      "net worth band USD": "$105,001 - $234,000",
+      "liquid net worth band USD": "$76,201 - $105,000",
+      "annual net income band USD": "$58,601 - $117,000",
+      "years experience": 2,
+      "trades_per_year": "11-25"
+    }
+  }
+}

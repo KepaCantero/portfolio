@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-09-26",
+  "source": "IBKR Client Portal paste (usuario). Incluye ingreso de 3.000 EUR (EUR cash 84,12 -> 3.084,12).",
+  "fx": {"usd_to_eur": 0.88843, "eur_usd": 1.1256, "note": "fx implícito del snapshot: cuadra Σ(MV)+cash = NLV 109.685,53 exacto."},
+  "prices": {
+    "VHYL": {"native": 80.96, "currency": "EUR", "price_eur": 80.96},
+    "VWCE": {"native": 170.44, "currency": "EUR", "price_eur": 170.44},
+    "O": {"native": 55.70, "currency": "USD", "price_eur": 49.486},
+    "JNJ": {"native": 272.00, "currency": "USD", "price_eur": 241.653},
+    "IBTS": {"native": 109.63, "currency": "EUR", "price_eur": 109.63},
+    "MO": {"native": 68.80, "currency": "USD", "price_eur": 61.116},
+    "ENG": {"native": 16.62, "currency": "EUR", "price_eur": 16.62},
+    "XOM": {"native": 160.60, "currency": "USD", "price_eur": 142.682},
+    "KO": {"native": 87.66, "currency": "USD", "price_eur": 77.874},
+    "VZ": {"native": 47.13, "currency": "USD", "price_eur": 41.873},
+    "AVGO": {"native": 353.70, "currency": "USD", "price_eur": 314.241},
+    "GOOG": {"native": 341.15, "currency": "USD", "price_eur": 303.091},
+    "T": {"native": 25.39, "currency": "USD", "price_eur": 22.559},
+    "CASH": {"price_eur": 1.0}
+  }
+}

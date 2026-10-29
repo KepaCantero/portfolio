@@ -1,0 +1,103 @@
+{
+  "_source": "Activity Statement U19253676 — 2026-06-23 (IBKR, paste preservado en chat no en archivo)",
+  "_note": "Los reportes Tax Lots y Activity Statement completos fueron pegados por el usuario en el chat; no se salvaron como texto. Si la nueva sesión necesita el detalle completo, pedir al usuario que los vuelva a pegar. Aquí solo los números clave ya extraídos.",
+  "snapshot_date": "2026-06-23",
+  "nav_eur": {
+    "starting_value": 103840.94,
+    "ending_value": 103651.32,
+    "mark_to_market": -191.47,
+    "other_fx_translations": 1.85,
+    "twr_day_pct": -0.18
+  },
+  "ytd_cash_flows_eur": {
+    "deposits": 32000.00,
+    "dividends_eur_section": 762.09,
+    "dividends_usd_section_converted": 762.50,
+    "dividends_total_approx_eur": 1524.59,
+    "withholding_tax_eur": 51.24,
+    "withholding_tax_usd_converted": 51.99,
+    "withholding_total_approx_eur": 103.23,
+    "commissions": -62.69,
+    "broker_interest": 2.19,
+    "trades_sales": 34936.98,
+    "trades_purchases": -68571.76
+  },
+  "ytd_realized_eur": {
+    "short_term_profit": 1888.79,
+    "short_term_loss": -424.12,
+    "long_term_profit": 9099.57,
+    "long_term_loss": -490.85,
+    "total_realized": 10073.39,
+    "_tax_note": "L/T profit €9,099 es lo que tributa en IRPF 2026 base ahorro (19% hasta 6k, 21% hasta 50k)"
+  },
+  "sold_tickers_ytd_2026": [
+    {"ticker": "CMCSA", "name": "Comcast Corp Class A",   "ytd_mtm": -14.07, "ytd_lt_realized": -194.94},
+    {"ticker": "CSPX",  "name": "iShares Core S&P 500",    "ytd_mtm": 260.24, "ytd_lt_realized": 940.04},
+    {"ticker": "EQQQ",  "name": "Invesco NASDAQ-100",      "ytd_mtm": 256.82, "ytd_lt_realized": 532.80},
+    {"ticker": "HD",    "name": "Home Depot",              "ytd_mtm": -6.25,  "ytd_lt_realized": -6.25},
+    {"ticker": "MSFT",  "name": "Microsoft",               "ytd_mtm": -70.65, "ytd_lt_realized": -26.78},
+    {"ticker": "PEP",   "name": "PepsiCo",                 "ytd_mtm": 6.82,   "ytd_lt_realized": -5.05},
+    {"ticker": "PFE",   "name": "Pfizer",                  "ytd_mtm": 76.99,  "ytd_lt_realized": -20.78},
+    {"ticker": "PG",    "name": "Procter & Gamble",        "ytd_mtm": 10.36,  "ytd_lt_realized": -55.30},
+    {"ticker": "STLA",  "name": "Stellantis",              "ytd_mtm": -294.66,"ytd_lt_realized": -583.22},
+    {"ticker": "VSNT",  "name": "Versant Media Group WI",  "ytd_mtm": 0.49,   "ytd_lt_realized": -9.55}
+  ],
+  "open_positions_cost_basis_authoritative": {
+    "_source": "Activity Statement Open Positions + Tax Lots report",
+    "_note": "Estos son los avg_cost reales reportados por IBKR. Currency marcado según sección del statement.",
+    "EUR_etfs": {
+      "VHYL": {"qty": 494.0402, "cost_price_eur": 69.094,  "cost_basis_eur": 34135.22},
+      "VWCE": {"qty": 224.882,  "cost_price_eur": 148.705, "cost_basis_eur": 33441.15},
+      "ENG":  {"qty": 15.2297,  "cost_price_eur": 13.526,  "cost_basis_eur": 206.00},
+      "IBTS": {"qty": 36.4759,  "cost_price_eur": 121.640, "cost_basis_eur": 4436.92},
+      "IHYG": {"qty": 7.0164,   "cost_price_eur": 93.919,  "cost_basis_eur": 658.97},
+      "MVUS": {"qty": 15.7413,  "cost_price_eur": 94.147,  "cost_basis_eur": 1481.99}
+    },
+    "USD_stocks": {
+      "AMGN": {"qty": 0.3205,  "cost_price_usd": 315.119, "cost_basis_usd": 101.00},
+      "AVGO": {"qty": 4.1055,  "cost_price_usd": 390.399, "cost_basis_usd": 1602.78},
+      "FGQI": {"qty": 33,      "cost_price_usd": 8.974,   "cost_basis_usd": 296.13},
+      "GOOG": {"qty": 3.3082,  "cost_price_usd": 255.159, "cost_basis_usd": 844.12},
+      "JNJ":  {"qty": 20.7198, "cost_price_usd": 186.172, "cost_basis_usd": 3857.45},
+      "KO":   {"qty": 22.4312, "cost_price_usd": 71.596,  "cost_basis_usd": 1605.98},
+      "LMT":  {"qty": 0.2141,  "cost_price_usd": 471.670, "cost_basis_usd": 100.98},
+      "MO":   {"qty": 46.8771, "cost_price_usd": 57.482,  "cost_basis_usd": 2694.57},
+      "NOC":  {"qty": 0.2291,  "cost_price_usd": 440.845, "cost_basis_usd": 101.00},
+      "O":    {"qty": 85.4637, "cost_price_usd": 58.655,  "cost_basis_usd": 5012.88},
+      "PNC":  {"qty": 0.6138,  "cost_price_usd": 164.539, "cost_basis_usd": 100.99},
+      "RTX":  {"qty": 0.9803,  "cost_price_usd": 103.020, "cost_basis_usd": 100.99},
+      "T":    {"qty": 24.8438, "cost_price_usd": 28.157,  "cost_basis_usd": 699.53},
+      "TXN":  {"qty": 0.4955,  "cost_price_usd": 203.818, "cost_basis_usd": 100.99},
+      "VZ":   {"qty": 36.7295, "cost_price_usd": 44.889,  "cost_basis_usd": 1648.74},
+      "XOM":  {"qty": 14.8889, "cost_price_usd": 154.677, "cost_basis_usd": 2302.97}
+    }
+  },
+  "lot_dates": {
+    "_note": "Todos los lotes abiertos son de mayo 2026 — los 30k se desplegaron entonces",
+    "ranges": ["2026-05-05", "2026-05-06", "2026-05-07", "2026-05-18"],
+    "days_to_long_term_range": [317, 330],
+    "long_term_date": "2027-05-06 a 2027-05-19"
+  },
+  "fx_rates_used_by_ibkr": {
+    "USD_to_EUR": 0.87861,
+    "GBP_to_EUR": 1.1601,
+    "JPY_to_EUR": 0.005438,
+    "CHF_to_EUR": 1.0851,
+    "_note": "Rate al cierre del 2026-06-23 usado por IBKR para conversión del statement"
+  },
+  "errors_in_current_holdings_csv_to_fix": [
+    {"ticker": "MVUS", "current": "currency=USD, avg=83.00",    "correct": "currency=EUR, avg=94.15"},
+    {"ticker": "IHYG", "current": "currency=USD, avg=82.80",    "correct": "currency=EUR, avg=93.92"},
+    {"ticker": "FGQI", "current": "currency=EUR, avg=8.97 (USD price treated as EUR)", "correct": "currency=USD, avg_eur≈7.89 (convert 8.974×0.87861)"}
+  ],
+  "isin_map": {
+    "AMGN": "US0311621009", "AVGO": "US11135F1012", "ENG": "ES0130960018",
+    "FGQI": "IE00BYXVGZ48", "GOOG": "US02079K1079", "IBTS": "IE00B14X4S71",
+    "IHYG": "IE00B66F4759", "JNJ":  "US4781601046", "KO":  "US1912161007",
+    "LMT":  "US5398301094", "MO":   "US02209S1033", "MVUS":"IE00B6SPMN59",
+    "NOC":  "US6668071029", "O":    "US7561091049", "PNC": "US6934751057",
+    "RTX":  "US75513E1010", "T":    "US00206R1023", "TXN": "US8825081040",
+    "VHYL": "IE00B8GKDB10", "VWCE": "IE00BK5BQT80", "VZ":  "US92343V1044",
+    "XOM":  "US30231G1022"
+  }
+}

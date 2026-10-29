@@ -1,0 +1,14 @@
+# Local tooling / editor state
+.claude/
+.zcode/
+.agents/
+.mimosa/
+.playwright-mcp/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

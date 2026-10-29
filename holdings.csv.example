@@ -1,0 +1,14 @@
+ticker,quantity,avg_cost_eur,account,notes
+VWCE,1234.567,90.50,IBKR,Base intocable - acumulacion
+VHYL,2000.000,35.20,IBKR,Flujo trimestral - vacaciones
+O,50.000,55.30,IBKR,REIT mensual
+JNJ,40.000,165.00,IBKR,Salud defensiva
+VZ,90.000,38.00,IBKR,Teleco USA
+MO,55.000,48.00,IBKR,Tabaco - peso controlado
+XOM,35.000,105.00,IBKR,Energia integrada
+AVGO,8.000,160.00,IBKR,Tech - crecimiento dividendo
+ENG,150.000,13.50,IBKR,Energia Spain
+T,80.000,18.50,IBKR,Teleco USA - complemento VZ
+KO,25.000,58.00,IBKR,Consumo defensivo - mantener
+GOOG,12.000,125.00,IBKR,Tech - sin dividendo significativo
+IBTS,20.000,510.00,IBKR,Bonos soberanos corto plazo

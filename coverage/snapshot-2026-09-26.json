@@ -1,0 +1,38 @@
+{
+  "snapshot_date": "2026-09-26",
+  "source": "IBKR Client Portal — paste del usuario. Ingreso de 3.000 EUR incluido.",
+  "date_note": "Los archivos de la sesión anterior están etiquetados 2026-09-22 por error de fecha de sesión; corresponden a finales de sep-2026 (mismo ciclo de análisis). Esta actualización es la vigente.",
+  "account": "U19253676",
+  "base_currency": "EUR",
+  "fx": {"usd_to_eur": 0.88843, "eur_usd": 1.1256},
+  "summary_eur": {
+    "net_liquidation_value": 109685.53,
+    "daily_pnl": 699.10,
+    "settled_cash": 3664.24,
+    "unrealized_pnl_header": 12312.08,
+    "realized_pnl_today": 0.0,
+    "buying_power": 3664.24,
+    "dividends_display": 352.93,
+    "dividends_display_note": "Periodo no especificado en el paste; no usar como cifra fiscal."
+  },
+  "cash_breakdown": {"eur": 3084.12, "usd": 660.82, "total_eur": 3664.24, "deposit": "+3,000.00 EUR (84.12 -> 3,084.12)"},
+  "holdings_native": [
+    {"ticker": "VHYL", "quantity": 494.0402, "ccy": "EUR", "last": 80.96, "cost_basis": 34135.00, "market_value": 39992.55, "avg_price": 69.09, "unrealized": 5860.00},
+    {"ticker": "VWCE", "quantity": 224.882, "ccy": "EUR", "last": 170.44, "cost_basis": 33441.00, "market_value": 38328.89, "avg_price": 148.71, "unrealized": 4890.00},
+    {"ticker": "JNJ", "quantity": 20.7198, "ccy": "USD", "last": 272.00, "cost_basis": 3857.45, "market_value": 5635.79, "avg_price": 186.17, "unrealized": 1780.00, "mv_eur": 5006.83},
+    {"ticker": "O", "quantity": 100.7344, "ccy": "USD", "last": 55.70, "cost_basis": 5973.78, "market_value": 5594.79, "avg_price": 59.30, "unrealized": -379.00, "mv_eur": 4970.59},
+    {"ticker": "IBTS", "quantity": 36.4759, "ccy": "EUR", "last": 109.63, "cost_basis": 4436.92, "market_value": 3998.85, "avg_price": 121.64, "unrealized": -438.00},
+    {"ticker": "MO", "quantity": 46.8771, "ccy": "USD", "last": 68.80, "cost_basis": 2694.57, "market_value": 3226.08, "avg_price": 57.48, "unrealized": 532.00, "mv_eur": 2866.03},
+    {"ticker": "ENG", "quantity": 156.2297, "ccy": "EUR", "last": 16.62, "cost_basis": 2705.55, "market_value": 2596.54, "avg_price": 17.32, "unrealized": -109.00},
+    {"ticker": "XOM", "quantity": 14.8889, "ccy": "USD", "last": 160.60, "cost_basis": 2302.98, "market_value": 2391.16, "avg_price": 154.68, "unrealized": 88.20, "mv_eur": 2124.38},
+    {"ticker": "KO", "quantity": 22.4312, "ccy": "USD", "last": 87.66, "cost_basis": 1605.98, "market_value": 1966.77, "avg_price": 71.60, "unrealized": 361.00, "mv_eur": 1746.94},
+    {"ticker": "VZ", "quantity": 36.7295, "ccy": "USD", "last": 47.13, "cost_basis": 1648.74, "market_value": 1729.22, "avg_price": 44.89, "unrealized": 80.50, "mv_eur": 1536.32},
+    {"ticker": "AVGO", "quantity": 4.1055, "ccy": "USD", "last": 353.70, "cost_basis": 1602.78, "market_value": 1452.03, "avg_price": 390.40, "unrealized": -151.00, "mv_eur": 1290.01},
+    {"ticker": "GOOG", "quantity": 3.3082, "ccy": "USD", "last": 341.15, "cost_basis": 844.12, "market_value": 1128.36, "avg_price": 255.16, "unrealized": 284.00, "mv_eur": 1002.51},
+    {"ticker": "T", "quantity": 24.8438, "ccy": "USD", "last": 25.39, "cost_basis": 699.53, "market_value": 630.54, "avg_price": 28.16, "unrealized": -69.00, "mv_eur": 560.18}
+  ],
+  "no_trades_since": "2026-06-26",
+  "signals": {
+    "AVGO": "353,70 $ = 29,3x forward -> BAJO el techo de 30x (A5/V4). Entra en zona de compra para la 2a tanda (DDM flag documentado como limitacion del modelo en growth low-yield)."
+  }
+}
